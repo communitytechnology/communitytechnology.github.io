@@ -1,0 +1,14 @@
+title: Neighborhood Network Construction Kit
+categories: [docs, cck]
+baseurl: docs/cck
+sections:
+ - title: Planning
+   id: planning
+ - title: Building + Mounting
+   id: building-mounting
+ - title: Installing + Configuring
+   id: installing-configuring
+ - title: Networking
+   id: networking
+ - title: Local Applications
+   id: local-applications

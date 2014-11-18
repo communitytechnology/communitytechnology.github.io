@@ -1,0 +1,11 @@
+baseurl: "/communitytechnology" 
+name: "Community Technology"
+description: "communitytechnology"
+
+exclude: [CNAME, README.md, .gitignore]
+permalink: /:categories/:title/ 
+
+encoding: utf-8
+markdown: kramdown
+
+imageurl: files

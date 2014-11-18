@@ -1,0 +1,18 @@
+<!-- 
+
+ This template will print the sections and pages for the compendium with a "datafile"
+
+-->
+
+{% assign data = site.data[include.definition] %}
+
+{% for section in data.sections %}
+<h2 id="{{section.id}}">{{section.title}}</h2>
+<ul>
+{% for post in site.categories[section.id] %}
+   {% if post.categories contains page.categories[1] %}
+      <li><a href="{{site.baseurl}}/{{post.url}}">{{post.title}}</a>{% if post.description %}: {{post.description}} {% endif %}</li>
+   {% endif %}
+{% endfor %}
+</ul>
+{% endfor %}

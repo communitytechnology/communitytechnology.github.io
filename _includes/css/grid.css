@@ -1,0 +1,61 @@
+/**** GRID START ****/
+
+*, *:after, *:before {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.grid {
+    display: table;
+    width: 100%;
+    max-width:840px;
+    max-width: 1140px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.grid-row {
+    display: table-row;
+}
+
+.grid .set:last-of-type {
+}
+
+.grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid .cell {
+    display: table-cell;
+    min-width:200px;
+    min-height: 320px;
+    width: 31%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    float: left;
+    border: thin solid lightgray;
+    background-color: #eee;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.grid .cell:hover {
+    background-color: white;
+}
+
+.grid .cell .title {
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.grid .cell .subtitle {
+    font-size: 11pt;
+ }
+
+
+/**** GRID END ****/
+

@@ -1,0 +1,54 @@
+<!-- data now contains the site.data[datafile] data structure -->
+<!-- if there is no definition we assume it is 2nd category -->
+
+{% if page.definition != null %}
+  {% assign definition = page.definition %}
+{% else %}
+  {% assign definition = page.categories[1] %}
+{% endif %}
+
+{% assign data = site.data[definition] %}
+
+{% include header.html width="guide-width" title = data.title tagline = page.title %}
+
+<section id="main_content" class="inner guide-width">
+    <!-- Actual Content -->
+    <div class="left-side">
+      <div class="collection-content" >
+	{{ content }}
+      </div>
+    </div>
+    
+    <!-- Right Side Menu -->
+    <div class="right-side">
+      <div class="nav">
+	<div id="sidemenu">
+	  <ul>
+	    <li style="background-color:{{site.data.colors.lightblack}};padding:10px 10px;font-weight:600;color:{{site.data.colors.white}}">Content</li>
+	    <li><a href="{{site.baseurl}}/{{data.baseurl}}/index.html">Intro</a></li>
+
+	    {% assign thissection = page.categories[2] %} 
+
+	    {% for node in data.sections %}
+	    {% if node.id != thissection %}
+	      <li class=""><a href="{{site.baseurl}}/{{data.baseurl}}/index.html#{{node.id}}">{{node.title}}</a></li>
+	    {% else %}
+	      <li class="highlight"><a href="{{site.baseurl}}/{{data.baseurl}}/index.html#{{node.id}}">{{node.title}}</a></li>
+	      <ul>
+	      {% for post in site.categories[node.id] %}
+	       {% if post.categories contains data.categories[1] %}
+	        {% if post.title == page.title %} {% assign highlight = "highlight" %} {% else %} {% assign highlight = "" %} {% endif %}
+	         <li class="{{highlight}}"><a href="{{site.baseurl}}/{{post.url}}">{{post.title}}</a></li>
+	     {% endif %}
+	    {% endfor %}
+	    </ul>
+	    {% endif %}
+	    {% endfor %}
+	  </ul>
+	</div>
+      </div>
+    </div>
+    
+</section>
+{% include footer.html %}
+

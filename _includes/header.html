@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Community Technology Nodes : Do-It-Ourselves Guides to Neighborhood Networks">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{site.baseurl}}/css/main.css">
+    <title>{{ site.name }} | {{ include.title }}</title>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <nav> 
+    <div class="color-bar">
+      <div class="color0">&nbsp;</div>
+      <div class="color1">&nbsp;</div>
+      <div class="color2">&nbsp;</div>
+      <div class="color3">&nbsp;</div>
+      <div class="color4">&nbsp;</div>
+    </div>
+    
+    <ul>
+      {% for node in site.data.menu %}
+      <li class=""><a href="{{site.baseurl}}/{{node.url}}">{{node.title}}</a></li>
+      {% endfor %}
+    </ul>
+    <div id="homebutton" class="faicon">
+      <span class="fa-stack">
+	<a href="{{site.baseurl}}/index.html" id="homelink">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-level-up fa-stack-1x fa-inverse"></i>
+	</a>
+      </span>
+    </div>
+  </nav>
+  
+  <div id="header_wrap" class="outer">
+ 
+    <header class="inner {{include.width}}">     
+      <h1 id="project_title">{{ include.title }}</h1>
+      <h2 id="project_tagline">{{ include.tagline }}</h2>
+      <section id="header-text">
+	<p>{{ page.abstract }}</p>
+	{% if page.image %}
+	<p><img src="{{ site.baseurl }}{{ page.image }}" /></p> 
+	{% endif %}
+      </section>
+    </header>
+  </div>
+  
+  <div id="main_content_wrap" class="outer">
+    <div class="center-arrow-down" align="center"></div>

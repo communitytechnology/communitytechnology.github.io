@@ -1,0 +1,83 @@
+nav {
+  font-size:15px;
+  width:100%;
+  /* position:fixed;*/
+  position: absolute;
+  z-index:100;
+  top:0;
+  left:0;
+  /*background-color:#2e2e2e;*/
+  background: #2e2e2e url({{site.baseurl}}/icons/pattern.png) repeat;
+}
+
+
+nav ul {
+  list-style:none;
+  text-align:right;
+  padding:0;
+  margin:0px 5% 0px 80px;
+  letter-spacing:-4px;
+}
+
+nav .nav-title {
+  color: white;
+  text-align:left;
+  background-color: rgba(0,0,0,1);
+}
+
+nav .nav-title li {
+  max-width:none;
+  font-weight:600;
+}
+
+nav ul li {
+  display:inline-block;
+  padding: 10px 15px;
+  *display:inline;
+  zoom:1;
+  vertical-align:top;
+  line-height:normal;
+  letter-spacing:normal;
+  text-transform:uppercase;
+  min-width:80px;
+  max-width:150px;
+  margin:0;
+}
+
+nav ul li a, nav ul li a:link, nav ul li a:visited {
+  display: block;
+  color: #fff;
+  text-decoration:none;
+  border-bottom: none;
+  font-weight:600;
+  opacity:.75;
+}
+
+nav ul li a:hover {
+  opacity:1
+}
+nav ul li:hover, nav ul li.active {
+  
+}
+
+#homebutton {
+    display: inline;
+    width: 10%;
+    top: 3px;
+    left: 10px;
+    position: absolute;
+    font-size: 20pt;
+}
+
+#homebutton a {
+    color: {{site.data.colors.gold}};
+}
+
+#homebutton a:hover {
+    color: black;
+}
+
+.image a, .image a:hover {
+    border-bottom: none;
+}
+

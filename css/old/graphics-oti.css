@@ -1,0 +1,58 @@
+body {
+  font-size: 12px;
+}
+h2 {
+  font-size: 2.2em;
+  display: block;
+  padding: .3em;
+  width: 80%;
+}
+h3 {
+  font-size: 1.5em;
+  display: block;
+  padding: .3em;
+  width: 80%;
+}
+.image-set {
+  width: 100%;   
+}
+.image {
+  width: 150px;
+  height: auto;
+}
+.image-item {
+  float: left;
+  list-style: none outside none;
+  margin: .3em;
+  text-align: center;
+}
+.container {
+  width: 75%;
+  margin-left: 1em;
+  float: left;
+}
+.leftmenu {
+  width: 20%;
+  float: left;
+}
+.bread {
+  width: 100%;
+  display: block;
+  float: left;
+}
+ol.breadcrumbs {
+  font-size: 1.2em;
+  list-style: none;
+  list-style-type: none;
+}
+ol.breadcrumbs li {
+  display: block;
+  margin: .5em;
+  float: left;
+}
+ol.breadcrumbs li.active {
+  font-weight: bold;
+}
+.files-link {
+  text-align: right;
+}

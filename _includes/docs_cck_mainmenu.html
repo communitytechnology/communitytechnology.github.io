@@ -1,0 +1,22 @@
+<ul class="submenu">
+  <li {% if page.url contains '/docs/cck/planning' %} class="active" {% endif %}><a href="{% if page.lang != 'en' %}/{{ page.lang }}{% endif %}/docs/cck/planning">Planning</a>
+{% if page.sub_section contains 'cck-planning' %}
+{% include docs_cck_planning_menu.html %}
+{% endif %}
+  </li>
+  <li {% if page.url contains '/docs/cck/installing-configuring' %} class="active" {% endif %}><a href="{% if page.lang != 'en' %}/{{ page.lang }}{% endif %}/docs/cck/installing-configuring">Installing + Configuring</a>
+{% if page.sub_section contains 'cck-installing' %}
+{% include docs_cck_installing_menu.html %}
+{% endif %}
+  </li>
+  <li {% if page.url contains '/docs/cck/building-mounting' %} class="active" {% endif %}><a href="{% if page.lang != 'en' %}/{{ page.lang }}{% endif %}/docs/cck/building-mounting">Building + Mounting</a>
+{% if page.sub_section contains 'cck-building' %}
+{% include docs_cck_building_menu.html %}
+{% endif %}
+  </li>
+  <li {% if page.url contains '/docs/cck/networking' %} class="active" {% endif %}><a href="{% if page.lang != 'en' %}/{{ page.lang }}{% endif %}/docs/cck/networking">Networking</a>
+{% if page.sub_section contains 'cck-networking' %}
+{% include docs_cck_networking_menu.html %}
+{% endif %}
+</li>
+</ul>
