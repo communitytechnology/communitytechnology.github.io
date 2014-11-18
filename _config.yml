@@ -1,4 +1,4 @@
-baseurl: "/communitytechnology" 
+baseurl: "" # "/communitytechnology" 
 name: "Community Technology"
 description: "communitytechnology"
 
