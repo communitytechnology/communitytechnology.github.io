@@ -8,7 +8,7 @@ post_author: oti
 lang: en
 ---
 
-Mix and match to make flyers, activities or maps. These images were made by <a href="http://www.theworkdept.com/">Word Department</a>, and are used in the Neighborhood Network Construction Kit. If you use them, let us know.
+Mix and match to make flyers, activities or maps. These images were made by <a href="http://www.theworkdept.com/">The Work Department</a>, and are used in the Neighborhood Network Construction Kit. If you use them, let us know.
 
 <div class="grid">
 
