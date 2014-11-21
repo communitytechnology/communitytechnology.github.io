@@ -1,14 +1,14 @@
 ---
 layout: default
-title1: Community Technology Packets 
-tagline1: Do-it-ourselves Guides to Neighborhood Network
-title: Field Notebooks
-tagline: Do-it-ourselves Guides to Community Technology
+title: Community Technology Packets 
+tagline: Do-it-ourselves Guides to Neighborhood Network
+title1: Field Notebooks
+tagline1: Do-it-ourselves Guides to Community Technology
 categories: 
 created: 2013-09-20
 changed: 2014-03-04
 post_author: oti
-abstract: Activities, skillshares and documentation from community wireless networks and community technology projects. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn, these resources will grow and change over time and we welcome new contributions. 
+abstract: Activities, skillshares and documentation from community wireless networks and community technology projects. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome new contributions. 
 lang: en
 ---
  
@@ -25,7 +25,7 @@ lang: en
 <div class="subtitle">A do-it-ourselves guide to community mesh networks</div>
 </div>
 
-<div class="cell">
+<div class="cell">	
   <div class="title">Community Technology Activities</a></div>
 <p><a href="docs/cck"><img src="{{site.baseurl}}/files/CCK_Networking_Basics_intro_graphic.png" style="width:100%;"></a></p>
 <div class="subtitle">Activities for discussing general community technology concepts</div>
@@ -48,7 +48,7 @@ lang: en
 <div id="planning">
 <h3>Planning to Host a Workshop?</h3>
 
-<p>Links to images, templates, backwards design process, popular education, agenda tips.</p>
+<p>These might be useful: <a href="list-elements.html">shared graphics</a>, curriculum templates, agenda tips, using popular education, facilitator tips.</p>
 </p>
 </div>
 
