@@ -2,7 +2,7 @@ baseurl: "/ctp" # "/communitytechnology"
 name: "Community Technology"
 description: "communitytechnology"
 
-exclude: [CNAME, README.md, .gitignore]
+exclude: [CNAME, README.md, .gitignore, list_assests.pl]
 permalink: /:categories/:title/ 
 
 encoding: utf-8

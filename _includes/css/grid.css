@@ -10,7 +10,6 @@ box-sizing: border-box;
     display: table;
     width: 100%;
     max-width:840px;
-    max-width: 1140px;
     margin: 20px auto;
     overflow: hidden;
 }
@@ -42,6 +41,18 @@ box-sizing: border-box;
     padding: 15px;
 }
 
+.grid .element {
+   display: table-cell;
+   width: 30%;
+   float: left;
+   min-width:150px;
+   padding: 10px 20px;
+   overflow: hidden;
+}
+
+.grid .element img:hover {
+      border: 2px solid {{site.data.colors.yellow}};
+}
 
 .grid .cell:hover {
     background-color: white;
@@ -56,6 +67,9 @@ box-sizing: border-box;
     font-size: 11pt;
  }
 
+.grid a:link img {
+    background: #eae8e8;
+}
 
 /**** GRID END ****/
 
