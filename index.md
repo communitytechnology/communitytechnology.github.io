@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Community Technology Packets 
-tagline: Do-it-ourselves Guides to Neighborhood Network
-title1: Field Notebooks
-tagline1: Do-it-ourselves Guides to Community Technology
+title0: Community Technology Packets 
+tagline0: Do-it-ourselves Guides to Neighborhood Networks
+title: Re(Building) Technology
+tagline: Field Notes on Community Wireless
+title2: Field Notebooks
+tagline2: Do-it-ourselves Guides to Community Technology
 categories: 
 created: 2013-09-20
 changed: 2014-03-04
