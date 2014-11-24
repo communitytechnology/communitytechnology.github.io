@@ -3,7 +3,7 @@ layout: default
 title0: Community Technology Packets 
 tagline0: Do-it-ourselves Guides to Neighborhood Networks
 title: Re(Building) Technology
-tagline: Field Notes on Community Wireless
+tagline: Field Notes on Community Wireless Networks
 title2: Field Notebooks
 tagline2: Do-it-ourselves Guides to Community Technology
 categories: 
@@ -14,52 +14,64 @@ abstract: Activities, skillshares and documentation from community wireless netw
 lang: en
 ---
  
-<div id="intro">
-
-<!--<div class="grid-pad">-->
-
 <div class="grid">
   <div class="grid-row">
 
     <div class="cell">
-      <div class="title">Neighborhood Network Construction Kit</a></div>
-<p><a href="docs/cck"><img src="{{site.baseurl}}/files/CCK_Networking_Basics_intro_graphic.png" style="width:100%;"></a></p>
-<div class="subtitle">A do-it-ourselves guide to community mesh networks</div>
+      <div class="image"><img src="{{site.baseurl}}/icons/book.png"></div>
+      <div class="title"><a href="{{site.baseurl}}/docs/cck/index.html">Neighborhood Network Construction Kit</a></div>
+      <div class="subtitle">A do-it-ourselves guide to community mesh networks</div>
 </div>
 
 <div class="cell">	
-  <div class="title">Community Technology Activities</a></div>
-<p><a href="docs/cck"><img src="{{site.baseurl}}/files/CCK_Networking_Basics_intro_graphic.png" style="width:100%;"></a></p>
-<div class="subtitle">Activities for discussing general community technology concepts</div>
+  <div class="image"><img src="{{site.baseurl}}/assets/a001.png"></div>
+  <div class="title">Community Technology Activities</div>
+  <div class="subtitle">Activities for discussing general community technology concepts</div>
 </div>
 
 <div class="cell">
-	<div class="title">Case Studies + Examples</a></div>
-<p><a href="case_studies.html"><img src="{{site.baseurl}}/files/CCK_Networking_Basics_intro_graphic.png" style="width:100%;"></a></p>
-	<div class="subtitle">Research and documentation</div>
+  <div class="image"><img src="{{site.baseurl}}/icons/idea.png"></div>
+  <div class="title"><a href="">Tips + Tricks</a></div>
+  <div class="subtitle">(coming soon)</div>
 </div>
+
 <div class="cell">
-	<div class="title">Skillshares</a></div>
-	<p><a href="docs/cck"><img src="{{site.baseurl}}/files/CCK_Networking_Basics_intro_graphic.png" style="width:100%;"></a></p>
-	<div class="subtitle">(coming soon)</div>
-    </div>
-  </div>
+  <div class="image"><img src="{{site.baseurl}}/icons/skillshare.png"></div>
+  <div class="title"><a href="">Skillshares</a></div>
+  <div class="subtitle">(coming soon)</div>
 </div>
 
+<div class="cell">
+  <div class="image"><img src="{{site.baseurl}}/icons/skillshare.png" style="width:40%;"></div>
+  <div class="title"><a href="{{site.baseurl}}/case_studies.html">Examples</a></div>
+  <div class="subtitle">Partner projects we work with and learn from</div>
+</div>
+<!--
+<div class="cell">
+  <div class="title">Reports + Writings</div>
+  <p><a href="docs/cck"><img src="{{site.baseurl}}/files/CCK_Networking_Basics_intro_graphic.png" style="width:100%;"></a></p>
+  <div class="subtitle">(coming soon)</div>
+</div>
+-->
 
-<div id="planning">
+</div>
+</div>
+
+<div id="planning" class="section">
 <h3>Planning to Host a Workshop?</h3>
 
-<p>These might be useful: <a href="list-elements.html">shared graphics</a>, curriculum templates, agenda tips, using popular education, facilitator tips.</p>
+<p>These might be useful: <a href="list-assets.html">shared graphics</a>, curriculum templates, agenda tips, using popular education, facilitator tips.</p>
 </p>
 </div>
 
-<div id="contribute">
+<div id="contribute" class="section">
 <h3>Contribute</h3>
-<p>Link to info and provide email address</p>
+<p>You can start by submitting comments or questions through the <a href="github.com/sifrwahid/ctp/issues/new">GitHub repository</a>.
 </div>
 
+<div id="other-resources" class="section">
+<h3>Other Resources</h3>
+<p>A list of our favorite resources.</p>
 </div>
 
-<!-- FOOTER -->
    

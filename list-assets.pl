@@ -2,16 +2,15 @@
 
 # This script makes a json file from png's in the elements directory.
 # Run with:
-# > ./list_assets.pl > _data/elements.json
+# > ./list-assets.pl assets > _data/assets.json
 
 use strict;
 use warnings;
 
 use File::Find;
 use JSON;
-use Data::Dumper;
 
-my $dir = "elements";
+my $dir = $ARGV[0];
 my $json = JSON->new->pretty;
 
 our $list = {};
@@ -23,8 +22,8 @@ $json = to_json ($list, {pretty=>1, ascii=>1, canonical=>1});
 print $json;
 
 sub record() {
-    if( $File::Find::name =~ /(.*\.png)$/ ){
-	push @{$list->{$File::Find::dir}}, $_;
+    if( $_ =~ /(.*)\.(png|svg)$/ ){
+	push @{$list->{$File::Find::dir}{$1}},  $_;
     }
 }
 

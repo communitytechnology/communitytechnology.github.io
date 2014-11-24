@@ -53,19 +53,15 @@ body {
   color:#373737;
   background: #212121;
   font-size: 16px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   margin: 10px 0;
-  font-weight: 700;
   color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
-  letter-spacing: -1px;
 }
-
 
 
 h1 {
@@ -224,7 +220,6 @@ table {
  }
 
 th {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
   background: #373737;
   color: #fff;
@@ -317,7 +312,7 @@ background-color:#121212;
 
 #header_wrap #header-text {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     margin: 40px 0px 60px 0px;
 }
 
@@ -344,8 +339,7 @@ background-color:#121212;
   margin: 0;
   color: #fff;
   font-size: 32px;
-  font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+  font-weigth: 300;
 }
 
 #project_tagline {
@@ -353,7 +347,6 @@ background-color:#121212;
   font-size: 24px;
   font-weight: 300;
   background: none;
-  text-shadow: #111 0px 0px 10px;
 }
 
 #main_content_wrap {

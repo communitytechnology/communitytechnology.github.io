@@ -1,0 +1,6 @@
+@media screen and (max-width: 620px) {
+
+.left-side { width: 100%; margin; 0; }
+.right-side { width: 100%; margin: 0;}
+#sidemenu { margin: 0; }
+}

@@ -1,0 +1,176 @@
+{
+   "assets" : {
+      "a001" : [
+         "a001.png"
+      ]
+   },
+   "assets/Basic-Elements/Buildings" : {
+      "Buildings001" : [
+         "Buildings001.svg"
+      ],
+      "Buildings002" : [
+         "Buildings002.svg"
+      ],
+      "Buildings003" : [
+         "Buildings003.svg"
+      ],
+      "Buildings004" : [
+         "Buildings004.svg"
+      ],
+      "Buildings005" : [
+         "Buildings005.svg"
+      ],
+      "Buildings006" : [
+         "Buildings006.svg"
+      ],
+      "Buildings007" : [
+         "Buildings007.svg"
+      ],
+      "Buildings008" : [
+         "Buildings008.svg"
+      ],
+      "Buildings009" : [
+         "Buildings009.svg"
+      ],
+      "Buildings010" : [
+         "Buildings010.svg"
+      ],
+      "Buildings011" : [
+         "Buildings011.svg"
+      ],
+      "Buildings012" : [
+         "Buildings012.svg"
+      ],
+      "Buildings013" : [
+         "Buildings013.png",
+         "Buildings013.svg"
+      ],
+      "a002" : [
+         "a002.png"
+      ],
+      "a003" : [
+         "a003.png"
+      ],
+      "a004" : [
+         "a004.png"
+      ],
+      "a005" : [
+         "a005.png"
+      ],
+      "a006" : [
+         "a006.png"
+      ],
+      "a007" : [
+         "a007.png"
+      ],
+      "a008" : [
+         "a008.png"
+      ],
+      "a009" : [
+         "a009.png"
+      ],
+      "a010" : [
+         "a010.png"
+      ],
+      "a011" : [
+         "a011.png"
+      ],
+      "a012" : [
+         "a012.png"
+      ]
+   },
+   "assets/Basic-Elements/Hardware" : {
+      "a014" : [
+         "a014.png"
+      ],
+      "a015" : [
+         "a015.png"
+      ],
+      "a016" : [
+         "a016.png"
+      ]
+   },
+   "assets/Basic-Elements/Outdoors" : {
+      "a020" : [
+         "a020.png"
+      ],
+      "a021" : [
+         "a021.png"
+      ],
+      "a022" : [
+         "a022.png"
+      ]
+   },
+   "assets/Basic-Elements/Routers" : {
+      "a018" : [
+         "a018.png"
+      ],
+      "b001" : [
+         "b001.png"
+      ],
+      "b002" : [
+         "b002.png"
+      ],
+      "b003" : [
+         "b003.png"
+      ],
+      "b004" : [
+         "b004.png"
+      ],
+      "b005" : [
+         "b005.png"
+      ],
+      "b006" : [
+         "b006.png"
+      ],
+      "b007" : [
+         "b007.png"
+      ],
+      "b008" : [
+         "b008.png"
+      ],
+      "c001" : [
+         "c001.png"
+      ],
+      "c002" : [
+         "c002.png"
+      ],
+      "c003" : [
+         "c003.png"
+      ],
+      "c004" : [
+         "c004.png"
+      ],
+      "c005" : [
+         "c005.png"
+      ]
+   },
+   "assets/Basic-Elements/Towers-and-Mounts" : {
+      "a017" : [
+         "a017.png"
+      ]
+   },
+   "assets/Basic-Elements/Wireless-Signals" : {
+      "a019" : [
+         "a019.png"
+      ],
+      "b009" : [
+         "b009.png"
+      ],
+      "b010" : [
+         "b010.png"
+      ],
+      "b011" : [
+         "b011.png"
+      ],
+      "b012" : [
+         "b012.png"
+      ],
+      "b013" : [
+         "b013.png"
+      ],
+      "b014" : [
+         "b014.png"
+      ]
+   }
+}

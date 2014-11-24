@@ -8,10 +8,18 @@
 .guide-width { max-width: 869px; } /* (540+250)(1 + 10% margin) */
 
 body {
-    line-height: 1.4;
+    line-height: 1.42857;
+    font-size; 14px;
+    color: #333;
+    font-family: "AsapRegular",Fallback,sans-serif;
 }
 
 h1,h2,h3,h4 {
+	    
+}
+
+.section {
+  margin: 40px 0px;
 }
 
 .align-center {
@@ -221,7 +229,6 @@ ul li {
   padding: 0px 0px;
   margin: 0px 0px 0px 10%;
   width: 25%;
-  max-width:250px;
   min-width:150px;
   text-align:left;
 }

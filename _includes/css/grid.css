@@ -30,7 +30,7 @@ box-sizing: border-box;
 .grid .cell {
     display: table-cell;
     min-width:200px;
-    min-height: 320px;
+    min-height:260px;
     width: 31%;
     margin-right: 2%;
     margin-bottom: 20px;
@@ -51,24 +51,36 @@ box-sizing: border-box;
 }
 
 .grid .element img:hover {
-      border: 2px solid {{site.data.colors.yellow}};
+  border: 2px solid {{site.data.colors.yellow}};
 }
 
-.grid .cell:hover {
+/*.grid .cell:hover {
     background-color: white;
-}
+}*/
 
 .grid .cell .title {
-    font-size: 12pt;
-    font-weight: 600;
+    font-size: 14pt;
+    font-weight: 300;
+    margin: 10px 0px;
+}
+
+.grid .cell .title a {
+ color: {{site.data.colors.purple}};
+ font-weight: 300;
+ border: none;
 }
 
 .grid .cell .subtitle {
     font-size: 11pt;
- }
+}
+
+.grid .cell img { 
+      max-height:100px;
+}
 
 .grid a:link img {
     background: #eae8e8;
+    border-bottom: none;
 }
 
 /**** GRID END ****/
