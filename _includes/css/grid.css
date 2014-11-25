@@ -9,7 +9,6 @@ box-sizing: border-box;
 .grid {
     display: table;
     width: 100%;
-    max-width:840px;
     margin: 20px auto;
     overflow: hidden;
 }
@@ -29,8 +28,8 @@ box-sizing: border-box;
 
 .grid .cell {
     display: table-cell;
-    min-width:200px;
-    min-height:260px;
+    min-width:150px;
+    min-height:282px;
     width: 31%;
     margin-right: 2%;
     margin-bottom: 20px;

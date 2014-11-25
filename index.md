@@ -10,52 +10,54 @@ categories:
 created: 2013-09-20
 changed: 2014-03-04
 post_author: oti
-abstract: Activities, skillshares and documentation from community wireless networks and community technology projects. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome new contributions. 
 lang: en
+grid:
+ - cck:
+   title: Neigbhorhood Network Construction Kit
+   url: /docs/cck/index.html
+   image: /icons/book.png
+   text: A do-it-ourselves guide to community mesh networks
+ - ct:
+   title: Community Technology Activities
+   url: 
+   image: /assets/a001.png
+   text: Activities for discussing general community technology concepts
+ - tips:
+   title: Tips + Tricks
+   url:
+   image: /icons/idea.png
+   text: (coming soon)
+ - skillshares:
+   title: Skillshares
+   url:
+   image: /icons/skillshare.png
+   text: (coming soon)
+ - examples:
+   title: Examples
+   url: case_studies.html
+   image: /icons/skillshare.png
+   text: Partner projects we work with and learn from
 ---
  
-<div class="grid">
+<p class="section">Activities, skillshares and documentation from community wireless networks and community technology projects. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome new contributions. </p>
+
+
+<div class="grid home-width">
   <div class="grid-row">
 
-    <div class="cell">
-      <div class="image"><img src="{{site.baseurl}}/icons/book.png"></div>
-      <div class="title"><a href="{{site.baseurl}}/docs/cck/index.html">Neighborhood Network Construction Kit</a></div>
-      <div class="subtitle">A do-it-ourselves guide to community mesh networks</div>
+{% for cell in page.grid %}
+
+  <div class="cell">
+    <div class="image"><img src="{{site.baseurl}}/{{cell.image}}"></div>
+    <div class="title"><a href="{{site.baseurl}}/{{cell.url}}">{{cell.title}}</a></div>
+    <div class="subtitle">{{cell.text}}</div>
+  </div>
+
+{% endfor %}
+
+  </div>
 </div>
 
-<div class="cell">	
-  <div class="image"><img src="{{site.baseurl}}/assets/a001.png"></div>
-  <div class="title">Community Technology Activities</div>
-  <div class="subtitle">Activities for discussing general community technology concepts</div>
-</div>
-
-<div class="cell">
-  <div class="image"><img src="{{site.baseurl}}/icons/idea.png"></div>
-  <div class="title"><a href="">Tips + Tricks</a></div>
-  <div class="subtitle">(coming soon)</div>
-</div>
-
-<div class="cell">
-  <div class="image"><img src="{{site.baseurl}}/icons/skillshare.png"></div>
-  <div class="title"><a href="">Skillshares</a></div>
-  <div class="subtitle">(coming soon)</div>
-</div>
-
-<div class="cell">
-  <div class="image"><img src="{{site.baseurl}}/icons/skillshare.png" style="width:40%;"></div>
-  <div class="title"><a href="{{site.baseurl}}/case_studies.html">Examples</a></div>
-  <div class="subtitle">Partner projects we work with and learn from</div>
-</div>
-<!--
-<div class="cell">
-  <div class="title">Reports + Writings</div>
-  <p><a href="docs/cck"><img src="{{site.baseurl}}/files/CCK_Networking_Basics_intro_graphic.png" style="width:100%;"></a></p>
-  <div class="subtitle">(coming soon)</div>
-</div>
--->
-
-</div>
-</div>
 
 <div id="planning" class="section">
 <h3>Planning to Host a Workshop?</h3>

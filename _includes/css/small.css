@@ -3,4 +3,6 @@
 .left-side { width: 100%; margin; 0; }
 .right-side { width: 100%; margin: 0;}
 #sidemenu { margin: 0; }
+.grid .cell { width: 100%; }
+
 }

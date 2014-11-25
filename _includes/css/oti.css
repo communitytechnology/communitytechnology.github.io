@@ -4,7 +4,7 @@
 
 /* used to define the width of the header and body */
 .default-width { max-width: 640px; }
-.home-width { max-width: 840px; }
+.home-width { max-width: 740px; }
 .guide-width { max-width: 869px; } /* (540+250)(1 + 10% margin) */
 
 body {
