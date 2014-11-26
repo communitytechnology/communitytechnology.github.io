@@ -246,61 +246,12 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-
-#topmenu {
-    max-width: 640px;
-    margin: 0 auto;
-    position: relative;
-}
-#topmenu a {
-    background-color: white;
-    padding: 10px 20px 10px 20px;
-    font-style: none;
-}
-
-#menu {
-    margin:0px 0px;
-    padding:0px 0px;
-    width: 100%;
-}
-
-#menu ul {
-  padding-left: 0px;
-}
-
-#menu li, #menu ul li {
-    background-color:rgba(0,255,207,0.5);
-    list-style: none outside none;
-    margin:0px 0px;
-    padding:0px 0px;
-}
-
-#menu li, #menu ul li a:link, #menu ul li a:visited {
-    display: block;
-    color: black;
-    padding: 5px .5em;
-    text-decoration: none;
-    width: 100%;
-    border-bottom: medium none;
-    font-weight: normal;
-    margin: 0px;
-}
-
-#menu li, #menu ul li a:hover, #menu ul li a:hover {
-    color:black;
-    background:rgba(0,255,207,10);
-    display: block;
-    padding: 5px .5em;
-    text-decoration: none;
-    width: 100%;
-    border-bottom: medium none;
-    font-weight: normal;
-    margin: 0px;
-}
-
-
 #header_wrap {
-background-color:#121212;
+    background-image: url({{site.baseurl}}/files/background.png);
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    background-position: 0% 100%;
+    border-bottom: 10px solid #333;
 }
 
 #header_wrap .inner, #header_wrap .inner-guide {
@@ -318,7 +269,7 @@ background-color:#121212;
     height: 0; 
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;	    
-    border-top: 40px solid #121212;
+    border-top: 40px solid #333;
     margin: 0 auto;
 }
 
@@ -336,14 +287,17 @@ background-color:#121212;
   margin: 0;
   color: #fff;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px #000;
+  text-align: left;
 }
 
 #project_tagline {
   color: #fff;
   font-size: 24px;
-  font-weight: 300;
-  background: none;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px #000;
+  text-align: left;
 }
 
 #main_content_wrap {

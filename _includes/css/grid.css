@@ -53,7 +53,11 @@
 .grid .grid-cell .title a {
  color: {{site.data.colors.purple}};
  border: none;
- font-weight: 500;
+ font-weight: 600;
+}
+
+.grid .grid-cell .title a:hover {
+ color: {{site.data.colors.teal}};
 }
 
 .grid .grid-cell .subtitle {

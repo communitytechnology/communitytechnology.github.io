@@ -5,13 +5,13 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Community Technology Nodes : Do-It-Ourselves Guides to Neighborhood Networks">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" type="text/css" media="screen" href="{{site.baseurl}}/css/main.css">
-    <title>{{ site.name }} | {{ include.title }}</title>
+    <title>{{ include.title }}</title>
 </head>
 
 <body>
-
+<div id="header">
   <!-- HEADER -->
   <nav> 
     <div class="color-bar">
@@ -39,10 +39,9 @@
   </nav>
   
   <div id="header_wrap" class="outer">
- 
     <header class="inner {{include.width}} align-center">     
       <h1 id="project_title">{{ include.title }}</h1>
-      <h2 id="project_tagline">{{ include.tagline }}</h2>
+      <h2 id="project_tagline">{{ include.subtitle }}</h2>
       {% if page.abstract != '' %}
       <section id="header-text">
 	<p>{{ page.abstract }}</p>
@@ -50,6 +49,6 @@
       {% endif %}
     </header>
   </div>
-  
+</div>
   <div id="main_content_wrap" class="outer">
     <div class="center-arrow-down" align="center"></div>

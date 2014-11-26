@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Community Technology Packets
-tagline: Shared Graphics Library
+title: Shared Graphics Library
 created: 2013-09-20
 changed: 2014-03-04
 post_author: oti

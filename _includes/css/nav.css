@@ -2,8 +2,8 @@ nav {
   font-size:15px;
   width:100%;
   /* position:fixed;*/
+  z-index: 101;
   position: absolute;
-  z-index:100;
   top:0;
   left:0;
   /*background-color:#2e2e2e;*/

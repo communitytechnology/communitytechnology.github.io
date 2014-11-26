@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Community Technology Packets
-tagline: Case Studies and Examples
+title: Case Studies and Examples
 categories: 
 created: 2013-09-20
 changed: 2014-03-04

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="251.79109"
+     inkscape:cy="668.14815"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="850"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2985"
+       width="93.354706"
+       height="72.344818"
+       x="162.85715"
+       y="298.07648"
+       ry="23"
+       inkscape:export-filename="/home/oti-laptop/ctp/icons/blog.png"
+       inkscape:export-xdpi="65.830002"
+       inkscape:export-ydpi="65.830002" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 218,370.36218 15,14 3,-16 0,0"
+       id="path3757"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/oti-laptop/ctp/icons/blog.png"
+       inkscape:export-xdpi="65.830002"
+       inkscape:export-ydpi="65.830002" />
+    <rect
+       style="fill:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect3759"
+       width="55"
+       height="7"
+       x="181"
+       y="315.36218"
+       ry="2.5"
+       inkscape:export-filename="/home/oti-laptop/ctp/icons/blog.png"
+       inkscape:export-xdpi="65.830002"
+       inkscape:export-ydpi="65.830002" />
+    <rect
+       style="fill:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect3759-8"
+       width="55"
+       height="7"
+       x="181"
+       y="328.86218"
+       ry="2.5"
+       inkscape:export-filename="/home/oti-laptop/ctp/icons/blog.png"
+       inkscape:export-xdpi="65.830002"
+       inkscape:export-ydpi="65.830002" />
+    <rect
+       style="fill:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect3759-2"
+       width="55"
+       height="7"
+       x="181"
+       y="341.86218"
+       ry="2.5"
+       inkscape:export-filename="/home/oti-laptop/ctp/icons/blog.png"
+       inkscape:export-xdpi="65.830002"
+       inkscape:export-ydpi="65.830002" />
+  </g>
+</svg>

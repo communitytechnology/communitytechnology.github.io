@@ -1,11 +1,6 @@
 ---
 layout: default
-title0: Community Technology Packets 
-tagline0: Do-it-ourselves Guides to Neighborhood Networks
-title: Re(Building) Technology
-tagline: Field Notes on Community Wireless Networks
-title2: Field Notebooks
-tagline2: Do-it-ourselves Guides to Community Technology
+title: Do-it-ourselves Guide to Community Technology
 categories: 
 created: 2013-09-20
 changed: 2014-03-04
@@ -17,16 +12,16 @@ grid:
    url: /docs/cck/index.html
    image: /icons/book.png
    text: A do-it-ourselves guide to community mesh networks
- - ct:
+ - ct-intro:
    title: Community Technology Activities
    url: /docs/intro-ct/index.html
    image: /assets/a001.png
    text: Activities for discussing community tech concepts
  - tips:
    title: Tips + Tricks
-   url:
+   url: /docs/tips/index.html
    image: /icons/idea.png
-   text: (coming soon)
+   text: Collection of ideas
  - skillshares:
    title: Skillshares
    url:
@@ -37,10 +32,15 @@ grid:
    url: case_studies.html
    image: /icons/map.png
    text: Partner projects we work with and learn from
+ - tips:
+   title: Blog
+   url: /docs/blog/index.html
+   image: /icons/blog.png 
+   text: Updates from networks
 ---
  
 
-<p class="section">A collective resource for communities building community wireless networks, or working on other community technology projects. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome new contributions. </p>
+<p class="section" style="font-size:16px;">A collective resource for communities building community wireless networks, or working on other community technology projects. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome new contributions. </p>
 
 
 <div class="grid home-width">
