@@ -2,6 +2,8 @@ title: Neighborhood Network Construction Kit
 categories: [docs, cck]
 baseurl: docs/cck
 sections:
+ - title: Introduction
+   id: introduction
  - title: Planning
    id: planning
  - title: Building + Mounting
