@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Commotion Travels to India for first International Workshop
-categories: [mesh,site visits,gource,git,visualization,troubleshooting,recommendations]
+tags: [mesh,site visits,gource,git,visualization,troubleshooting,recommendations]
 created: 2013-07-01
 changed: 2013-12-19
 post_author: Ryan Gerety

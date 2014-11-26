@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Building a Mesh Network in Rural Somaliland
-categories: [Somaliland,rural,mesh] 
+tags: [Somaliland,rural,mesh] 
 created: 2013-12-12
 changed: 2013-12-19
 post_author: Dan Hastings

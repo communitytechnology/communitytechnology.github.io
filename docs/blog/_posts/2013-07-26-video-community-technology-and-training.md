@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Video- Community, Technology, and Training
-categories: [digital stewards,community wireless,mesh,Detroit,red hook]
+tags: [digital stewards,community wireless,mesh,Detroit,red hook]
 created: 2013-07-26
 changed: 2013-07-30
 post_author: Darby Hickey

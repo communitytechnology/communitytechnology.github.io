@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Building Pop-up Mesh Networks
-categories: [pop-up mesh, urban]
+tags: [pop-up mesh, urban]
 created: 2013-10-30
 changed: 2013-12-19
 post_author: Ryan Gerety

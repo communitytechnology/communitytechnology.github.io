@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: OTI's Red Hook Digital Stewards Bring Internet Access to New York City Housing Authority Facility
-categories: [red hook,community wireless,mesh,site visits,digital stewards,routers,maintenance]
+tags: [red hook,community wireless,mesh,site visits,digital stewards,routers,maintenance]
 created: 2013-07-30
 changed: 2013-07-30
 post_author: Georgia Bullen
