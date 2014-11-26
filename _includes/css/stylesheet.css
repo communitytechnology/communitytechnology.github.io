@@ -52,9 +52,6 @@ body {
   box-sizing: border-box;
   color:#373737;
   background: #212121;
-  font-size: 16px;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -313,7 +310,7 @@ background-color:#121212;
 #header_wrap #header-text {
     color: white;
     font-size: 16px;
-    margin: 40px 0px 60px 0px;
+    margin: 40px 0px 0px 0px;
 }
 
 .center-arrow-down {
@@ -339,7 +336,7 @@ background-color:#121212;
   margin: 0;
   color: #fff;
   font-size: 32px;
-  font-weigth: 300;
+  font-weight: 500;
 }
 
 #project_tagline {

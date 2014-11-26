@@ -1,43 +1,35 @@
 /**** GRID START ****/
 
-*, *:after, *:before {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-}
-
 .grid {
     display: table;
     width: 100%;
-    margin: 20px auto;
-    overflow: hidden;
-}
-
-.grid-row {
-    display: table-row;
-}
-
-.grid .set:last-of-type {
+    margin: 0 auto;
+    padding: 0;
+    border: separate;
+    border-spacing: 1.5em;
 }
 
 .grid:after {
     content: "";
-    display: table;
     clear: both;
 }
 
-.grid .cell {
+.grid .grid-row {
+    display: table-row;
+}
+
+.grid .grid-cell {
     display: table-cell;
-    min-width:150px;
-    min-height:282px;
+    min-width: 100px;
     width: 31%;
-    margin-right: 2%;
-    margin-bottom: 20px;
-    float: left;
-    border: thin solid lightgray;
+    border: thin solid lightgrey;
     background-color: #eee;
     text-align: center;
     padding: 15px;
+}
+
+.grid .grid-cell:hover {
+    background-color: white;
 }
 
 .grid .element {
@@ -53,27 +45,21 @@ box-sizing: border-box;
   border: 2px solid {{site.data.colors.yellow}};
 }
 
-/*.grid .cell:hover {
-    background-color: white;
-}*/
-
-.grid .cell .title {
+.grid .grid-cell .title {
     font-size: 14pt;
-    font-weight: 300;
     margin: 10px 0px;
 }
 
-.grid .cell .title a {
+.grid .grid-cell .title a {
  color: {{site.data.colors.purple}};
- font-weight: 300;
  border: none;
+ font-weight: 500;
 }
 
-.grid .cell .subtitle {
-    font-size: 11pt;
+.grid .grid-cell .subtitle {
 }
 
-.grid .cell img { 
+.grid .grid-cell img { 
       max-height:100px;
 }
 

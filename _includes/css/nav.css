@@ -60,6 +60,10 @@ nav ul li:hover, nav ul li.active {
   
 }
 
+#homebutton img {
+    width: 100%;
+}
+
 #homebutton {
     display: inline;
     width: 10%;
@@ -67,6 +71,13 @@ nav ul li:hover, nav ul li.active {
     left: 10px;
     position: absolute;
     font-size: 20pt;
+}
+
+#homebutton .circle {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: {{site.data.colors.gold}}
 }
 
 #homebutton a {
