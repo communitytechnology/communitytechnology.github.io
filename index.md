@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Do-it-ourselves Guide to Community Technology
+1title: Do-it-ourselves Guide to Community Technology
+title: "Field Notes from Community Technology Projects (-or-) <br> Do-it-ourselves Guides to Community Networks"
 categories: 
 created: 2013-09-20
 changed: 2014-03-04
