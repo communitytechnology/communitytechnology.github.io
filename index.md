@@ -7,6 +7,11 @@ created: 2013-09-20
 changed: 2014-03-04
 post_author: oti
 lang: en
+headerpics:
+ - image: /files/posts/Bukavu-Design-group-5.png
+ - image: /files/posts/Bukavu-Design-group-5.png
+ - image: /files/posts/Bukavu-Design-group-5.png
+ - image: /files/posts/Bukavu-Design-group-5.png
 grid:
  - cck:
    title: Neigbhorhood Network Construction Kit

@@ -246,12 +246,16 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+#header {
+ background-color: #333;
+}
 #header_wrap {
     background-image: url({{site.baseurl}}/files/background.png);
     background-size: auto 100%;
     background-repeat: repeat-x;
     background-position: 0% 100%;
     border-bottom: 10px solid #333;
+    background-color: #333;
 }
 
 #header_wrap .inner, #header_wrap .inner-guide {

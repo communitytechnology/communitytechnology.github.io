@@ -1,1 +1,13 @@
-default.html
+
+
+{% include header.html width="home-width" title=site.title subtitle=page.title %}
+
+<section id="main_content" class="inner home-width">
+
+<div class="content blog">
+{{ content }}
+</div>
+
+</section>
+
+{% include footer.html %}

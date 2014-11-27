@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<div id="header">
+  <div id="header">
   <!-- HEADER -->
   <nav> 
     <div class="color-bar">
@@ -29,26 +29,32 @@
     </ul>
     <div id="homebutton">
       <div  class="faicon">
-      <span class="fa-stack">
-	<a href="{{site.baseurl}}/index.html" id="homelink">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-level-up fa-stack-1x fa-inverse"></i>
-	</a>
-      </span>
-    </div>
+	<span class="fa-stack">
+	  <a href="{{site.baseurl}}/index.html" id="homelink">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-level-up fa-stack-1x fa-inverse"></i>
+	  </a>
+	</span>
+      </div>
   </nav>
   
   <div id="header_wrap" class="outer">
     <header class="inner {{include.width}} align-center">     
       <h1 id="project_title">{{ include.title }}</h1>
       <h2 id="project_tagline">{{ include.subtitle }}</h2>
-      {% if page.abstract != '' %}
+      {% if page.abstract %}
       <section id="header-text">
 	<p>{{ page.abstract }}</p>
       </section>
       {% endif %}
     </header>
   </div>
-</div>
+  <table style="padding: 0; margin: 0; width: 100%; border: 0"><tr>
+      {% for pic in page.headerpics %}
+      <td style="padding: 0; mragin: 0; width:25%; border:0;"><img src="{{site.baseurl}}/{{ pic["image"] }}" style="height:150px; position: static;"></td>
+      {% endfor %}
+  </tr></table>
+  </div>
+
   <div id="main_content_wrap" class="outer">
     <div class="center-arrow-down" align="center"></div>

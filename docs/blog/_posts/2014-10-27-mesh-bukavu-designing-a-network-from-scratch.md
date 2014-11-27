@@ -16,15 +16,15 @@ The Open Technology Institute recently discussed options for community wireless 
 
 On the 21st of October 2014, over 40 participants attended the workshop “Mesh Bukavu” in Bukavu, DRC. The workshop was the kick-off for creating a wireless network in the city of Bukavu. Attendees were journalists, IT people, bloggers and students. Together the group came up with ideas for the network.
 
-![Workshop participants]({{site.baseurl}}/files/posts/Bukavu-Workshop-group.png){: style="max-width:600px;"}
+![Workshop participants]({{site.baseurl}}/files/posts/Bukavu-Workshop-group.png)
 
 *Participants gathered outside of the workshop space.*
 
 In an area where Internet connections are not always stable and available, the network can help the local community to find news and information, collaborate on documents and communicate via chat - all on the network. The workshop consisted of an activity called “Design Your Network”. The participants draw their neighborhood, and the coverage areas where connections should be available. They designed coverage areas to be within the reach of the universities, radio stations, and public spaces.
 
-![Participants working]({{site.baseurl}}/files/posts/Bukavu-Design-group-4.png){: style="max-width:300px;"} 
+![Participants working]({{site.baseurl}}/files/posts/Bukavu-Design-group-4.png) 
 
-![Participants working]({{site.baseurl}}/files/posts/Bukavu-Design-group-5.png){: style="max-width:300px;"}
+![Participants working]({{site.baseurl}}/files/posts/Bukavu-Design-group-5.png)
 
 *Workshop participants use router icons, markers and paper to design their visions for a network to cover Bukavu.*
 
@@ -51,10 +51,11 @@ In addition, the workshop participants brainstormed a number of uses and applica
 
 The day ended with great excitement about the Mesh network for Bukavu and the participants are eager to take the next steps and start building out a pilot Mesh Network.
 
-![Network map]({{site.baseurl}}/files/posts/Bukavu-Network-design-1.png){: style="max-width:600px;"}
-
-![Network map]({{site.baseurl}}/files/posts/Bukavu-Network-design-6.png){: style="max-width:600px;"}
-
 *Some of the maps designed during the workshop, showing how a network might work for the area.*
 
 To read a bit more about the Mesh Bukavu meeting, [download this report]({{site.baseurl}}/files/posts/Bukavu-Rapport-MESH.pdf) in French, written by Benjamin Murhesa, a local coordinator for Free Press Unlimited.
+
+![Network map]({{site.baseurl}}/files/posts/Bukavu-Network-design-1.png)
+
+![Network map]({{site.baseurl}}/files/posts/Bukavu-Network-design-6.png)
+
