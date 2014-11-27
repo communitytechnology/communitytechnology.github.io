@@ -11,7 +11,7 @@ lang: en
 
 {% for post in site.categories.blog %}
 <div class="section">
-<a href="{{site.baseurl}}/{{post.url}}">{{post.title}}</a>
+<a href="{{site.baseurl}}/{{post.url}}">{{post.title}}</a> ({{post.date | date: "%F"}})
 <p>{{post.excerpt | strip_html}} <a href="{{site.baseurl}}/{{post.url}}">...</a></p>
 </div>
 {% endfor %}

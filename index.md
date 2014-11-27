@@ -42,11 +42,11 @@ grid:
    title: Blog
    url: /docs/blog/index.html
    image: /icons/blog.png 
-   text: Updates from networks
+   text: Updates from projects
 ---
  
 
-<p class="section" style="font-size:16px;">A collective resource for communities building community wireless networks, or working on other community technology projects. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome new contributions. </p>
+<p class="section" style="font-size:16px;">A collective resource for communities building wireless networks, or working on other community technology projects. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome new contributions. </p>
 
 
 <div class="grid home-width">
@@ -76,12 +76,16 @@ grid:
 
 <div id="contribute" class="section">
 <h3>Contribute</h3>
-<p>You can start by submitting comments or questions through the <a href="github.com/sifrwahid/ctp/issues/new">GitHub repository</a>.
+<p>You can start by submitting content, comments or questions through the <a href="http://github.com/sifrwahid/ctp/issues/new">GitHub repository</a>. 
 </div>
 
 <div id="other-resources" class="section">
 <h3>Other Resources</h3>
-<p>A list of our favorite resources.</p>
+
+<ul>
+<li><a href="http://docs.altermundi.net/">Altermundi Network Documentation</a> (spanish)</li>
+<li><a href="http://wndw.net">Wireless Networking in the Developing World</a></li>
+</ul>
 </div>
 
    

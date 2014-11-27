@@ -248,18 +248,19 @@ Full-Width Styles
 
 #header {
  background-color: #333;
+ border-bottom: 10px solid #333;
 }
+
 #header_wrap {
-    background-image: url({{site.baseurl}}/files/background.png);
+/*    background-image: url({{site.baseurl}}/files/website/background.png);
+    background-color: black;*/
     background-size: auto 100%;
     background-repeat: repeat-x;
     background-position: 0% 100%;
-    border-bottom: 10px solid #333;
-    background-color: #333;
 }
 
 #header_wrap .inner, #header_wrap .inner-guide {
-  padding: 100px 10px 30px 10px;
+  padding: 120px 10px 60px 10px;
 }
 
 #header_wrap #header-text {
@@ -267,6 +268,15 @@ Full-Width Styles
     font-size: 16px;
     margin: 40px 0px 0px 0px;
 }
+
+#header #headerpics {
+    background-image: url({{site.baseurl}}/files/website/header-pics.png);
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    background-position: 0% 0%;
+    line-height: 125px;
+}
+
 
 .center-arrow-down {
     width: 0; 

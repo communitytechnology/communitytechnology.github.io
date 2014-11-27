@@ -1,6 +1,7 @@
 ---
 layout: collection
 title: About Community Networks
+description: Basics about community networks to help you get started.
 site_section: docs
 sub_section: [cck,cck-about-cw]
 pdf-all: true
@@ -84,8 +85,8 @@ lang: en
 </section>
 
 <section>
-<h2>Commotion Construction Kit</h2>
-<p><a href="{{site.baseurl}}/docs/cck">The Commotion Construction Kit</a> includes activities you can use in your communities to help plan, build and govern the network together.</p>
+<h2>Neighborhood Network Construction Kit</h2>
+<p><a href="{{site.baseurl}}/docs/cck">The Neighborhood Network Construction Kit</a> includes activities you can use in your communities to help plan, build and govern the network together.</p>
 
 <p>There is no one right way to move through the activities. You will find tools to help you organize with others in your neighborhood to <a href="{{site.baseurl}}/docs/cck/planning">plan</a>, <a href="{{site.baseurl}}/docs/cck/building-mounting">build</a>, and <a href="{{site.baseurl}}/docs/cck/planning/get-word-out-flyer-design">promote</a> the network. The modules are designed to be used by individuals and groups for self-guided learning or to teach workshops or trainings. Start to explore anywhere and let us know how it goes for you.</p>
 </section>
