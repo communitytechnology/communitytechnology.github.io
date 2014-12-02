@@ -14,6 +14,24 @@
     clear: both;
 }
 
+
+.grid .element {
+   display: table-cell;
+   width: 30%;
+   float: left;
+   min-width:150px;
+   padding: 10px 20px;
+   overflow: hidden;
+}
+
+.grid .element img {
+    background: white;
+}
+
+.grid .element img:hover {
+  border: 2px solid {{site.data.colors.yellow}};
+}
+
 .grid .grid-row {
     display: table-row;
 }
