@@ -1,7 +1,9 @@
 baseurl: "/ctp" # "/communitytechnology" 
-name: "Community Technology"
-description: "communitytechnology"
-title: Re(Building) Technology
+name: "Community Technology Initiative"
+description: ""
+title: Community Technology Initiative
+
+title0: Re(Building) Technology
 
 exclude: [CNAME, README.md, .gitignore, list_assests.pl]
 permalink: /:categories/:title/ 

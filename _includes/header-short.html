@@ -12,6 +12,7 @@
 
 <body>
   <div id="header">
+
   <!-- NAV TITLE BAR -->
   <nav> 
     <div class="color-bar">
@@ -37,20 +38,10 @@
 	</span>
       </div>
 -->
+<div class="title-bar">- {{ page.title }}</div>
   </nav>
 
-  <div id="header_wrap" class="outer">
-    <header class="inner {{include.width}} align-center">     
-      <h1 id="project_title">{{ include.title }}</h1>
-      <h2 id="project_tagline">{{ include.subtitle }}</h2>
-      {% if page.abstract %}
-      <section id="header-text">
-	<p>{{ page.abstract }}</p>
-      </section>
-      {% endif %}
-    </header>
-  </div>
-
+  
 
 </div>
   <div id="main_content_wrap" class="outer">

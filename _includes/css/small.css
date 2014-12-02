@@ -6,5 +6,6 @@
 .grid {     border-spacing: 0; }
 .grid .grid-row {     display: block; }
 .grid .grid-cell { width: 100%; float: left;}
+.grid .grid-gallery {float: left; width: 100%;}
 
 }

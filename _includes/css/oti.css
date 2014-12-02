@@ -39,14 +39,12 @@ h1,h2,h3,h4 {
     padding: 0 1em;
 }
 
-
 a, a:visited, a:link { 
     border-bottom: 2px solid #e8ff00;
     color: inherit;
     font-weight:bold;
     text-decoration: none;
 }
-
 a:hover { 
     border-bottom: 2px solid #fe739b;
 }
@@ -191,58 +189,28 @@ ul li {
     padding-bottom: 10px;
 }
 
-/* COLOR BAR */
-.color-bar {
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
-  font-size: 18px;
-  margin: 0;
-  padding: 0px;
-  width: 100%;
-  background-color: none;
-  float: left;
-}
 
-.color0 {
-    background-color: {{site.data.colors.pink}};
-    float: left;
-    width: 5%;
+/* HEADER */
+
+#header_wrap {
+    background-image: url({{site.baseurl}}/files/website/background.png);
+    background-color: black;
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    background-position: 0% 100%;
 }
-.color1 {
-    background-color: {{site.data.colors.teal}};
-    float: left;
-    width: 43.5%;
-}
-.color2 {
-    background-color: {{site.data.colors.gold}};
-    float: left;
-    width: 3%;
-}
-.color3 {
-    background-color: {{site.data.colors.yellow}};
-    float: left;
-    width: 43.5%;
-}
-.color4 {
-    width: 5%;
-    float: left;
-    background-color: {{site.data.colors.purple}};
-}
-/* END COLOR BAR */
 
 /* FOOTER */
-#footer {
+
+#footer_wrap.outer {
   padding: 0 0;
-  min-height:50px;
-  text-align:left;
-  background-color:{{site.data.colors.lightblack}};
-  background-image:none;
+  min-height: 50px;
+  text-align: left;
+  background-color: #333;
+  background-image: none;
+  color: white;
 }
 
-#footer .container {
-    padding: 50px 0px;
-}
-
-#footer .container p { font-size:14px; margin:0; line-height:2}
 
 /* END FOOTER */
 
@@ -312,11 +280,6 @@ ul li {
     margin: 0px;
     padding:8px 20px; 
     width:100%;
-}
-
-.highlight {
-    background-color: {{site.data.colors.yellow}};
-    color: red;
 }
 
 #sidemenu ul li a:hover {

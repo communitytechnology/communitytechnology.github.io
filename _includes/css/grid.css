@@ -32,45 +32,59 @@
     background-color: white;
 }
 
-.grid .element {
-   display: table-cell;
-   width: 30%;
-   float: left;
-   min-width:150px;
-   padding: 10px 20px;
-   overflow: hidden;
-}
-
-.grid .element img:hover {
-  border: 2px solid {{site.data.colors.yellow}};
-}
-
 .grid .grid-cell .title {
-    font-size: 14pt;
+    font-size: 12pt;
     margin: 10px 0px;
 }
 
 .grid .grid-cell .title a {
  color: {{site.data.colors.purple}};
- border: none;
- font-weight: 600;
+ border-bottom: none;
+ font-weight: 500;
 }
 
 .grid .grid-cell .title a:hover {
- color: {{site.data.colors.teal}};
+ font-weight: 800;
 }
 
 .grid .grid-cell .subtitle {
 }
 
 .grid .grid-cell img { 
-      max-height:100px;
+  max-height:100px;
 }
 
-.grid a:link img {
-    background: #eae8e8;
-    border-bottom: none;
+.grid .grid-gallery a img, .grid-gallery a:link img {
+  background: #eae8e8;
+  border-bottom: none;
 }
 
+.grid .grid-gallery {
+    display: table-cell;
+    min-width: 150px;
+    width: 31%;
+    height: 245px;
+    padding: 0;
+    position: relative;
+}
+
+.grid-gallery img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.grid-gallery .title {
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 100%;
+    background-color: rgba(255,255,255,.5);
+    padding: 5px;
+}
 /**** GRID END ****/
 

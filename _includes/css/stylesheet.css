@@ -251,30 +251,14 @@ Full-Width Styles
  border-bottom: 10px solid #333;
 }
 
-#header_wrap {
-/*    background-image: url({{site.baseurl}}/files/website/background.png);
-    background-color: black;*/
-    background-size: auto 100%;
-    background-repeat: repeat-x;
-    background-position: 0% 100%;
-}
-
 #header_wrap .inner, #header_wrap .inner-guide {
-  padding: 120px 10px 60px 10px;
+  padding: 100px 10px 40px 10px;
 }
 
 #header_wrap #header-text {
     color: white;
     font-size: 16px;
     margin: 40px 0px 0px 0px;
-}
-
-#header #headerpics {
-    background-image: url({{site.baseurl}}/files/website/header-pics.png);
-    background-size: auto 100%;
-    background-repeat: repeat-x;
-    background-position: 0% 0%;
-    line-height: 125px;
 }
 
 
@@ -300,16 +284,17 @@ Full-Width Styles
 #project_title {
   margin: 0;
   color: #fff;
-  font-size: 32px;
-  font-weight: 800;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight: 400;
   text-shadow: 2px 2px 2px #000;
   text-align: left;
 }
 
 #project_tagline {
   color: #fff;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
   text-shadow: 2px 2px 2px #000;
   text-align: left;
 }
@@ -318,9 +303,7 @@ Full-Width Styles
   background: #f2f2f2;
 }
 
-
 #footer_wrap {
-  background: #212121;
   color: white;
 }
 
@@ -344,7 +327,10 @@ Small Device Styles
   }
 
   #project_title {
-  font-size: 32px;
+  font-size: 20px;
+  }
+  #project_tagline {
+  font-size: 14px;
   }
 
   h1 {

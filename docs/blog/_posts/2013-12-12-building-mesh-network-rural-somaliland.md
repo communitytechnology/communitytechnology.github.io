@@ -6,6 +6,7 @@ created: 2013-12-12
 changed: 2013-12-19
 post_author: Dan Hastings
 lang: en
+img: "/files/posts/somaliland-hamse.jpg"
 ---
 I had heard about mesh networking before I arrived in Somaliland, but had never been in the position to actually build a mesh network. When I accepted the position as ICT instructor at<a href="http://www.abaarsoschool.org" style="text-decoration:none;"> <u>Abaarso School of Science and Technology</u></a> in Abaarso, Somaliland, I figured this may be my chance. I knew that the Open Technology Institute (OTI) had been developing a mesh firmware called <a href="https://commotionwireless.net/" style="text-decoration:none;"><u>Commotion</u></a>, suitable for remote locations. Upon arriving in Somaliland I decided that building a mesh network using Commotion would be one of my top priorities.
 

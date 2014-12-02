@@ -1,23 +1,19 @@
 ---
 layout: default
 1title: Do-it-ourselves Guide to Community Technology
-title: "Field Notes from Community Technology Projects (-or-) <br> Do-it-ourselves Guides to Community Networks"
+title: Community Technology Initiative
+tagline: Field Notes from Community Technology Projects
 categories: 
 created: 2013-09-20
 changed: 2014-03-04
 post_author: oti
 lang: en
-headerpics:
- - image: /files/posts/Bukavu-Design-group-5.png
- - image: /files/posts/Bukavu-Design-group-5.png
- - image: /files/posts/Bukavu-Design-group-5.png
- - image: /files/posts/Bukavu-Design-group-5.png
 grid:
  - cck:
    title: Neigbhorhood Network Construction Kit
    url: /docs/cck/index.html
    image: /icons/book.png
-   text: A do-it-ourselves guide to community mesh networks
+   text: A do-it-ourselves guide to community wireless networks
  - ct-intro:
    title: Community Technology Activities
    url: /docs/intro-ct/index.html
@@ -34,11 +30,11 @@ grid:
    image: /icons/skillshare.png
    text: (coming soon)
  - examples:
-   title: Examples
+   title: Projects
    url: case_studies.html
    image: /icons/map.png
    text: Partner projects we work with and learn from
- - tips:
+ - blog:
    title: Blog
    url: /docs/blog/index.html
    image: /icons/blog.png 
@@ -53,17 +49,36 @@ grid:
   <div class="grid-row">
 
 {% for cell in page.grid %}
-{% if forloop.index == 4 %}
-  </div><div class="grid-row">
-{% endif %}
   <div class="grid-cell">
     <div class="image"><img src="{{site.baseurl}}/{{cell.image}}"></div>
     <div class="title"><a href="{{site.baseurl}}/{{cell.url}}">{{cell.title}}</a></div>
     <div class="subtitle">{{cell.text}}</div>
   </div>
+{% if forloop.last == false %}
+ {% cycle 'row-grid': nil, nil, '</div><div class="grid-row">' %} 
+{% endif %}
 {% endfor %}
 
   </div>
+</div>
+
+
+<h3>Blog Posts</h3>
+<div class="grid home-width">
+  <div class="grid-row">
+{% for cell in site.categories.blog limit:6 %}
+  <div class="grid-gallery">
+    <a href="{{site.baseurl}}/{{cell.url}}"><img src="{{site.baseurl}}/{{cell.img}}"></a>
+    <div class="title">{{cell.title}}</div>
+  </div>
+{% if forloop.last == false %}
+ {% cycle 'row-blog': nil, nil, '</div><div class="grid-row">' %} 
+{% endif %}
+{% endfor %}
+  </div>
+<div class="grid-row">
+<div style="display:table-cell;"><a href="{{site.baseurl}}/docs/blog/">MORE POSTS > </a></div>
+</div>
 </div>
 
 
