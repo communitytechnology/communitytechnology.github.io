@@ -9,7 +9,7 @@ post_author: oti
 lang: en
 grid:
  - cck:
-   title: Neigbhorhood Network Construction Kit
+   title: Neighborhood Network Construction Kit
    url: /docs/cck/index.html
    image: /icons/book.png
    text: A do-it-ourselves guide to community wireless networks
