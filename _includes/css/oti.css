@@ -45,9 +45,21 @@ a, a:visited, a:link {
     font-weight:bold;
     text-decoration: none;
 }
+
 a:hover { 
     border-bottom: 2px solid #fe739b;
 }
+
+a.simple, a.simple:link {
+ border-bottom: none;
+ font-weight: 500;
+}
+
+a.simple:hover {
+ font-weight: 800;
+}
+
+
 
 .blog img {
   float: left;
@@ -189,6 +201,14 @@ ul li {
     padding-bottom: 10px;
 }
 
+.highlight:hover {
+  border: 2px solid {{site.data.colors.yellow}};
+}
+
+a img, a:link img {
+  background: white;
+  border-bottom: none;
+}
 
 /* HEADER */
 

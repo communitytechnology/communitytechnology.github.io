@@ -1,8 +1,7 @@
 ---
 layout: default
-1title: Do-it-ourselves Guide to Community Technology
-title: Community Technology Initiative
-tagline: Field Notes from Community Technology Projects
+title: Re(Building) Technology
+tagline: Build-it-ourselves Guide to Community Wireless
 categories: 
 created: 2013-09-20
 changed: 2014-03-04
@@ -19,16 +18,17 @@ grid:
    url: /docs/intro-ct/index.html
    image: /assets/a001.png
    text: Activities for discussing community tech concepts
- - tips:
-   title: Tips + Tricks
-   url: /docs/tips/index.html
-   image: /icons/idea.png
-   text: Collection of ideas
  - skillshares:
    title: Skillshares
    url:
    image: /icons/skillshare.png
    text: (coming soon)
+grid-old:
+ - tips:
+   title: Tips + Tricks
+   url: /docs/tips/index.html
+   image: /icons/idea.png
+   text: Collection of ideas
  - examples:
    title: Projects
    url: case_studies.html
@@ -42,7 +42,7 @@ grid:
 ---
  
 
-<p class="section" style="font-size:16px;">A collective resource for communities building wireless networks, or working on other community technology projects. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome new contributions. </p>
+<p class="section" style="font-size:16px;">A collective resource for communities building networks. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome contributions. </p>
 
 
 <div class="grid home-width">
@@ -50,8 +50,8 @@ grid:
 
 {% for cell in page.grid %}
   <div class="grid-cell">
-    <div class="image"><img src="{{site.baseurl}}/{{cell.image}}"></div>
-    <div class="title"><a href="{{site.baseurl}}/{{cell.url}}">{{cell.title}}</a></div>
+    <img src="{{site.baseurl}}/{{cell.image}}" class="grid-icon">
+    <div class="title"><a href="{{site.baseurl}}/{{cell.url}}" class="simple">{{cell.title}}</a></div>
     <div class="subtitle">{{cell.text}}</div>
   </div>
 {% if forloop.last == false %}
@@ -63,13 +63,18 @@ grid:
 </div>
 
 
-<h3>Blog Posts</h3>
+<h3>Blog Posts + Reports</h3>
 <div class="grid home-width">
   <div class="grid-row">
 {% for cell in site.categories.blog limit:6 %}
-  <div class="grid-gallery">
-    <a href="{{site.baseurl}}/{{cell.url}}"><img src="{{site.baseurl}}/{{cell.img}}"></a>
-    <div class="title">{{cell.title}}</div>
+  <div class="grid-cell grid-gallery">
+    <a href="{{site.baseurl}}/{{cell.url}}">
+    {% if cell.img %}
+    <img src="{{site.baseurl}}/{{cell.img}}" />
+    {% else %}
+    <img src="{{site.baseurl}}/icons/map.png" style="padding:100px;"/>
+    {% endif %}
+    </a><div class="caption">{{cell.title}}</div>
   </div>
 {% if forloop.last == false %}
  {% cycle 'row-blog': nil, nil, '</div><div class="grid-row">' %} 
@@ -77,7 +82,7 @@ grid:
 {% endfor %}
   </div>
 <div class="grid-row">
-<div style="display:table-cell;"><a href="{{site.baseurl}}/docs/blog/">MORE POSTS > </a></div>
+<div class="grid-cell"><a href="{{site.baseurl}}/docs/blog/">MORE POSTS > </a></div>
 </div>
 </div>
 

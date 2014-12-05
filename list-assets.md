@@ -17,7 +17,7 @@ Mix and match to make flyers, activities or maps. These images were made by <a h
   <div class="grid-row">		     
     {% for element in set[1] %}
       <div class="element align-center">
-	<p><a href="{{site.baseurl}}/{{set[0]}}/{{element[1] | first}}"><img src="{{site.baseurl}}/{{set[0]}}/{{element[1] | first}}" style="height:100px;max-width:100%"></a></p>
+	<p><a href="{{site.baseurl}}/{{set[0]}}/{{element[1] | first}}"><img src="{{site.baseurl}}/{{set[0]}}/{{element[1] | first}}" style="height:100px;max-width:100%" class="highlight"></a></p>
 	<p>{{element[0]}}: 
 	{% for file in element[1] %}
 	<a href="{{site.baseurl}}/{{set[0]}}/{{file}}">{{ file | split:'.' | last }}</a>
