@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Re(Building) Technology
-tagline: Build-it-ourselves Guide to Community Wireless
+tagline: Build-it-ourselves Guide to Community Networks
 categories: 
 created: 2013-09-20
 changed: 2014-03-04
@@ -47,18 +47,18 @@ grid-old:
 
 <div class="grid home-width">
   <div class="grid-row">
-
-{% for cell in page.grid %}
-  <div class="grid-cell">
-    <img src="{{site.baseurl}}/{{cell.image}}" class="grid-icon">
-    <div class="title"><a href="{{site.baseurl}}/{{cell.url}}" class="simple">{{cell.title}}</a></div>
-    <div class="subtitle">{{cell.text}}</div>
-  </div>
-{% if forloop.last == false %}
- {% cycle 'row-grid': nil, nil, '</div><div class="grid-row">' %} 
-{% endif %}
-{% endfor %}
-
+    
+    {% for cell in page.grid %}
+    <div class="grid-cell">
+      <img src="{{site.baseurl}}/{{cell.image}}" class="grid-icon">
+      <div class="title"><a href="{{site.baseurl}}/{{cell.url}}" class="simple">{{cell.title}}</a></div>
+      <div class="subtitle">{{cell.text}}</div>
+    </div>
+    {% if forloop.last == false %}
+    {% cycle 'row-grid': nil, nil, '</div><div class="grid-row">' %} 
+    {% endif %}
+    {% endfor %}
+    
   </div>
 </div>
 
@@ -66,46 +66,45 @@ grid-old:
 <h3>Blog Posts + Reports</h3>
 <div class="grid home-width">
   <div class="grid-row">
-{% for cell in site.categories.blog limit:6 %}
-  <div class="grid-cell grid-gallery">
-    <a href="{{site.baseurl}}/{{cell.url}}">
-    {% if cell.img %}
-    <img src="{{site.baseurl}}/{{cell.img}}" />
-    {% else %}
-    <img src="{{site.baseurl}}/icons/map.png" style="padding:100px;"/>
+    {% for cell in site.categories.blog limit:6 %}
+    <div class="grid-cell grid-gallery">
+      <a href="{{site.baseurl}}/{{cell.url}}">
+	{% if cell.img %}
+	<img src="{{site.baseurl}}/{{cell.img}}" />
+	{% else %}
+	<img src="{{site.baseurl}}/icons/map.png" style="padding:100px;"/>
+	{% endif %}
+      </a><div class="caption">{{cell.title}}</div>
+    </div>
+    {% if forloop.last == false %}
+    {% cycle 'row-blog': nil, nil, '</div><div class="grid-row">' %} 
     {% endif %}
-    </a><div class="caption">{{cell.title}}</div>
+    {% endfor %}
   </div>
-{% if forloop.last == false %}
- {% cycle 'row-blog': nil, nil, '</div><div class="grid-row">' %} 
-{% endif %}
-{% endfor %}
+  <div class="grid-row">
+    <div class="grid-cell"><a href="{{site.baseurl}}/docs/blog/">MORE POSTS > </a></div>
   </div>
-<div class="grid-row">
-<div class="grid-cell"><a href="{{site.baseurl}}/docs/blog/">MORE POSTS > </a></div>
-</div>
 </div>
 
 
 <div id="planning" class="section">
-<h3>Planning to Host a Workshop?</h3>
-
-<p>These might be useful: <a href="list-assets.html">shared graphics</a>, curriculum templates, agenda tips, using popular education, facilitator tips.</p>
-</p>
+  <h3>Planning to Host a Workshop?</h3>
+  
+  <p>These might be useful: <a href="list-assets.html">shared graphics</a>, curriculum templates, agenda tips, using popular education, facilitator tips.</p>
 </div>
 
 <div id="contribute" class="section">
-<h3>Contribute</h3>
-<p>You can start by submitting content, comments or questions through the <a href="http://github.com/sifrwahid/ctp/issues/new">GitHub repository</a>. 
+  <h3>Contribute</h3>
+  <p>You can start by submitting content, comments or questions through the <a href="http://github.com/sifrwahid/ctp/issues/new">GitHub repository</a>. </p>
 </div>
 
 <div id="other-resources" class="section">
-<h3>Other Resources</h3>
-
-<ul>
-<li><a href="http://docs.altermundi.net/">Altermundi Network Documentation</a> (spanish)</li>
-<li><a href="http://wndw.net">Wireless Networking in the Developing World</a></li>
-</ul>
+  <h3>Other Resources</h3>
+  
+  <ul>
+    <li><a href="http://docs.altermundi.net/">Altermundi Network Documentation</a> (spanish)</li>
+    <li><a href="http://wndw.net">Wireless Networking in the Developing World</a></li>
+  </ul>
 </div>
 
    
