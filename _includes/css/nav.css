@@ -45,7 +45,7 @@ nav a, nav a:link, nav a:visited {
   opacity:.75;
   text-decoration:none;
   border-bottom: none;
-  font-weight: inherit;
+  font-weight: normal;
 }
 
 nav a:hover {
