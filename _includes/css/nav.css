@@ -3,7 +3,6 @@ nav {
   width:100%;
   /* position:fixed;*/
   z-index: 101;
-  position: absolute;
   top:0;
   left:0;
   background: #2e2e2e url({{site.baseurl}}/icons/pattern.png) repeat;

@@ -252,7 +252,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner, #header_wrap .inner-guide {
-  padding: 100px 10px 40px 10px;
+  padding: 40px 10px 40px 10px;
 }
 
 #header_wrap #header-text {
@@ -260,7 +260,6 @@ Full-Width Styles
     font-size: 16px;
     margin: 40px 0px 0px 0px;
 }
-
 
 .center-arrow-down {
     width: 0; 
@@ -297,6 +296,7 @@ Full-Width Styles
   font-weight: 400;
   text-shadow: 2px 2px 2px #000;
   text-align: left;
+  letter-spacing: 2px;
 }
 
 #main_content_wrap {
