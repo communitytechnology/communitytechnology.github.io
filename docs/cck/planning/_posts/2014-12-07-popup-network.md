@@ -18,8 +18,6 @@ lang: en
 
 <p>Mesh routing allows a network to shift and transform with the movements of people carrying battery-powered routes creating a highly resilient temporary infrastructure that can distribute Internet access throughout an area or support local area communications and data sharing.</p>
 
-<p>It may be helpful to do the <a href="/cck/docs/networking/explore-wireless-connections">Explore Wireless Connections</a> activity before you try to build a larger pop-up network.</p>
-
 <p>In these activities we use Ubiquiti omnidirectional <a href="http://dl.ubnt.com/pico2hp_ds.pdf">PicoStation M2</a> routers running Commotion and <a href="http://www.energizerpowerpacks.com/il/products/xp8000/">Energizer XP8000</a> battery packs. These battery packs are compact and are able to provide 3 to 4 hours of power to the routers but any battery pack that meets the power requirements of the router would suffice. For example the PicoStations can run on voltages from 15 to 24 volts and these battery packs supply 20 volts. Refer to the voltage markings on your router's power supply before choosing a battery.</p>
 
 <p>There are many exercises you could do--these are just a few examples. If you come up with other fun exercises please <a href="https://commotionwireless.net/contact">send us feedback</a>!</p>
@@ -48,13 +46,15 @@ lang: en
 
 <section id="Steps-to-Connect-Equipment">
 <h2>Steps to Connect the Equipment</h2>
-<p>Steps:</p>
 
+<img src="{{site.baseurl}}/files/cck/cck_popup_equipment.png">
+
+<p>Steps:</p>
 <ol>
 <li>Connect the power cable to the 16-20V output port on the Energizer battery pack.</li>
 <li>Plug in the other end of the power cable into the PoE injector cable.</li>
 <li>Plug in one end of the Ethernet cable to the other end of the PoE injector cable. The PoE injector combines power and data on the same line.</li>
-<li>Now plug in the other end of the Ethernet cable to the PicoStationÔÇÖs main port.</li>
+<li>Now plug in the other end of the Ethernet cable to the PicoStation's main port.</li>
 </ol>
 
 <p>Ubiquiti estimates that PicoStations can cover up to 500 meters but every environment has different properties that impact wireless signals. In our experiments we have been able to space routers approximately 300 meters apart.</p>
@@ -87,7 +87,7 @@ lang: en
 
 <p>Signal strength should be between -40dBm and -70dBm. If it is above -40dBm the devices may be too close. &nbsp;If it is below -70dBm then they may be too far apart. We find that the wireless links break at approximately -80dBm.</p>
 
-<p><img src="{{site.baseurl}}/files/cck_popup_signal_strength_0.png" /></p>
+<p><img src="{{site.baseurl}}/files/cck/cck_popup_signal_strength_0.png" /></p>
 <p>For reference:</p>
 
 <p><strong>0 dBm = 1 mW**</strong><br />
@@ -195,17 +195,18 @@ lang: en
 <section id="Example-Networks">
 <h2>Example Networks</h2>
 
+<h3>Example 1</h3>
 <p><img src="{{site.baseurl}}/files/cck/cck_popup_example_local_server.png"></p>
+<p>Disconnected from the Internet this network allows for local data sharing collaboration and communication within the area.</p>
 
-<p style="border-bottom:thin dashed black">Disconnected from the Internet this network allows for local data sharing collaboration and communication within the area.</p>
-
+<h3>Example 2</h3>
 <p><img src="{{site.baseurl}}/files/cck/cck_popup_example_long_distance.png"></p>
+<p>This network accesses the internet through two long-distance links back to an Internet gateway. Having two links makes the network more stable.</p>
 
-<p style="border-bottom:thin dashed black">This network accesses the internet through two long-distance links back to an Internet gateway. &nbsp;Having two links makes the network more stable.</p>
-
+<h3>Example 3</h3>
 <p><img src="{{site.baseurl}}/files/cck/cck_popup_example_access_points.png"  /></p>
+<p>In this example several Internet gateways inside nearby buildings are set up to share internet with the rest of the network.</p>
 
-<p style="border-bottom:thin dashed black">In this example several Internet gateways inside nearby buildings are set up to share internet with the rest of the network.</p>
 </section>
 
 <section id="section-definitions">
