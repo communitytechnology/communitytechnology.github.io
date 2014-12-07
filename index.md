@@ -68,13 +68,15 @@ grid-old:
   <div class="grid-row">
     {% for cell in site.categories.blog limit:6 %}
     <div class="grid-cell grid-gallery">
-      <a href="{{site.baseurl}}/{{cell.url}}">
-	{% if cell.img %}
-	<img src="{{site.baseurl}}/{{cell.img}}" />
-	{% else %}
-	<img src="{{site.baseurl}}/icons/map.png" style="padding:100px;"/>
-	{% endif %}
-      </a><div class="caption">{{cell.title}}</div>
+      <div class="figure">
+	<a href="{{site.baseurl}}/{{cell.url}}">
+	  {% if cell.img %}
+	  <img src="{{site.baseurl}}/{{cell.img}}" />
+	  {% else %}
+	  <img src="{{site.baseurl}}/icons/map.png" style="padding:100px;"/>
+	  {% endif %}
+	</a><div class="caption">{{cell.title}}</div>
+      </div>
     </div>
     {% if forloop.last == false %}
     {% cycle 'row-blog': nil, nil, '</div><div class="grid-row">' %} 

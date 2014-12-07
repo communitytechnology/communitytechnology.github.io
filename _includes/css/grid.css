@@ -35,7 +35,6 @@
     background-color: #eee;
     text-align: center;
     padding: 15px;
-    position: relative;
 }
 
 .grid-cell:hover {
@@ -58,7 +57,7 @@ img.grid-icon {
     padding: 0;
 }
 
-.grid-row .grid-gallery img {
+.grid-gallery .figure img {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -70,7 +69,15 @@ img.grid-icon {
     border-bottom: none;
 }
 
-.grid-gallery .caption {
+.grid-gallery .figure {
+   position: relative;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   width: 100%;
+}
+
+.grid-gallery .figure .caption {
     position: absolute;
     text-align: left;
     top: 0px;
