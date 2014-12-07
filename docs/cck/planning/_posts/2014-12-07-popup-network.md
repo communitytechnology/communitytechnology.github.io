@@ -83,11 +83,11 @@ lang: en
 
 <p><strong>4. Available gateways:</strong> <em>http://192.168.1.20 &gt; Administration &gt; Status &gt; OLSR &gt; SmartGateway</em></p>
 
-<h3>What do the signal strength values indicate?</h3>
+<h4>What do the signal strength values indicate?</h4>
 
 <p>Signal strength should be between -40dBm and -70dBm. If it is above -40dBm the devices may be too close. &nbsp;If it is below -70dBm then they may be too far apart. We find that the wireless links break at approximately -80dBm.</p>
 
-<p><img src="{{site.baseurl}}/files/cck/cck_popup_signal_strength_0.png" /></p>
+<p><img src="{{site.baseurl}}/files/cck/cck_popup_signal_strength_0.png" style="max-width:300px;"/></p>
 <p>For reference:</p>
 
 <p><strong>0 dBm = 1 mW**</strong><br />
@@ -102,11 +102,11 @@ lang: en
 
 <p><em>http://192.168.1.20 &gt; Administration &gt; Network &gt; WiFi</em> &nbsp;and scroll down to the bottom of the page under Associated Stations.</p>
 
-<h3>What do the ETX (Expected Transmission Count) values indicate?</h3>
+<h4>What do the ETX (Expected Transmission Count) values indicate?</h4>
 
 <p>ETX is the number of times a packet must be sent for it to be received without error at the destination. This can be used as an estimate of the Mesh Link quality.</p>
 
-<p><img src="{{site.baseurl}}files/cck/cck_popup_ETX_0.png"></p>
+<p><img src="{{site.baseurl}}/files/cck/cck_popup_ETX_0.png" style="max-width:300px;"></p>
 
 <p><strong>Perfect connection:</strong> ETX of 1.0<br />
 <strong>Good performance:</strong> Between 1.0 and 2.0<br />
