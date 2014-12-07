@@ -42,7 +42,7 @@ grid-old:
 ---
  
 
-<p class="section" style="font-size:16px;">A collective resource for communities building networks. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome contributions. </p>
+<p class="section" style="font-size:1.2em;">A collective resource for communities building networks. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome contributions. </p>
 
 
 <div class="grid home-width">
@@ -97,7 +97,7 @@ grid-old:
 
 <div id="contribute" class="section">
   <h3>Contribute</h3>
-  <p>You can start by submitting content, comments or questions through the <a href="http://github.com/sifrwahid/ctp/issues/new">GitHub repository</a>. </p>
+  <p>You can start by submitting content, comments or questions by adding a new issue to the <a href="http://github.com/sifrwahid/ctp/issues/new">repository</a> (you will need a <a href="https://github.com">GitHub</a> account). </p>
 </div>
 
 <div id="other-resources" class="section">
