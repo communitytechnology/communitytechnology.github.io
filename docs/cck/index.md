@@ -27,7 +27,7 @@ lang: en
 
 {% include toc.html definition=page.definition %}
 
-<!--
+<!-- NOT USED ONLY HERE FOR NOTES
 <h3 id="planning">Planning</h3>
 <ul>
 	<li><a href="{{site.baseurl}}/docs/cck/planning/design-your-network-every-network-tells-story">Design your Network: Every Network Tells a Story</a>: A game that helps communities think through network planning and the&nbsp;social networks upon which community wireless relies.</li>

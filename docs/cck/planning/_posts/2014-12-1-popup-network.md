@@ -1,6 +1,7 @@
 ---
 layout: collection
 title: Build a Pop-up Network
+description: Learn to connect routers to battery-packs to create a mobile and flexible network anywhere you go.
 pdf: 
 pdf-all: true
 categories: 
@@ -20,7 +21,7 @@ lang: en
 
 <p>In these activities we use Ubiquiti omnidirectional <a href="http://dl.ubnt.com/pico2hp_ds.pdf">PicoStation M2</a> routers running Commotion and <a href="http://www.energizerpowerpacks.com/il/products/xp8000/">Energizer XP8000</a> battery packs. These battery packs are compact and are able to provide 3 to 4 hours of power to the routers but any battery pack that meets the power requirements of the router would suffice. For example the PicoStations can run on voltages from 15 to 24 volts and these battery packs supply 20 volts. Refer to the voltage markings on your router's power supply before choosing a battery.</p>
 
-<p>There are many exercises you could do--these are just a few examples. If you come up with other fun exercises please <a href="https://commotionwireless.net/contact">send us feedback</a>!</p>
+<p>There are many exercises you could do--these are just a few examples. If you come up with other fun exercises please send us feedback</a>!</p>
 </section>
 
 <section id="materials-and-supplies-needed">
@@ -47,7 +48,7 @@ lang: en
 <section id="Steps-to-Connect-Equipment">
 <h2>Steps to Connect the Equipment</h2>
 
-<img src="{{site.baseurl}}/files/cck/cck_popup_equipment.png">
+<p><img src="{{site.baseurl}}/files/cck/cck_popup_equipment.png"></p>
 
 <p>Steps:</p>
 <ol>
@@ -59,7 +60,7 @@ lang: en
 
 <p>Ubiquiti estimates that PicoStations can cover up to 500 meters but every environment has different properties that impact wireless signals. In our experiments we have been able to space routers approximately 300 meters apart.</p>
 
-<p><img src="{{site.baseurl}}/files/cck/cck_popup_pico_distance_0.png" ></p>
+<p><img src="{{site.baseurl}}/files/cck/cck_popup_pico_distance_0.png" style="max-width:300px;"></p>
 
 <p>As with permanent rooftop wireless networks pop-up networks are impacted by buildings vegetation line of sight and other wireless barriers (to learn more about this explore the Wireless Challenges module). Street level networks are also impacted by traffic parked cars crowds of people and small hills.</p>
 
@@ -71,10 +72,10 @@ lang: en
 <h2>A Few Things that Might be Helpful</h2>
 <p>Before you begin the experiment make sure the battery-powered routers are meshed together and that everyone is familiar with how to check the network status.</p>
 
-<h3>Where to find the IP address of the node (if you are using Commotion):</h3>
+<h4>The IP address of the node (using Commotion):</h4>
 <p><em>http://192.168.1.20 &gt; Administration &gt; Status &gt; OLSR &gt; Interfaces</em></p>
 
-<h3>How to check the network status (if you are using Commotion):</h3>
+<h4>Check the network status (using Commotion):</h4>
 
 <p><strong>1. Network map:</strong> <em>http://192.168.1.20 &gt; Menu &gt; OLSRViz</em></p>
 <p><strong>2. Mesh neighbors:</strong> <em>http://192.168.1.20 &gt; Administration &gt; Status &gt; OLSR &gt; Neighbors</em></p>
@@ -189,21 +190,20 @@ lang: en
 <li>Regroup and map the results.</li>
 </ol>
 
-<p><img src="{{site.baseurl}}/files/cck/Example%20Coordination%20Sheet.png"></p>
 </section>
 
 <section id="Example-Networks">
 <h2>Example Networks</h2>
 
-<h3>Example 1</h3>
+<h3>Example 1: Local Servers</h3>
 <p><img src="{{site.baseurl}}/files/cck/cck_popup_example_local_server.png"></p>
 <p>Disconnected from the Internet this network allows for local data sharing collaboration and communication within the area.</p>
 
-<h3>Example 2</h3>
+<h3>Example 2: Single Internet Connection</h3>
 <p><img src="{{site.baseurl}}/files/cck/cck_popup_example_long_distance.png"></p>
 <p>This network accesses the internet through two long-distance links back to an Internet gateway. Having two links makes the network more stable.</p>
 
-<h3>Example 3</h3>
+<h3>Example 3: Multiple Internet Connections</h3>
 <p><img src="{{site.baseurl}}/files/cck/cck_popup_example_access_points.png"  /></p>
 <p>In this example several Internet gateways inside nearby buildings are set up to share internet with the rest of the network.</p>
 

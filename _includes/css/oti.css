@@ -205,7 +205,7 @@ ul li {
     padding-bottom: 10px;
 }
 
-.highlight:hover {
+img.highlight:hover {
   border: 2px solid {{site.data.colors.yellow}};
 }
 
@@ -310,3 +310,6 @@ a img, a:link img {
     background-color:rgba(0,0,0,.5);
 }
 
+#sidemenu .highlight {
+  background-color: {{site.data.colors.yellow}};
+}

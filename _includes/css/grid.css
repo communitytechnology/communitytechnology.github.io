@@ -48,6 +48,7 @@
 }
 
 img.grid-icon { 
+  background-color: inherit !important; 
   max-height:100px;
   vertical-align: middle;
 }

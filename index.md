@@ -43,7 +43,7 @@ grid-old:
  
 
 <p class="section" style="font-size:1.2em;">A collective resource for <span class="small-caps">
-digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community-owned infrastructure</span>. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome contributions. </p>
+digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community-owned infrastructure</span>. <br />These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome contributions. </p>
 
 
 <div class="grid home-width">
@@ -51,7 +51,7 @@ digital stewardship</span>, <span class="small-caps">digital justice</span> and 
     
     {% for cell in page.grid %}
     <div class="grid-cell">
-      <img src="{{site.baseurl}}/{{cell.image}}" class="grid-icon">
+      <a href="{{site.baseurl}}/{{cell.url}}" class="simple"><img src="{{site.baseurl}}/{{cell.image}}" class="grid-icon"></a>
       <div class="title"><a href="{{site.baseurl}}/{{cell.url}}" class="simple">{{cell.title}}</a></div>
       <div class="subtitle">{{cell.text}}</div>
     </div>
