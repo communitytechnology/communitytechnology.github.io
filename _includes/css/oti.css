@@ -22,6 +22,10 @@ body {
     font-family: "AsapRegular",Fallback,sans-serif;
 }
 
+.small-caps {
+ font-variant: small-caps;
+}
+
 h1,h2,h3,h4 {
 	    
 }

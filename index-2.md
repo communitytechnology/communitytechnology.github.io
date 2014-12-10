@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Re(Building) Technology
-tagline: Build-it-ourselves Community Networks
+tagline: A collective resource for digital justice, digital stewardship and community-controlled infrastructure
 categories: 
 created: 2013-09-20
 changed: 2014-03-04
@@ -13,9 +13,14 @@ grid:
    url: /docs/cck/index.html
    image: /icons/book.svg
    text: A do-it-ourselves guide to community wireless networks
- - ct-intro:
-   title: Community Technology Activities
-   url: /docs/intro-ct/index.html
+ - justice:
+   title: Digital Justice
+   url: digital_justice.html
+   image: /icons/justice.svg
+   text: Activities for discussing community tech concepts
+ - stewardship:
+   title: Digital Stewardship
+   url: digital_stewards.html
    image: /icons/stewards.svg
    text: Activities for discussing community tech concepts
  - skillshares:
@@ -32,7 +37,7 @@ grid-old:
  - examples:
    title: Projects
    url: case_studies.html
-   image: /icons/map.svg
+   image: /icons/map.png
    text: Partner projects we work with and learn from
  - blog:
    title: Blog
@@ -43,7 +48,7 @@ grid-old:
  
 
 <p class="section" style="font-size:1.2em;">A collective resource for <span class="small-caps">
-digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community-owned infrastructure</span>. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome contributions. </p>
+digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community-controlled digital infrastructure</span>. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome contributions. </p>
 
 
 <div class="grid home-width">
