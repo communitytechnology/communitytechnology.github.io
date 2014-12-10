@@ -98,7 +98,7 @@ digital stewardship</span>, <span class="small-caps">digital justice</span> and 
 
 <div id="contribute" class="section">
   <h3>Contribute</h3>
-  <p>You can start by submitting content, comments or questions by adding a new issue to the <a href="http://github.com/sifrwahid/ctp/issues/new">repository</a> (you will need a <a href="https://github.com">GitHub</a> account). </p>
+  <p>You can start by submitting content, comments or questions by adding a new issue to the <a href="http://github.com/communitytechnology/ct-platform/issues/new">repository</a> (you will need a <a href="https://github.com">GitHub</a> account). </p>
 </div>
 
 <div id="other-resources" class="section">
