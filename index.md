@@ -52,7 +52,7 @@ digital stewardship</span>, <span class="small-caps">digital justice</span> and 
     {% for cell in page.grid %}
     <div class="grid-cell">
       <a href="{{site.baseurl}}{{cell.url}}" class="simple"><img src="{{site.baseurl}}{{cell.image}}" class="grid-icon"></a>
-      <div class="title"><a href="{{site.baseurl}}/{{cell.url}}" class="simple">{{cell.title}}</a></div>
+      <div class="title"><a href="{{site.baseurl}}{{cell.url}}" class="simple">{{cell.title}}</a></div>
       <div class="subtitle">{{cell.text}}</div>
     </div>
     {% if forloop.last == false %}
