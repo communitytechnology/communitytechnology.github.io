@@ -203,9 +203,9 @@ lang: en
 
 <p>Does it connect the school to the recreation center to the church, to strengthen the organizing network that already exists?</p>
 
-<p><img src="{{site.baseurl}}/files/styles/large/public/6032082057_66d0f306d4_0.jpg?itok=9Fn5CxNn" typeof="foaf:Image" width="444" /></p>
+<p><img src="{{site.baseurl}}/files/cck/6032082057_66d0f306d4_0.jpg" typeof="foaf:Image" width="444" /></p>
 
-<p><img src="{{site.baseurl}}/files/styles/large/public/6032622200_06eab39a85_0.jpg?itok=3FMxDQQT" typeof="foaf:Image" width="444" /></p>
+<p><img src="{{site.baseurl}}/files/cck/6032622200_06eab39a85_0.jpg" typeof="foaf:Image" width="444" /></p>
 
 <p>Above, the first collaborative diagrams created at the Allied Media Conference in the summer of 2011.</p>
 </section>
