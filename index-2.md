@@ -69,7 +69,7 @@ digital stewardship</span>, <span class="small-caps">digital justice</span> and 
 </div>
 
 
-<h3>Blog Posts + Reports</h3>
+<h3>Blog Posts + Recent Lessons</h3>
 <div class="grid home-width">
   <div class="grid-row">
     {% for cell in site.categories.blog limit:6 %}
