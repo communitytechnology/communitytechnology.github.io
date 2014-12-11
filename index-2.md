@@ -56,8 +56,8 @@ digital stewardship</span>, <span class="small-caps">digital justice</span> and 
     
     {% for cell in page.grid %}
     <div class="grid-cell">
-      <img src="{{site.baseurl}}/{{cell.image}}" class="grid-icon">
-      <div class="title"><a href="{{site.baseurl}}/{{cell.url}}" class="simple">{{cell.title}}</a></div>
+      <img src="{{site.baseurl}}{{cell.image}}" class="grid-icon">
+      <div class="title"><a href="{{site.baseurl}}{{cell.url}}" class="simple">{{cell.title}}</a></div>
       <div class="subtitle">{{cell.text}}</div>
     </div>
     {% if forloop.last == false %}
@@ -69,15 +69,15 @@ digital stewardship</span>, <span class="small-caps">digital justice</span> and 
 </div>
 
 
-<h3>Blog Posts + Reports</h3>
+<h3>Blog Posts + Recent Lessons</h3>
 <div class="grid home-width">
   <div class="grid-row">
     {% for cell in site.categories.blog limit:6 %}
     <div class="grid-cell grid-gallery">
       <div class="figure">
-	<a href="{{site.baseurl}}/{{cell.url}}">
+	<a href="{{site.baseurl}}{{cell.url}}">
 	  {% if cell.img %}
-	  <img src="{{site.baseurl}}/{{cell.img}}" />
+	  <img src="{{site.baseurl}}{{cell.img}}" />
 	  {% else %}
 	  <img src="{{site.baseurl}}/icons/map.svg" style="padding:70px;"/>
 	  {% endif %}

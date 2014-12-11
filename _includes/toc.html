@@ -11,7 +11,7 @@
 <ul>
 {% for post in site.categories[section.id] reversed %}
    {% if post.categories contains page.categories[1] %}
-      <li><a href="{{site.baseurl}}/{{post.url}}">{{post.title}}</a>{% if post.description %}: {{post.description}} {% endif %}</li>
+      <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>{% if post.description %}: {{post.description}} {% endif %}</li>
    {% endif %}
 {% endfor %}
 </ul>
