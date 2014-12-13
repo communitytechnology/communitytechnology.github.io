@@ -14,7 +14,7 @@ grid:
    image: /icons/book.svg
    text: A do-it-ourselves guide to community wireless networks
  - ct-intro:
-   title: Community Technology Activities
+   title: Community Technology
    url: /docs/intro-ct/index.html
    image: /icons/stewards.svg
    text: Activities for discussing community tech concepts
@@ -23,6 +23,11 @@ grid:
    url:
    image: /icons/skillshare.png
    text: (coming soon)
+ - project-planning:
+   title: Project Planning Tools
+   text: Tools to help define and plan projects.
+   url:
+   image: /icons/projectplanning.svg
 grid-old:
  - tips:
    title: Tips + Tricks
