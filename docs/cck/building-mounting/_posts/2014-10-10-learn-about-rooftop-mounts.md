@@ -11,7 +11,7 @@ changed: 2013-09-28
 post_author: critzo
 lang: en
 ---
-  <p><img src="{{site.baseurl}}/files/learning_rooftop_mounts_support001.png" typeof="foaf:Image" width="510" /></p>
+  <p><img src="{{site.baseurl}}/files/cck/learning_rooftop_mounts_support001.png" typeof="foaf:Image" width="510" /></p>
 
 <section id="section-introduction">
 <h2>Introduction</h2>
@@ -48,7 +48,7 @@ lang: en
 <section id="section-types-of-roofs">
 <h2>Types of Roofs</h2>
 
-<p><img src="{{site.baseurl}}/files/learning_rooftop_mounts_support002.png" style="width: 480px; height: 250px;" typeof="foaf:Image" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learning_rooftop_mounts_support002.png" style="width: 480px; height: 250px;" typeof="foaf:Image" /></p>
 
 <p>When working on any roof, be very careful. Any slip or slide could lead to a long fall and serious injury or death. If you aren't comfortable working on the roof, don't do it. Get some help - ask around in your community and see if there are any professional roofers, cable TV or phone installers, or other folks that have experience.</p>
 
@@ -56,15 +56,15 @@ lang: en
 
 <p>With either roof type, you need to take care to maintain the roof coverings and sealants, which protect the roof and make it waterproof. The most important rule when installing something on a roof: never drill any holes in the roof surface itself. Even if the holes are sealed properly, they will eventually leak, and lead to problems in the long run.</p>
 
-<p><img src="{{site.baseurl}}/files/learning_rooftop_mounts_support003.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learning_rooftop_mounts_support003.png" typeof="foaf:Image" width="510" /></p>
 
 <h3>Chimney Mount</h3>
 
-<p><img src="{{site.baseurl}}/files/learning_rooftop_mounts_support004.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learning_rooftop_mounts_support004.png" typeof="foaf:Image" width="510" /></p>
 
 <p>These are the pieces that you will need to build a Chimney Mount.</p>
 
-<p><img src="{{site.baseurl}}/files/learning_rooftop_mounts_support005.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learning_rooftop_mounts_support005.png" typeof="foaf:Image" width="510" /></p>
 
 <p>Strap mounting onto a chimney is best whenever drilling into the building is not an option, for example older structures where the brick is softer. Strap mounts use steel straps wrapped around the chimney, which are tightened with a wrench to secure brackets for a pole. Usually these must be ordered online.</p>
 
@@ -80,7 +80,7 @@ lang: en
 
 <h3>Anchor Mount</h3>
 
-<p><img src="{{site.baseurl}}/files/learning_rooftop_mounts_support006.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learning_rooftop_mounts_support006.png" typeof="foaf:Image" width="510" /></p>
 
 <p>Anchor mounts are another way to attach equipment to a chimney, but you can also use them on any masonry wall. The typical anchor mount is made up of two V-shaped pieces of metal which you attach with screws and anchors.</p>
 
@@ -92,11 +92,11 @@ lang: en
 
 <h3>Vent Mount</h3>
 
-<p><img src="{{site.baseurl}}/files/learning_rooftop_mounts_support007.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learning_rooftop_mounts_support007.png" typeof="foaf:Image" width="510" /></p>
 
 <p>These are the pieces that you will need to build a Vent Mount.</p>
 
-<p><img src="{{site.baseurl}}/files/learning_rooftop_mounts_support008_009.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learning_rooftop_mounts_support008_009.png" typeof="foaf:Image" width="510" /></p>
 
 <p>When there is a sturdy vent stack pipe coming out of the roof, you can mount a mast to it to extend the height. There are various kinds of mounts, but they are all essentially made up of two pieces of metal which bolt around the vent stack and your mast to attach them firmly together. Vent mounting kits are sometimes available at local hardware or electronics stores as well as online. Normally kits for vent mounting only include the parts for the anchor to the vent. You will also need something to attach the router to, such as a piece of electrical conduit, a pipe or a mast.</p>
 
@@ -106,11 +106,11 @@ lang: en
 
 <h3>Roof Edge or Eaves Attachment</h3>
 
-<p><img src="{{site.baseurl}}/files/learning_rooftop_mounts_support010.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learning_rooftop_mounts_support010.png" typeof="foaf:Image" width="510" /></p>
 
 <p>These are placed at the end of a pitched roof, where other methods won't work. They won't work on flat roofs, which usually don't have eaves. Eaves mounts must be drilled into the wood supports of the roof. You can find various kits with different lengths of bottom supports, but look for adjustable models which can stretch out to best fit your roof.</p>
 
-<p><img src="{{site.baseurl}}/files/learning_rooftop_mounts_support011.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learning_rooftop_mounts_support011.png" typeof="foaf:Image" width="510" /></p>
 
 <p>As in all of these installations, a galvanized or painted antenna mast is required.</p>
 
@@ -118,9 +118,9 @@ lang: en
 
 <h3>Non-Penetrating Mount</h3>
 
-<p><img src="{{site.baseurl}}/files/learning_rooftop_mounts_support012.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learning_rooftop_mounts_support012.png" typeof="foaf:Image" width="510" /></p>
 
-<p><img src="{{site.baseurl}}/files/learning_rooftop_mounts_support013.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learning_rooftop_mounts_support013.png" typeof="foaf:Image" width="510" /></p>
 
 <p>This type of mounting method uses weight to secure a mast to the roof - there is no drilling or bolting required. These are generally the preferred method if you don't have a chimney or vent to mount to, but they can be used even if you do have those available.</p>
 
@@ -138,7 +138,7 @@ lang: en
 
 <p>Also, keep in mind there might already be something on your roof that you could use to mount a wireless router to. Generally a pipe or antenna mast should be around 11⁄2" in diameter to best fit the equipment. If you can get to the existing mount safely, use it.</p>
 
-<p><img src="{{site.baseurl}}/files/learning_rooftop_mounts_support014.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learning_rooftop_mounts_support014.png" typeof="foaf:Image" width="510" /></p>
 </section>
 
 <section id="section-definitions">

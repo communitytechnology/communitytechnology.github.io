@@ -11,7 +11,7 @@ changed: 2013-09-28
 post_author: critzo
 lang: en
 ---
-  <p><img src="{{site.baseurl}}/files/learn_rooftop_basics_support001_0.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learn_rooftop_basics_support001.png" width="510" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -28,7 +28,7 @@ lang: en
 <section id="general-rules">
 <h2>General Rules</h2>
 
-<p><img src="{{site.baseurl}}/files/learn_rooftop_basics_support002_003.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learn_rooftop_basics_support002_003.png" width="510" /></p>
 
 <ul>
 	<li>Never, ever work alone.</li>
@@ -46,7 +46,7 @@ lang: en
 <section id="using-power-tools">
 <h2>Using Power Tools</h2>
 
-<p><img src="{{site.baseurl}}/files/learn_rooftop_basics_support004.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learn_rooftop_basics_support004.png" width="510" /></p>
 
 <ul>
 	<li>Before you start drilling, assess how deep to drill based on the length of screws and bolts and the thickness of walls and mounting assets.</li>
@@ -58,7 +58,7 @@ lang: en
 <section id="working-on-roofs">
 <h2>Working on Roofs</h2>
 
-<p><img src="{{site.baseurl}}/files/learn_rooftop_basics_support005.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learn_rooftop_basics_support005.png" width="510" /></p>
 
 <ul>
 	<li>Familiarize yourself with the roof before you climb up. To know what you are dealing with and be prepared, you can draw a layout plan or map to use as reference.</li>
@@ -71,7 +71,7 @@ lang: en
 <section id="cable-installation">
 <h2>Cable Installation</h2>
 
-<p><img src="{{site.baseurl}}/files/learn_rooftop_basics_support006.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learn_rooftop_basics_support006.png" width="510" /></p>
 
 <p>When installing the cable between the outdoor wireless node and the indoor power supply, keeping things neat and tidy will be appreciated by the building owner, and lead to fewer problems in the future. To properly run the cable, follow these steps:</p>
 
@@ -81,13 +81,13 @@ lang: en
 	<li>Pull cable out of the spool as you move from the node and mount to where the cable will enter the building.</li>
 </ul>
 
-<p><img src="{{site.baseurl}}/files/learn_rooftop_basics_support007.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learn_rooftop_basics_support007.png" width="510" /></p>
 
 <p class="tip"> You should leave a "drip loop" right before the hole where the cable enters the building. This will prevent water from running along the cable and getting inside!</p>
 </section>
 
 <section id="cable-installation">
-<p><img src="{{site.baseurl}}/files/learn_rooftop_basics_support008.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/learn_rooftop_basics_support008.png" width="510" /></p>
 <p class="tip"> When running cabling, be careful not to deform it with fasteners - zip ties installed too tightly or incorrect staples can damage the cable. Be aware of the cable's bend radius- bending a cable too much can cause damage. If running a cable through a wall, use a grommet and reinforcing the cable when running it over an edge, for example by reinforcing it with multiple layers of electrical tape or something similar. If installing outdoors on high points like rooftops, best practice is to use shielded cable and connectors, as well as a lightning arrestor.</p>
 
 <ul>
