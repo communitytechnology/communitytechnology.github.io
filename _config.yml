@@ -14,7 +14,18 @@ markdown: kramdown
 imageurl: files
 
 prose:
+ siteurl: "http://communitytechnology.github.io"
  ignore: 
   - /_layouts
-  - /_includes
+  - /_includes 
   - index.md
+  metadata:
+   _posts:
+    - name: "layout"
+      field: 
+       element: select
+       options:
+        - name: 'Blog'
+          value: 'blog'
+        - name: 'Collection'
+          value: 'collection'
