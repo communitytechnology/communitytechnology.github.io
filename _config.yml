@@ -23,9 +23,9 @@ prose:
    docs:
     - name: "layout"
       field: 
-       element: select
+       element: "select"
        options:
-        - name: 'Blog'
-          value: 'blog'
-        - name: 'Collection'
-          value: 'collection'
+        - name: "Blog"
+          value: "blog"
+        - name: "Collection / Modules"
+          value: "collection"
