@@ -8,7 +8,13 @@ title0: Re(Building) Technology
 exclude: [CNAME, README.md, .gitignore, list_assests.pl]
 permalink: /:categories/:title/ 
 
-encoding: utf-8
+encoding: utf-8 
 markdown: kramdown
 
 imageurl: files
+
+prose:
+ ignore: 
+  - /_layouts
+  - /_includes
+  - index.md
