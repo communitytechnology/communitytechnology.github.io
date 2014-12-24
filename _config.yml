@@ -19,3 +19,10 @@ prose:
   - /_layouts
   - /_includes 
   - index.md
+  - list-assets.md
+  - list-assets.pl
+  - .gitignore
+  - /css
+  - /fonts
+  - /assets
+  - /icons
