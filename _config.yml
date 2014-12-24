@@ -20,7 +20,7 @@ prose:
   - /_includes 
   - index.md
   metadata:
-   _posts:
+   docs:
     - name: "layout"
       field: 
        element: select
