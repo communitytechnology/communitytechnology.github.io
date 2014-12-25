@@ -11,7 +11,7 @@ changed: 2013-10-01
 post_author: critzo
 lang: en
 ---
-  <p><img src="{{site.baseurl}}/files/prep_install_finish_support001.png" typeof="foaf:Image" width="510" /></p>
+  <p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support001.png" width="510" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -50,7 +50,7 @@ lang: en
 <section id="wireless-node-preparation">
 <h2>Wireless Node Preparation</h2>
 
-<p><img src="{{site.baseurl}}/files/prep_install_finish_support002_003.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support002_003.png" width="510" /></p>
 
 <p>This guide is intended to provide some easy-to-follow steps for your wireless equipment installation. It is especially helpful to keep track of tasks the day you are planning on working, but we recommend you read it over beforehand in order to best prepare.</p>
 
@@ -66,7 +66,7 @@ lang: en
 
 <p>To find the Mesh IP address: in the Commotion administrator interface, navigate to Status&gt;OLSR, then click on "Interfaces" and record the number that starts with 5. It looks like 5.x.y.z, where x, y, and z are numbers.</p>
 
-<p><img src="{{site.baseurl}}/files/prep_install_finish_nodetag.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_nodetag.png" width="510" /></p>
 
 <p class="tip">You can write the node's name on the case with a permanent marker, or a printed label if you have a label maker.</p>
 </section>
@@ -76,11 +76,11 @@ lang: en
 
 <p>It is a good idea to visit the site where you plan on installing a new wireless node a few days or a week before the actual installation. This allows more time to prepare and acquire any missing equipment or hardware.</p>
 
-<p><img src="{{site.baseurl}}/files/prep_install_finish_support004.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support004.png" width="510" /></p>
 
 <p>1. Do some site assessments. Using the guidelines and examples in <a href="{{site.baseurl}}/docs/cck/planning/inventory-the-neighborhood/">Inventory the Neighborhood</a> to survey buildings and sites for wireless installations. The document includes a set of questions and things to look for, and is a good place to start.</p>
 
-<p><img src="{{site.baseurl}}/files/prep_install_finish_support005.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support005.png" width="510" /></p>
 
 <p>2. Pick the best mounting location on the roof based on visibility to other rooftops. Keep in mind wireless signals work best when there is a clear line of sight between the nodes. Also figure out what kind of mount you will use to install. The module <a href="{{site.baseurl}}/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a> can help you decide.</p>
 
@@ -88,13 +88,13 @@ lang: en
 
 <p>4. Identify where the Power over Ethernet (PoE) adapter will plug in.</p>
 
-<p><img src="{{site.baseurl}}/files/prep_install_finish_support005_a.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support005_a.png" width="510" /></p>
 
 <p>4a. If the node is mounted in an enclosure or indoors, try to find an accessible location that keeps it out of the way from everyday interaction.</p>
 
 <p>4b. If the building owner or node host wants to donate bandwidth to make the node an Internet gateway, put the PoE adapter where it can plug into the host's router easily.</p>
 
-<p><img src="{{site.baseurl}}/files/prep_install_finish_support007.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support007.png" width="510" /></p>
 
 <p>5. Acquire the proper mounting hardware.</p>
 
@@ -102,7 +102,7 @@ lang: en
 
 <p>Check that you have all the necessary hardware for mounting, such as concrete anchors, bolts, clamps, etc.</p>
 
-<p><img src="{{site.baseurl}}/files/prep_install_finish_support006.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support006.png" width="510" /></p>
 
 <p>6. Verify that the tool bag has everything you need for the mounting hardware and installation site.</p>
 </section>
@@ -110,7 +110,7 @@ lang: en
 <section id="wireless-node-installation">
 <h2>Wireless Node Installation</h2>
 
-<p><img src="{{site.baseurl}}/files/prep_install_finish_support008.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support008.png" width="510" /></p>
 
 <p>Installation day! Now you get to go up on the roof and install new equipment for the community network - but make sure you are working in a safe and responsible way. We recommend going through <a href="{{site.baseurl}}/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a> module and reviewing some rooftop safety guidelines before you start your installation.</p>
 
@@ -126,7 +126,7 @@ lang: en
 
 <p>2. Attach the wireless node to the mounted mast. Use metal hose clamps or heavy-duty outdoor rated plastic zip-ties if possible. This will keep the wireless node from slipping or twisting off the mast.</p>
 
-<p><img src="{{site.baseurl}}/files/prep_install_finish_support009.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support009.png" width="510" /></p>
 
 <p>If possible, face the indicator lights on the node towards the street or ground, so they are visible without climbing onto the roof. This can help with troubleshooting in the future.</p>
 
@@ -148,11 +148,11 @@ lang: en
 <section id="clean-up">
 <h2>Clean up, Testing and Post-Installation</h2>
 
-<p><img src="{{site.baseurl}}/files/prep_install_finish_support010.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support010.png" width="510" /></p>
 
 <p>No installation is finished unless you leave the site looking better than when you arrived. Never leave a mess! Make sure you have not left any unsealed holes in the building exterior where water may enter.</p>
 
-<h3>1. CLEAN UP THE ROOFTOP AND POE LOCATION.</h3>
+<h3>1. Clean up the rooftop and PoE location.</h3>
 
 <p>Cut off any loose or extending ends from zip-ties.</p>
 
@@ -162,7 +162,7 @@ lang: en
 
 <p>Sweep away mortar dust / wood dust if you did any drilling.</p>
 
-<h3>2. CHECK CONNECTIVITY TO THE WIRELESS NODE.</h3>
+<h3>2. Check connectivity to the wireless node.</h3>
 
 <p>After a couple of minutes, associate with the Access Point (AP) on your phone or a laptop. Confirm that you can connect.</p>
 
@@ -172,7 +172,7 @@ lang: en
 
 <p>If there is an Internet Gateway on your network, check that you can get out to the Internet.</p>
 
-<h3>3. RECORD ANY NECESSARY INFORMATION ABOUT THE INSTALLATION IN YOUR NETWORK'S DOCUMENTATION.</h3>
+<h3>3. Record any necessary information about the installation in your network's documentation.</h3>
 
 <p>For example, in addition to the node name, MAC address, and IP address, make a note of the location and what worked and did not work, as well as any follow-up or next steps.</p>
 </section>
