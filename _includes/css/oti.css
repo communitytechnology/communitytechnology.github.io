@@ -224,6 +224,10 @@ a img, a:link img {
     background-position: 0% 100%;
 }
 
+#project_tagline {
+  max-width: 700px;
+}
+
 /* FOOTER */
 
 #footer_wrap.outer {

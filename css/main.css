@@ -5,3 +5,4 @@
 {% include css/grid.css %}
 {% include css/oti.css %}
 {% include css/small.css %}
+{% include css/print.css %}

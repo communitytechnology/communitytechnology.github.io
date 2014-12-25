@@ -28,6 +28,11 @@ grid:
    url:
    image: /icons/skillshare.png
    text: (coming soon)
+ - project-planning:
+   title: Project Planning Tools
+   text: Tools to help define and plan projects.
+   url:
+   image: /icons/projectplanning.svg
 grid-old:
  - tips:
    title: Tips + Tricks

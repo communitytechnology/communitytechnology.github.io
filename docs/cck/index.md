@@ -23,8 +23,6 @@ lang: en
 <!-- <p>You can also download a <a href="http://files.opentechinstitute.org/~commotion/CCK-All PDFs-12-17-2013.zip">.zip archive file</a> of containing PDF versions of all current Commotion Construction Kit modules and supporting activities.</p> -->
 
 
-<!-- slighly more complex than you'd think because categories arent defined by the complete filestructure/hierarchically, so you have to check that the category is in the current guide -->
-
 {% include toc.html definition=page.definition %}
 
 <!-- NOT USED ONLY HERE FOR NOTES

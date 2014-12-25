@@ -4,6 +4,9 @@
 
 -->
 
+<!-- Note: code is slighly more complex than you'd think because categories arent defined by the complete filestructure/hierarchically, so you have to check that the category is in the current guide -->
+
+
 {% assign data = site.data[include.definition] %}
 
 {% for section in data.sections %}
