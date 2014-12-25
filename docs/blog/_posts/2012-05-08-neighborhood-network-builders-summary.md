@@ -1,15 +1,23 @@
 ---
 layout: blog
-title: Neighborhood network builders- a summary
-tags: [UI,Detroit,community wireless,Research,recommendations,]
-created: 2012-05-08
-changed: 2013-07-26
+title: Neighborhood Network Builders
+tags: 
+  - UI
+  - Detroit
+  - community wireless
+  - Research
+  - recommendations
+created: {}
+changed: {}
 post_author: The Work Department
 lang: en
+published: true
 ---
+
 As part of our research for the Commotion Human Interface Guidelines, we interviewed four people who have been involved in building community wireless networks around Detroit (see earlier blog posts). Based on these interviews and our experience working with various users, we recommend that Commotion developers and organizers implement the following concepts: <!--more--> 
 
 ## Building successful software
+
 Our interviews confirmed that users expect long-term reliability, speed, and ease of use when using wireless devices. The Commotion user interface should:
 
 <ol>
