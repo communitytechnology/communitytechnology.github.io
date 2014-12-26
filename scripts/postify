@@ -10,6 +10,10 @@ echo "mkdir _posts"
 
 for DIRECTORY in "$@" 
 do
-   cp "${DIRECTORY}/index.md" "_posts/2014-10-10-${DIRECTORY}.md"
+ if [ -d ${DIRECTORY} ]; then
+   mv "${DIRECTORY}/index.md" "_posts/2014-10-10-${DIRECTORY}.md"
    echo "cp ${DIRECTORY}/index.md _posts/2014-10-10-${DIRECTORY}.md"
+   rm -d "${DIRECTORY}"
+ fi
 done
+
