@@ -1,0 +1,28 @@
+@media print {
+
+#main_content p {
+  font-size:11pt;
+  color: black;
+}
+ 
+#main_content img {
+  display:block;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+}
+
+#main_content ul, li {
+  display:block;
+  page-break-inside:avoid;
+}
+ 
+section {
+  page-break-inside: avoid;
+  page-break-after: always;
+  page-break-before: always;
+}
+
+#header {display:none;}
+#sidemenu {display:none;}
+ 
+}
