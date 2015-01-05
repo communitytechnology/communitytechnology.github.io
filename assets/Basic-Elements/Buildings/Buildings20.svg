@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="245.55875"
+   height="128.75014"
+   id="svg9755"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="New document 25">
+  <defs
+     id="defs9757" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1735503"
+     inkscape:cx="123.61594"
+     inkscape:cy="58.780507"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:window-width="2560"
+     inkscape:window-height="1415"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata9760">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-248.4313,-456.21145)">
+    <g
+       id="g9986"
+       transform="matrix(5.0593873,0,0,5.0593873,-1028.7759,-1872.236)">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/andygunn/Commotion/Construction Kit/Plan Wireless Sites/Plan_wireless_sites_graphic.png"
+         id="g5597"
+         transform="matrix(1.25,0,0,-1.25,276.51882,484.68272)">
+        <path
+           sodipodi:nodetypes="cccccccccc"
+           id="path5599"
+           style="fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 18.777,0 0,18.777 -18.47,0 -0.086,0 -8.633,-0.144 -9.973,0.144 -0.085,0 0,-18.777 z"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/andygunn/Commotion/Construction Kit/Plan Wireless Sites/Plan_wireless_sites_graphic.png"
+         id="g5661"
+         transform="matrix(1.25,0,0,-1.25,292.18132,472.94772)">
+        <path
+           id="path5663"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 c 0,-2.16 -1.752,-3.912 -3.912,-3.912 -2.161,0 -3.912,1.752 -3.912,3.912 0,2.161 1.751,3.913 3.912,3.913 C -1.752,3.913 0,2.161 0,0"
+           inkscape:connector-curvature="0" />
+      </g>
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/andygunn/Commotion/Construction Kit/Plan Wireless Sites/Plan_wireless_sites_graphic.png"
+         id="path5665"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 270.05632,477.8376 -9.78,0 0,-9.78125 9.78,0 0,9.78125 z"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
