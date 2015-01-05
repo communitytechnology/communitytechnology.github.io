@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="219.63722"
+   height="343.702"
+   id="svg3813"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="New document 2">
+  <defs
+     id="defs3815" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="110.21616"
+     inkscape:cy="137.351"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1030"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3818">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-264.78384,-326.01118)">
+    <g
+       id="g5603"
+       transform="matrix(2.6283694,0,0,-2.6283694,-1623.6879,748.60648)"
+       inkscape:export-filename="/home/andygunn/New York/RISE NYC/Technical Diagrams/Site_Diagram_-_Portable_mesh_kit.png"
+       inkscape:export-xdpi="149.90536"
+       inkscape:export-ydpi="149.90536">
+      <path
+         transform="matrix(0.8,0,0,-0.8,-307.19998,675.20002)"
+         inkscape:connector-curvature="0"
+         id="path5601"
+         d="m 1302.1371,767.52081 -11.3137,30.05204 85.56,-0.35356 -9.8995,-30.05203 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/andygunn/New York/RISE NYC/Technical Diagrams/Site_Diagram_-_Small_business_rooftop.png"
+         d="m 729.85266,39.77095 6.41409,18.36393 48.06157,0 6.33745,-18.36393 -60.81311,0 z m 69.82119,-2.03683 -8.83708,25.60631 c -0.54826,1.57994 -2.03686,2.64405 -3.7111,2.64405 l -22.9505,0 0,88.96921 c 0,2.16949 -1.75974,3.9263 -3.92629,3.9263 -2.16947,0 -3.92625,-1.75681 -3.92625,-3.9263 l 0,-88.96921 -22.84142,0 c -1.67133,0 -3.15694,-1.05525 -3.7052,-2.63226 l -9.1584,-26.21353 c -0.41856,-1.19968 -0.23298,-2.5291 0.50406,-3.56667 0.73692,-1.03757 1.93071,-1.65364 3.20117,-1.65364 l 71.84919,0 0.059,0 c 2.16946,0 3.92627,1.75976 3.92627,3.9263 0,0.68386 -0.17687,1.32938 -0.48341,1.88944"
+         style="fill:#858585;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path404-2"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="197.07336"
+   height="154.93153"
+   id="svg4424"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="New document 5">
+  <defs
+     id="defs4426" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="136.32432"
+     inkscape:cy="40.465813"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1030"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4429">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-238.67568,-417.89646)">
+    <g
+       id="g6414-6-6"
+       transform="matrix(-0.07473422,7.0493632,7.0493632,0.07473422,-737.13166,-2147.145)"
+       inkscape:export-filename="/home/andygunn/Commotion/Construction Kit/Modules/Common Configs/Print version docs/CCK_CommonConfigs_05_Nodes_meshed_via_Ethernet_with_gateway_building.png"
+       inkscape:export-xdpi="300.00613"
+       inkscape:export-ydpi="300.00613">
+      <g
+         id="g616-80-1"
+         transform="matrix(2.2340299,0,0,2.2340299,363.04626,144.46554)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path618-4-3"
+           style="fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -0.11,10.551 c -0.003,0.366 0.291,0.666 0.656,0.67 0.5751141,-0.0091 6.6749759,0.04251 7.876,0.082 0.364,0.005 0.664,-0.29 0.668,-0.655 L 9.201,0.097 C 9.204,-0.269 8.91,-0.57 8.546,-0.573 L 0.671,-0.655 C 0.305,-0.66 0.004,-0.367 0,0"
+           sodipodi:nodetypes="ccccccccc" />
+      </g>
+      <g
+         id="g620-6-0"
+         transform="matrix(2.2340299,0,0,2.2340299,370.356,146.00702)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path622-3-6"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 c 0.109,0.001 0.198,-0.085 0.199,-0.194 0.001,-0.11 -0.087,-0.198 -0.195,-0.2 -0.108,0 -0.196,0.086 -0.197,0.196 C -0.195,-0.09 -0.109,-0.002 0,0" />
+      </g>
+      <g
+         id="g624-5-5"
+         transform="matrix(2.2340299,0,0,2.2340299,370.32249,149.12126)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path626-0-2"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 C 0.109,0.001 0.199,-0.086 0.2,-0.195 0.199,-0.303 0.112,-0.392 0.005,-0.392 -0.104,-0.393 -0.191,-0.307 -0.193,-0.198 -0.194,-0.09 -0.107,-0.001 0,0" />
+      </g>
+      <g
+         id="g628-2-0"
+         transform="matrix(2.2340299,0,0,2.2340299,370.80057,145.57339)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path630-6-4"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 -0.014,1.393 -0.407,1.39 -0.392,-0.004 0,0 z" />
+      </g>
+      <g
+         id="g632-1-6"
+         transform="matrix(2.2340299,0,0,2.2340299,373.30716,146.03829)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path634-1-7"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 C 0.109,0.001 0.198,-0.086 0.199,-0.195 0.2,-0.303 0.113,-0.392 0.005,-0.393 -0.103,-0.394 -0.192,-0.308 -0.193,-0.199 -0.194,-0.09 -0.107,-0.002 0,0" />
+      </g>
+      <g
+         id="g636-0-2"
+         transform="matrix(2.2340299,0,0,2.2340299,373.27588,149.15253)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path638-4-2"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 C 0.109,0.001 0.199,-0.087 0.199,-0.195 0.2,-0.304 0.113,-0.391 0.004,-0.392 -0.104,-0.394 -0.192,-0.307 -0.194,-0.2 -0.195,-0.091 -0.108,-0.001 0,0" />
+      </g>
+      <g
+         id="g640-5-3"
+         transform="matrix(2.2340299,0,0,2.2340299,373.75173,145.60266)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path642-4-4"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 -0.014,1.394 -0.407,1.389 -0.392,-0.004 0,0 z" />
+      </g>
+      <g
+         id="g644-58-3"
+         transform="matrix(2.2340299,0,0,2.2340299,376.26278,146.06734)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path646-8-6"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 C 0.108,0.001 0.197,-0.086 0.198,-0.194 0.199,-0.302 0.111,-0.39 0.004,-0.392 -0.105,-0.394 -0.193,-0.307 -0.195,-0.198 -0.195,-0.09 -0.109,-0.001 0,0" />
+      </g>
+      <g
+         id="g648-07-3"
+         transform="matrix(2.2340299,0,0,2.2340299,376.2315,149.18381)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path650-2-8"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 C 0.106,0.002 0.195,-0.086 0.196,-0.195 0.198,-0.303 0.111,-0.392 0.004,-0.393 -0.105,-0.394 -0.195,-0.307 -0.196,-0.198 -0.197,-0.091 -0.11,-0.001 0,0" />
+      </g>
+      <g
+         id="g652-5-0"
+         transform="matrix(2.2340299,0,0,2.2340299,376.70511,145.63394)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path654-42-1"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 -0.016,1.394 -0.408,1.391 -0.393,-0.004 0,0 z" />
+      </g>
+    </g>
+  </g>
+</svg>
