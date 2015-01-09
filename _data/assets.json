@@ -1,176 +1,316 @@
 {
-   "assets" : {
-      "a001" : [
-         "a001.png"
+   "assets/Basic-Elements/Buildings" : {
+      "Buildings01" : [
+         "Buildings01.png",
+         "Buildings01.svg"
+      ],
+      "Buildings02" : [
+         "Buildings02.png",
+         "Buildings02.svg"
+      ],
+      "Buildings03" : [
+         "Buildings03.svg",
+         "Buildings03.png"
+      ],
+      "Buildings04" : [
+         "Buildings04.png",
+         "Buildings04.svg"
+      ],
+      "Buildings05" : [
+         "Buildings05.png",
+         "Buildings05.svg"
+      ],
+      "Buildings06" : [
+         "Buildings06.svg",
+         "Buildings06.png"
+      ],
+      "Buildings07" : [
+         "Buildings07.png",
+         "Buildings07.svg"
+      ],
+      "Buildings08" : [
+         "Buildings08.svg",
+         "Buildings08.png"
+      ],
+      "Buildings09" : [
+         "Buildings09.svg",
+         "Buildings09.png"
+      ],
+      "Buildings10" : [
+         "Buildings10.png",
+         "Buildings10.svg"
+      ],
+      "Buildings11" : [
+         "Buildings11.png"
+      ],
+      "Buildings12" : [
+         "Buildings12.png",
+         "Buildings12.svg"
+      ],
+      "Buildings13" : [
+         "Buildings13.svg",
+         "Buildings13.png"
+      ],
+      "Buildings14" : [
+         "Buildings14.png",
+         "Buildings14.svg"
+      ],
+      "Buildings15" : [
+         "Buildings15.svg",
+         "Buildings15.png"
+      ],
+      "Buildings16" : [
+         "Buildings16.png",
+         "Buildings16.svg"
+      ],
+      "Buildings17" : [
+         "Buildings17.png",
+         "Buildings17.svg"
+      ],
+      "Buildings18" : [
+         "Buildings18.png",
+         "Buildings18.svg"
+      ],
+      "Buildings19" : [
+         "Buildings19.svg",
+         "Buildings19.png"
+      ],
+      "Buildings20" : [
+         "Buildings20.png",
+         "Buildings20.svg"
+      ],
+      "Fences" : [
+         "Fences.png",
+         "Fences.svg"
+      ],
+      "Sidewalk" : [
+         "Sidewalk.svg",
+         "Sidewalk.png"
       ]
    },
-   "assets/Basic-Elements/Buildings" : {
-      "Buildings001" : [
-         "Buildings001.svg"
+   "assets/Basic-Elements/Electronics" : {
+      "Cellphone" : [
+         "Cellphone.svg",
+         "Cellphone.png"
       ],
-      "Buildings002" : [
-         "Buildings002.svg"
+      "Laptop" : [
+         "Laptop.svg",
+         "Laptop.png"
       ],
-      "Buildings003" : [
-         "Buildings003.svg"
-      ],
-      "Buildings004" : [
-         "Buildings004.svg"
-      ],
-      "Buildings005" : [
-         "Buildings005.svg"
-      ],
-      "Buildings006" : [
-         "Buildings006.svg"
-      ],
-      "Buildings007" : [
-         "Buildings007.svg"
-      ],
-      "Buildings008" : [
-         "Buildings008.svg"
-      ],
-      "Buildings009" : [
-         "Buildings009.svg"
-      ],
-      "Buildings010" : [
-         "Buildings010.svg"
-      ],
-      "Buildings011" : [
-         "Buildings011.svg"
-      ],
-      "Buildings012" : [
-         "Buildings012.svg"
-      ],
-      "Buildings013" : [
-         "Buildings013.png",
-         "Buildings013.svg"
-      ],
-      "a002" : [
-         "a002.png"
-      ],
-      "a003" : [
-         "a003.png"
-      ],
-      "a004" : [
-         "a004.png"
-      ],
-      "a005" : [
-         "a005.png"
-      ],
-      "a006" : [
-         "a006.png"
-      ],
-      "a007" : [
-         "a007.png"
-      ],
-      "a008" : [
-         "a008.png"
-      ],
-      "a009" : [
-         "a009.png"
-      ],
-      "a010" : [
-         "a010.png"
-      ],
-      "a011" : [
-         "a011.png"
-      ],
-      "a012" : [
-         "a012.png"
+      "Tablet" : [
+         "Tablet.svg",
+         "Tablet.png"
       ]
    },
    "assets/Basic-Elements/Hardware" : {
-      "a014" : [
-         "a014.png"
+      "Cable_tacker_staples" : [
+         "Cable_tacker_staples.svg",
+         "Cable_tacker_staples.png"
       ],
-      "a015" : [
-         "a015.png"
+      "Concrete_block" : [
+         "Concrete_block.png",
+         "Concrete_block.svg"
       ],
-      "a016" : [
-         "a016.png"
+      "Ethernet_Spools" : [
+         "Ethernet_Spools.png",
+         "Ethernet_Spools.svg"
+      ],
+      "Ethernet_shielded" : [
+         "Ethernet_shielded.svg",
+         "Ethernet_shielded.png"
+      ],
+      "Hose_clamps" : [
+         "Hose_clamps.png",
+         "Hose_clamps.svg"
+      ],
+      "RJ45_ends" : [
+         "RJ45_ends.svg",
+         "RJ45_ends.png"
+      ],
+      "Screw" : [
+         "Screw.png",
+         "Screw.svg"
+      ],
+      "Zip_ties" : [
+         "Zip_ties.png",
+         "Zip_ties.svg"
       ]
    },
    "assets/Basic-Elements/Outdoors" : {
-      "a020" : [
-         "a020.png"
+      "Trees_1" : [
+         "Trees_1.svg"
       ],
-      "a021" : [
-         "a021.png"
+      "Trees_2" : [
+         "Trees_2.svg",
+         "Trees_2.png"
+      ],
+      "Trees_3" : [
+         "Trees_3.svg",
+         "Trees_3.png"
       ],
       "a022" : [
          "a022.png"
       ]
    },
+   "assets/Basic-Elements/People" : {
+      "Pair_of_installers" : [
+         "Pair_of_installers.png",
+         "Pair_of_installers.svg"
+      ],
+      "Person" : [
+         "Person.svg",
+         "Person.png"
+      ]
+   },
    "assets/Basic-Elements/Routers" : {
-      "a018" : [
-         "a018.png"
+      "ENTAS_router1" : [
+         "ENTAS_router1.svg",
+         "ENTAS_router1.png"
       ],
-      "b001" : [
-         "b001.png"
+      "ENTAS_router1_BW" : [
+         "ENTAS_router1_BW.png"
       ],
-      "b002" : [
-         "b002.png"
+      "ENTAS_router2" : [
+         "ENTAS_router2.svg",
+         "ENTAS_router2.png"
       ],
-      "b003" : [
-         "b003.png"
+      "ENTAS_router2_BW" : [
+         "ENTAS_router2_BW.png"
       ],
-      "b004" : [
-         "b004.png"
+      "ENTAS_router3" : [
+         "ENTAS_router3.png",
+         "ENTAS_router3.svg"
       ],
-      "b005" : [
-         "b005.png"
+      "ENTAS_router3_BW" : [
+         "ENTAS_router3_BW.png"
       ],
-      "b006" : [
-         "b006.png"
+      "ENTAS_router4" : [
+         "ENTAS_router4.svg",
+         "ENTAS_router4.png"
       ],
-      "b007" : [
-         "b007.png"
+      "ENTAS_router4_BW" : [
+         "ENTAS_router4_BW.png"
       ],
-      "b008" : [
-         "b008.png"
+      "Ethernet_switch" : [
+         "Ethernet_switch.png",
+         "Ethernet_switch.svg"
       ],
-      "c001" : [
-         "c001.png"
+      "Generic_router" : [
+         "Generic_router.svg",
+         "Generic_router.png"
       ],
-      "c002" : [
-         "c002.png"
+      "Home_router1" : [
+         "Home_router1.png",
+         "Home_router1.svg"
       ],
-      "c003" : [
-         "c003.png"
+      "Home_router2" : [
+         "Home_router2.svg",
+         "Home_router2.png"
       ],
-      "c004" : [
-         "c004.png"
+      "Home_router3" : [
+         "Home_router3.svg"
       ],
-      "c005" : [
-         "c005.png"
+      "TP-Link_WDR841" : [
+         "TP-Link_WDR841.svg",
+         "TP-Link_WDR841.png"
+      ],
+      "UBNT_Nano" : [
+         "UBNT_Nano.png",
+         "UBNT_Nano.svg"
+      ],
+      "UBNT_PicoStation" : [
+         "UBNT_PicoStation.png",
+         "UBNT_PicoStation.svg"
+      ],
+      "UBNT_PicoStation_BW" : [
+         "UBNT_PicoStation_BW.png"
+      ],
+      "UBNT_Rocket" : [
+         "UBNT_Rocket.svg",
+         "UBNT_Rocket.png"
+      ],
+      "UBNT_Rocket_w_ant" : [
+         "UBNT_Rocket_w_ant.svg",
+         "UBNT_Rocket_w_ant.png"
+      ],
+      "UBNT_UniFi_outdoor" : [
+         "UBNT_UniFi_outdoor.png",
+         "UBNT_UniFi_outdoor.svg"
+      ],
+      "Ubiquiti_NanoStation_Ethernet_ports" : [
+         "Ubiquiti_NanoStation_Ethernet_ports.png",
+         "Ubiquiti_NanoStation_Ethernet_ports.svg"
       ]
    },
    "assets/Basic-Elements/Towers-and-Mounts" : {
-      "a017" : [
-         "a017.png"
+      "Chimney_mount" : [
+         "Chimney_mount.svg",
+         "Chimney_mount.png"
+      ],
+      "Eaves_mount_kit" : [
+         "Eaves_mount_kit.svg",
+         "Eaves_mount_kit.png"
+      ],
+      "Metal_mast" : [
+         "Metal_mast.svg",
+         "Metal_mast.png"
+      ],
+      "Nonpen_mount1" : [
+         "Nonpen_mount1.png",
+         "Nonpen_mount1.svg"
+      ],
+      "Nonpen_mount2" : [
+         "Nonpen_mount2.svg",
+         "Nonpen_mount2.png"
+      ],
+      "Rubber_mat" : [
+         "Rubber_mat.png",
+         "Rubber_mat.svg"
+      ],
+      "TV_antenna" : [
+         "TV_antenna.svg",
+         "TV_antenna.png"
+      ],
+      "Tower" : [
+         "Tower.png",
+         "Tower.svg"
+      ],
+      "Wall_mount_kit" : [
+         "Wall_mount_kit.svg",
+         "Wall_mount_kit.png"
       ]
    },
    "assets/Basic-Elements/Wireless-Signals" : {
-      "a019" : [
-         "a019.png"
+      "Ear" : [
+         "Ear.png"
       ],
-      "b009" : [
-         "b009.png"
+      "Pattern_focused" : [
+         "Pattern_focused.png",
+         "Pattern_focused.svg"
       ],
-      "b010" : [
-         "b010.png"
+      "Pattern_omni_high" : [
+         "Pattern_omni_high.png",
+         "Pattern_omni_high.svg"
       ],
-      "b011" : [
-         "b011.png"
+      "Pattern_omni_low" : [
+         "Pattern_omni_low.png",
+         "Pattern_omni_low.svg"
       ],
-      "b012" : [
-         "b012.png"
+      "Pattern_sector" : [
+         "Pattern_sector.png",
+         "Pattern_sector.svg"
       ],
-      "b013" : [
-         "b013.png"
+      "Wireless_signals_directional" : [
+         "Wireless_signals_directional.svg",
+         "Wireless_signals_directional.png"
       ],
-      "b014" : [
-         "b014.png"
+      "Wireless_signals_focused" : [
+         "Wireless_signals_focused.png",
+         "Wireless_signals_focused.svg"
+      ],
+      "Wireless_signals_omni" : [
+         "Wireless_signals_omni.png",
+         "Wireless_signals_omni.svg"
       ]
    }
 }
