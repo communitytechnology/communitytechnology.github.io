@@ -17,7 +17,7 @@ grid:
    title: Community Technology
    url: /docs/intro-ct/index.html
    image: /icons/stewards.svg
-   text: Activities for discussing community tech concepts
+   text: Activities for discussing digital justice and digital stewardship concepts
  - skillshares:
    title: Skillshares
    url:
@@ -26,8 +26,13 @@ grid:
  - project-planning:
    title: Project Planning Tools
    text: Tools to help define and plan projects.
-   url:
+   url: /docs/project-planning/
    image: /icons/projectplanning.svg
+ - facilitation:
+   title: Facilitation Tools
+   text: Tools for facilitating community projects. (coming soon)
+   url:
+   image: /icons/facilitation.svg
 grid-old:
  - tips:
    title: Tips + Tricks
@@ -48,7 +53,7 @@ grid-old:
  
 
 <p class="section" style="font-size:1.2em;">A collective resource for <span class="small-caps">
-digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community-owned infrastructure</span>. <br />These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome contributions. </p>
+digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community infrastructure</span>. <br />These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome contributions. </p>
 
 
 <div class="grid home-width">
