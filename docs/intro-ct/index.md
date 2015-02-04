@@ -14,7 +14,7 @@ lang: en
 <strong>!! This page is under development: <a href="https://docs.google.com/document/d/1ztkO-980LahZ5Q7_YzdLiMLbuL4mlwy234e8oOBnUYY/edit?usp=sharing">contribute comments here</a>.</strong>
 
 <h3>Overview</h3>
-Community technology is a principled approach to technology projects that is grounded in the struggle for a more just digital ecosystem, and places value on equity, participation, common ownership and sustainability.  It is an alternative vision of technology in which communities and neighborhoods have direct control over their digital communications, allowing for greater self determination and power over our shared digital voices. 
+Community technology is a principled approach to technology projects that places value on equity, participation, common ownership and sustainability.  It is an alternative vision of technology in which communities and neighborhoods have direct control over their digital communications, allowing for greater self determination and power over our shared digital voices. 
 
 To achieve that end, community technology projects use practices of
 <ul>
@@ -38,15 +38,22 @@ Using this collection of activities, participants can start to define community 
 <ul>
 <li><A href="https://docs.google.com/document/d/1FKZWC7IccLOEizhMgIBddajS57oNhnX9CY72NKyr8b8/edit?usp=sharing">Investigate Technology</a>: Investigate the properties of common technologies, understand how these technologies impact the community, and identify community-based alternatives. </li>
 
-<li><a href="https://docs.google.com/a/opentechinstitute.org/document/d/1xczsTfVE-0x8R_43QY__Sx5poLixYUrUGPdr0EnhduU/edit?usp=sharing">Shared Principles</a>: Define shared principles and identify the existing and needed work to implement these principles.</li>
+<li><a href="https://docs.google.com/a/opentechinstitute.org/document/d/1xczsTfVE-0x8R_43QY__Sx5poLixYUrUGPdr0EnhduU/edit?usp=sharing">Digital Justice Principles</a>: Define shared principles and identify the existing and needed work to implement these principles.</li>
 
 <li><a href="https://docs.google.com/document/d/1u_p61Ub2aXmJwbjZ-2f_oKR_57iDtTQaNiTIeziG5V0/edit?usp=sharing">Digital Stewardship</a>: Describe and identify community organizers that work on digital justice issues in the community.</li>
 </ul>
 
-<!--
-<p><a href="">Collective Ownership:</a></p>
-<p><a href="">Participatory Planning and Cooperative Design</a></p>
--->
+
+<h3>Read More about Digital Stewardship:</h3>
+
+Background: <a href=""></a>
+
+
+Detroit Digital Stewards:<a href="http://oti.newamerica.net/blogposts/2013/building_community_controlled_digital_infrastructure_in_detroit-84570">Building Community Controlled Digital Infrastructure in Detroit</a>
+
+
+Red Hook Digital Stewards: <a href="http://oti.newamerica.net/blogposts/2013/case_study_red_hook_initiative_wifi_tidepools-78575">Case Study</a>
+
 
 <h3>Reflection and Adaptation</h3>
 <p>These activities are meant to be experimented with and adapted. Each of the activities should be adapted to the number of people, the goals of the group and the time available. We will soon provide a method to add suggestions and additions to this toolkit.</p>

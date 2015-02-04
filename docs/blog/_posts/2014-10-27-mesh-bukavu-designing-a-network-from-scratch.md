@@ -4,8 +4,8 @@ title: Mesh Bukavu - Designing a network from scratch
 tags: [guest post,community wireless,planning]
 created: 2014-10-27
 changed: 2014-10-27
-teaser_image: posts/Bukavu-teaser-img.png
-post_author: Andy Gunn
+img: "/files/posts/Bukavu-teaser-img.png"
+post_author: Pepijin Kalis
 lang: en
 ---
 

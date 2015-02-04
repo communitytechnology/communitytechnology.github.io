@@ -4,7 +4,7 @@ title: Do-it-yourself antennas for Community Networks
 categories: [tips,antennas]
 created: 2014-11-05
 changed: 2014-11-05
-teaser_image: posts/DIY-antennas-hardware.png
+img: "/files/posts/DIY-antennas-node-omni-and-directional.png"
 post_author: Andy Gunn
 lang: en
 ---

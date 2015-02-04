@@ -4,6 +4,7 @@ title: Building Pop-up Mesh Networks
 tags: [pop-up mesh, urban]
 created: 2013-10-30
 changed: 2013-12-19
+img: "/files/posts/popup-map3.png"
 post_author: Ryan Gerety
 lang: en
 ---

@@ -4,10 +4,9 @@ title: Case Study - Mesh Sayada
 tags: [Commotion,Community Technology,digital stewards,Middle East]
 created: 2014-04-18
 changed: 2014-04-18
-teaser_image: posts/041814-Cover-Page.png
+img: "/files/posts/041814-Cover-Page.png"
 post_author: Ryan Gerety, Andy Gunn, Will Hawkins
 lang: en
-
 ---
 
 <a href="{{site.baseurl}}/files/posts/041814-Case-Study-Sayada.pdf"><img src="{{site.baseurl}}/files/posts/041814-Cover-Page.png" alt="image of Case Study report" class="onethird-width floatleft" /></a> The Sayada community network, Mesh Sayada, is a collaboratively designed and built wireless network. The town of Sayada is located on the Tunisian coast, 140 kilometers from Tunis. The network serves as a platform for locally-hosted content, such as Wikipedia and Open Street Maps, and is expected to expand to include locally created content. Local residents and CLibre, a Sayada-based free technology association, initiated the network in December, 2013.

@@ -30,7 +30,7 @@ grid:
    text: (coming soon)
  - project-planning:
    title: Project Planning Tools
-   text: Tools to help define and plan projects.
+   text: Tools to help define and plan projects (coming soon).
    url:
    image: /icons/projectplanning.svg
 grid-old:
@@ -51,10 +51,8 @@ grid-old:
    text: Updates from projects
 ---
  
-
 <p class="section" style="font-size:1.2em;">A collective resource for <span class="small-caps">
 digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community-controlled digital infrastructure</span>. These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome contributions. </p>
-
 
 <div class="grid home-width">
   <div class="grid-row">
