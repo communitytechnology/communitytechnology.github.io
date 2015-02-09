@@ -117,6 +117,7 @@ digital stewardship</span>, <span class="small-caps">digital justice</span> and 
   <ul>
     <li><a href="http://docs.altermundi.net/">Altermundi Network Documentation</a> (spanish)</li>
     <li><a href="http://wndw.net">Wireless Networking in the Developing World</a></li>
+    <li>Village Telco</li>
   </ul>
 </div>
 
