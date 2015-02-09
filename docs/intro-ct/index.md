@@ -11,8 +11,6 @@ abstract:
 lang: en
 ---
 
-<strong>!! This page is under development: <a href="https://docs.google.com/document/d/1ztkO-980LahZ5Q7_YzdLiMLbuL4mlwy234e8oOBnUYY/edit?usp=sharing">contribute comments here</a>.</strong>
-
 <h3>Overview</h3>
 Community technology is a principled approach to technology projects that places value on equity, participation, common ownership and sustainability.  It is an alternative vision of technology in which communities and neighborhoods have direct control over their digital communications, allowing for greater self determination and power over our shared digital voices. 
 
@@ -25,15 +23,6 @@ To achieve that end, community technology projects use practices of
 
 Using this collection of activities, participants can start to define community technology in their context and investigate how the local digital ecosystem can be remade more healthy and just. The modules were informed and inspired by the Detroit Digital Stewards project. The activities are introductory and meant to initiate conversations and exploration.
 
-<h3>Underlying Concepts and Understandings</h3>
-<ul>
-<li>Community Technology is defined by the community through organizing and peer learning.</li>
-<li>Community Technology is based on shared principles the community defines.</li>
-<li>Community Technology projects are a shared process in which everyone has a voice.</li>
-<li>Community Technology involves Digital Stewardship or another method of community organizing.</li>
-<li>Community Technology is collectively governed.</li>
-</ul>
-
 <h3>Activities</h3>
 <ul>
 <li><A href="https://docs.google.com/document/d/1FKZWC7IccLOEizhMgIBddajS57oNhnX9CY72NKyr8b8/edit?usp=sharing">Investigate Technology</a>: Investigate the properties of common technologies, understand how these technologies impact the community, and identify community-based alternatives. </li>
@@ -43,17 +32,14 @@ Using this collection of activities, participants can start to define community 
 <li><a href="https://docs.google.com/document/d/1u_p61Ub2aXmJwbjZ-2f_oKR_57iDtTQaNiTIeziG5V0/edit?usp=sharing">Digital Stewardship</a>: Describe and identify community organizers that work on digital justice issues in the community.</li>
 </ul>
 
-
-<h3>Read More about Digital Stewardship:</h3>
-
-Background: <a href=""></a>
-
-
-Detroit Digital Stewards:<a href="http://oti.newamerica.net/blogposts/2013/building_community_controlled_digital_infrastructure_in_detroit-84570">Building Community Controlled Digital Infrastructure in Detroit</a>
-
-
-Red Hook Digital Stewards: <a href="http://oti.newamerica.net/blogposts/2013/case_study_red_hook_initiative_wifi_tidepools-78575">Case Study</a>
-
+<h3>Underlying Concepts and Understandings</h3>
+<ul>
+<li>Community Technology is defined by the community through organizing and peer learning.</li>
+<li>Community Technology is based on shared principles the community defines.</li>
+<li>Community Technology projects are a shared process in which everyone has a voice.</li>
+<li>Community Technology involves Digital Stewardship or another method of community organizing.</li>
+<li>Community Technology is collectively governed.</li>
+</ul>
 
 <h3>Reflection and Adaptation</h3>
 <p>These activities are meant to be experimented with and adapted. Each of the activities should be adapted to the number of people, the goals of the group and the time available. We will soon provide a method to add suggestions and additions to this toolkit.</p>
@@ -71,4 +57,11 @@ Red Hook Digital Stewards: <a href="http://oti.newamerica.net/blogposts/2013/cas
 
 <p>These roles should rotate over the course of a workshop, and should rotate as people break into different small groups.</p>
 
+<h3>Read More about Digital Stewardship:</h3>
+
+<!-- Background: <a href=""></a> -->
+
+Detroit Digital Stewards: <a href="http://oti.newamerica.net/blogposts/2013/building_community_controlled_digital_infrastructure_in_detroit-84570">Building Community Controlled Digital Infrastructure in Detroit</a>
+
+Red Hook Digital Stewards: <a href="http://oti.newamerica.net/blogposts/2013/case_study_red_hook_initiative_wifi_tidepools-78575">Case Study</a>
 

@@ -17,7 +17,7 @@ grid:
    title: Community Technology
    url: /docs/intro-ct/index.html
    image: /icons/stewards.svg
-   text: Activities for discussing digital justice and digital stewardship concepts
+   text: Activities for discussing digital justice and digital stewardship
  - skillshares:
    title: Skillshares
    url:
