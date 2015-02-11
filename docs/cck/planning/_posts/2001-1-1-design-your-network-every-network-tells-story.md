@@ -15,9 +15,7 @@ lang: en
 
 <p>When you plan a wireless network, you have to think about engineering specifics (how to create lines-of-sight for radio waves to travel) and at the same time about social dynamics (how to get neighbors working together).</p>
 
-<p>In building networks, it is also important to shape the technology to fit human relationships rather than shape our relationships to fit the technology. This means making the wireless links between routers follow the social relationships that exist, or building new social relationships in the process of building the network.</p>
-
-<p>This game will help you use the stories that already exist in your neighborhood, town, or city to design a wireless network that tells a story about the people who live and work there. It will also help you get familiar with the different types of routers you can use to build your network.</p>
+<p>This activity will help you use what you already know in your neighborhood, town, or city to design a wireless network that links the people and places you want to connect. It will also help you get familiar with the different types of routers you can use to build your network.</p>
 
 <p><strong>Time required: 1-2 hours.</strong></p>
 
@@ -61,7 +59,7 @@ lang: en
 
 <p>Can broadcast and receive in all directions over a short distance</p>
 
-<p><strong>Good for: </strong>Indoor use, connections within a home or building</p>
+<p><strong>Good for: </strong>Providing an access point for users, inside a house or building</p>
 
 <p><strong>Estimated distance:</strong> 10-100 meters</p>
 </section>
@@ -144,64 +142,62 @@ lang: en
 <p>7. Two or more routers right next to each other (in the same building) can connect with a wire.</p>
 </section>
 
-<section id="how-to-play">
-<h2>How to Play the Game</h2>
+<section>
+<h2>Design Tips</h2>
 
-<p>1. Your group should have 3-5 players who are familiar with the neighborhood. Gather your supplies.</p>
-
-<p>2. Make a picture of your neighborhood. Either draw major landmarks and streets in your neighborhood on the large paper, or cut out elements from the "Design your Network: Construction Elements" module and glue them on. Everyone in the group should contribute.</p>
-
-<p>3. As you are moving elements around to create your map, start to discuss what "story" is being told through the network design. Why is the highway important? What happens in the apartment buildings? Who are community leaders?</p>
-
-<p>Make sure to include:</p>
-
-<p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support008.png" typeof="foaf:Image" width="510" /></p>
-
-<p>"Community anchors" like churches, schools, libraries, and recreation centers that are gathering-places in the neighborhood, and that may be able to share internet access.</p>
-
-<p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support009.png" style="width: 480px; height: 282px;" typeof="foaf:Image" /></p>
-
-<p>Homes of people who are allies or important figures in the neighborhood, especially those who would be interested in donating roof or window space for the wireless project.</p>
-
-<p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support010.png" typeof="foaf:Image" width="510" /></p>
-
-<p>Major features like rivers, highways, parks, bridges, etc.</p>
-
-<p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support011.png" typeof="foaf:Image" width="510" /></p>
-
-<p>Think about who in the neighborhood needs access and has access to Internet services. Where are they located with relation to each other?</p>
-
-<p class="tip">Ask yourself and your neighbors: What's special about your neighborhood? Where do the stories happen?</p>
-
-<p>4. Now draw your wireless connections with the markers. When you're drawing your links, think about social relationships that exist or could be built.</p>
-
-<p>5. In the real world, every connection is a maybe. While sketching these maps is a collaborative planning exercise, it's important to remember some of the following tips:</p>
-
-<p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support014.png" typeof="foaf:Image" width="510" /></p>
-
-<p>Draw a dotted line to note a wireless connection. Draw a solid line to note a wired connection.</p>
+<p>1. <strong>Line of sight:</strong> when connecting neighborhood nodes, line of sight is essential. Buildings, robust trees and other environmental features can obstruct wireless signals which can result in unreliable or nonfunctional connections.</p>
 
 <p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support012.png" typeof="foaf:Image" width="510" /></p>
 
-<p>Line of sight: when connecting neighborhood nodes, line of sight is essential. Buildings, robust trees and other environmental features can obstruct wireless signals which can result in unreliable or nonfunctional connections.</p>
+<p>2. <strong>Wireless Interference:</strong> if you have too many wireless signals within one area, they can interfere with each other.</p>
 
 <p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support013.png" typeof="foaf:Image" width="510" /></p>
 
-<p>Wireless Interference: if you have too many wireless signals within one area, they can interfere with each other.</p>
+<p>3. <strong>Number of Hops:</strong> if routers are more than 2-3 wireless "hops" or links from another router, the connection may be very slow.</p>
+
+<p>4. <strong>Users Connections</strong>: Laptops and smartphones cannot connect to routers that are far away. Outside, laptops and smartphones can reach routers that are 50m to 100m away, while inside the distance is much less. In your design, make sure there are smaller access points where you want people to be able to connect.
+</section>
+
+<section id="how-to-play">
+<h2>How to Play the Game</h2>
+
+<p>1. Your group should have 3-5 people who are familiar with the neighborhood. Gather your supplies.</p>
+
+<p>2. Make a picture of your neighborhood. Either draw major landmarks and streets in your neighborhood on the large paper, or cut out elements from the "Design your Network: Construction Elements" module and glue them on. Everyone in the group should contribute.</p>
+
+<p>3. As you are moving elements around to create your map, start to discuss what are the important places, organizations, public spaces or schools that you would like to connect.</p>
+
+<p>Make sure to include:</p>
+
+<p>"Community anchors" like religious institutions, schools, libraries, and recreation centers that are gathering-places in the neighborhood, and that may be able to share internet access.</p>
+
+<p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support008.png" typeof="foaf:Image" width="510" /></p>
+
+<p>Homes of people who are allies in the neighborhood, especially those who would be interested in donating roof or window space for the wireless project.</p>
+
+<p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support009.png" style="width: 480px; height: 282px;" typeof="foaf:Image" /></p>
+
+<p>Major features like rivers, highways, parks, bridges, etc.</p>
+
+<p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support010.png" typeof="foaf:Image" width="510" /></p>
+
+<p>Think about who in the neighborhood needs access and has access to Internet services. Where are they located with relation to each other?</p>
+
+<p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support011.png" typeof="foaf:Image" width="510" /></p>
+
+<p>4. Now draw your wireless connections with the markers. When you're drawing your links, think about social relationships that exist or could be built.</p>
+
+<p>5. In the real world, every connection is a maybe. While sketching these maps is a collaborative planning exercise, it's important to remember the guidelines listed above.</p>
 
 <p>6. Tell the Story of Your Network! Discuss with your group what you see in the map. If you're with other groups, you can present your networks to each other.</p>
 
 <p><strong>Here are some questions to help you tell the story:</strong></p>
 
-<p>Who are the characters in your neighborhood?</p>
-
-<p>What are the relationships between them?</p>
-
 <p>What neighborhood issues could be addressed using a wireless network?</p>
 
 <p>For example, does the network bring together two parts of a neighborhood that were separated by a river or a highway?</p>
 
-<p>Does it connect the school to the recreation center to the church, to strengthen the organizing network that already exists?</p>
+<p>Does it connect the school to a park to a local organization, to strengthen the organizing network that already exists?</p>
 
 <p><img src="{{site.baseurl}}/files/cck/6032082057_66d0f306d4_0.jpg" typeof="foaf:Image" width="444" /></p>
 
@@ -244,4 +240,3 @@ lang: en
 
 <p>Alternatively, get ready to talk to your neighbors about your proposed network by making a flyer (<a href="{{site.baseurl}}/docs/cck/planning/get-word-out-flyer-design">Get the Word Out: Flyer Design</a>) or conducting a survey to see who's willing to contribute (<a href="{{site.baseurl}}/docs/cck/planning/survey-your-neighbors">Survey Your Neighbors</a>)</p>
 </section>
- 
