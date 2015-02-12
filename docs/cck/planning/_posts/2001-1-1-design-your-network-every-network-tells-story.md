@@ -103,7 +103,7 @@ lang: en
 <section id="wireless-connection">
 <h2>Wireless Connection</h2>
 
-<p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support006.png" typeof="foaf:Image" width="360" /></p>
+<p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support006.png" style="max-width:360px;" /></p>
 
 <p>You can connect routers either with wires or wirelessly.</p>
 </section>
