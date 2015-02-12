@@ -186,7 +186,7 @@ lang: en
 
 <p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support010.png" typeof="foaf:Image" width="510" /></p>
 
-<p>D. People and areas in the neighborhood need access and have access to Internet services. People and organizations in the neighborhood that might want to create and host local applications. Where are they located with relation to each other?</p>
+<p>D. People and areas in the neighborhood that need access or have access to Internet services. People and organizations in the neighborhood that might want to create and host local applications. Where are they located with relation to each other?</p>
 
 <p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support011.png" typeof="foaf:Image" width="510" /></p>
 
