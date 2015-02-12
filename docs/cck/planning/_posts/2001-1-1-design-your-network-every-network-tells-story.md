@@ -145,7 +145,7 @@ lang: en
 <section>
 <h2>Design Tips</h2>
 
-<p>1. <strong>Line of sight:</strong> when connecting neighborhood nodes, line of sight is essential. Buildings, robust trees and other environmental features can obstruct wireless signals which can result in unreliable or nonfunctional connections.</p>
+<p>1. <strong>Line of Sight:</strong> when connecting neighborhood nodes, line of sight is essential. Buildings, robust trees and other environmental features can obstruct wireless signals which can result in unreliable or nonfunctional connections.</p>
 
 <p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support012.png" typeof="foaf:Image" width="510" /></p>
 
@@ -153,9 +153,14 @@ lang: en
 
 <p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support013.png" typeof="foaf:Image" width="510" /></p>
 
-<p>3. <strong>Number of Hops:</strong> if routers are more than 2-3 wireless "hops" or links from another router, the connection may be very slow.</p>
+<p>3. <strong>Number of Hops:</strong> if routers are more than 2-3 <strong>wireless</strong> "hops" or links from another router, the connection may be very slow.</p>
 
-<p>4. <strong>Users Connections</strong>: Laptops and smartphones cannot connect to routers that are far away. Outside, laptops and smartphones can reach routers that are 50m to 100m away, while inside the distance is much less. In your design, make sure there are smaller access points where you want people to be able to connect.
+<p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support_hops.png" /></p>
+
+<p>4. <strong>User Access</strong>: Laptops and smartphones cannot connect to routers that are far away. Outside, laptops and smartphones can reach routers that are 50m to 100m away, while inside the distance is much less. In your design, make sure there are smaller access points where you want people to be able to connect.
+
+<p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support_users.png" /></p>
+
 </section>
 
 <section id="how-to-play">
@@ -169,19 +174,19 @@ lang: en
 
 <p>Make sure to include:</p>
 
-<p>"Community anchors" like religious institutions, schools, libraries, and recreation centers that are gathering-places in the neighborhood, and that may be able to share internet access.</p>
+<p>A. "Community anchors" like religious institutions, schools, libraries, and recreation centers that are gathering-places in the neighborhood, and that may be able to share internet access.</p>
 
 <p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support008.png" typeof="foaf:Image" width="510" /></p>
 
-<p>Homes of people who are allies in the neighborhood, especially those who would be interested in donating roof or window space for the wireless project.</p>
+<p>B. Homes of people who are allies in the neighborhood, especially those who would be interested in donating roof or window space for the wireless project.</p>
 
 <p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support009.png" style="width: 480px; height: 282px;" typeof="foaf:Image" /></p>
 
-<p>Major features like rivers, highways, parks, bridges, etc.</p>
+<p>C. Major features like rivers, highways, parks, bridges, etc.</p>
 
 <p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support010.png" typeof="foaf:Image" width="510" /></p>
 
-<p>Think about who in the neighborhood needs access and has access to Internet services. Where are they located with relation to each other?</p>
+<p>D. People and areas in the neighborhood need access and have access to Internet services. People and organizations in the neighborhood that might want to create and host local applications. Where are they located with relation to each other?</p>
 
 <p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support011.png" typeof="foaf:Image" width="510" /></p>
 
@@ -211,7 +216,7 @@ lang: en
 
 <p><img src="{{site.baseurl}}/files/cck/design_your_network_entas_support_cut.png" /></p>
 
-<p><a href="{{site.baseurl}}/files/cck/planning/1.2-CCK-Planning-Construction-Elements.pdf"><img src="{{site.baseurl}}/files/CCK_download_icon2.png" /></a></p>
+<p><a href="{{site.baseurl}}/files/cck/planning/1.2-CCK-Planning-Construction-Elements.pdf"><img src="{{site.baseurl}}/files/CCK_download_icon2.png" style="max-width:410px;"/></a></p>
 </section>
 
 <section id="section-definitions">
