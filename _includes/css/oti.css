@@ -43,11 +43,36 @@ h1,h2,h3,h4 {
     padding: 0 1em;
 }
 
+.cck-download-pdf a:link img {
+    margin-top: 1em;
+    margin-bottom: 0px;
+    padding: 0px;
+    display: block;
+    max-width: 212px;
+    background: transparent;
+}
+
+.cck-download a, .cck-download a:link, .cck-download a:visited {
+    display: block;
+    width: 212px;
+    padding: 4px;
+    font-weight: bold;
+    color: {{site.data.colors.yellow}};
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    border: none;
+}
+
+.cck-download a:hover {
+  color: white;
+}
+
 a, a:visited, a:link { 
-    border-bottom: 2px solid #e8ff00;
-    color: inherit;
-    font-weight:bold;
-    text-decoration: none;
+  border-bottom: 2px solid #e8ff00;
+  color: inherit;
+  font-weight:bold;
+  text-decoration: none;
 }
 
 a:hover { 
@@ -62,8 +87,6 @@ a.simple, a.simple:link {
 a.simple:hover {
  font-weight: 800;
 }
-
-
 
 .blog img {
   float: left;

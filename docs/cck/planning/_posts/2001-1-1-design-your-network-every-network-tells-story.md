@@ -4,6 +4,9 @@ title: Design your Network - Every Network Tells a Story
 description: A game that helps communities think through network planning and the social networks upon which community wireless relies.
 pdf: cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story.pdf
 pdf-all: true
+files:
+  French: cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story_FR.pdf
+  Game (FR): cck/planning/ENTAS_GAME_FR.pdf
 created: 2013-09-27
 changed: 2014-03-04
 lang: en

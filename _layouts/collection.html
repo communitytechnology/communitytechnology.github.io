@@ -45,6 +45,25 @@
 	  </ul>
 	</div>
       </div>
+
+      <!-- DOWNLOAD -->
+      {% if page.pdf %}
+      <div class="cck-download-pdf">
+	<a href="/files/{{page.pdf}}"><img src="{{site.baseurl}}/files/CCK_pdf.png" alt="Download File"></a>
+      </div>
+      <span class="cck-download"><a href="/files/{{page.pdf}}">Download PDF</a></span>
+      {% endif %}
+
+      {% if page.files %}
+        {% for file in page.files %}
+          <div class="cck-download-pdf">
+	    <a href="{{site.baseurl}}/files/{{file[1]}}"><img src="{{site.baseurl}}/files/CCK_file.png" alt="Download File"></a>
+	  </div>
+	  <span class="cck-download"><a href="{{site.baseurl}}/files/{{file[1]}}">Download {{file[0]}}</a></span>
+	{% endfor %}
+      {% endif %}
+    <!-- END DOWNLOAD -->
+
     </div>
     
 </section>
