@@ -3,9 +3,9 @@ layout: collection
 title: About Community Networks
 description: Basics about community networks to help you get started.
 site_section: docs
-sub_section: [cck,cck-about-cw]
-pdf-all: true
-categories: 
+pdf: cck/intro/intro.pdf
+files:
+  Inkscape (sla): cck/intro/intro.sla
 created: 2013-09-27
 changed: 2014-08-20
 post_author: sifrwahid
