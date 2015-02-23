@@ -12,7 +12,7 @@ lang: en
 
 ## DEVELOPING PROJECT METRICS
 
-Download Worksheet <a href="https://docs.google.com/document/d/1NjJW0hOKY8HQos98jhVWJWULN6s-C5X8ysy31eFSZ0M/edit?usp=sharing">HERE</a>.
+[ Google Docs Worksheet <a href="https://docs.google.com/document/d/1NjJW0hOKY8HQos98jhVWJWULN6s-C5X8ysy31eFSZ0M/edit?usp=sharing">HERE</a> ]
 
 The purpose of this worksheet is to draw out the best method(s) to measure the progress of your project. There are three sections to this worksheet:
 
@@ -208,4 +208,4 @@ NOTES:
 </div>
 
 
-Download Worksheet <a href="https://docs.google.com/document/d/1NjJW0hOKY8HQos98jhVWJWULN6s-C5X8ysy31eFSZ0M/edit?usp=sharing">HERE</a>.
+[ Google Docs Worksheet <a href="https://docs.google.com/document/d/1NjJW0hOKY8HQos98jhVWJWULN6s-C5X8ysy31eFSZ0M/edit?usp=sharing">HERE</a> ]
