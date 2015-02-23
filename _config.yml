@@ -18,7 +18,7 @@ prose:
  ignore: 
   - /_layouts
   - /_includes 
-  - index.md
+  - /index.md
   - list-assets.md
   - list-assets.pl
   - .gitignore
