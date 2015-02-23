@@ -1,3 +1,15 @@
+---
+layout: default
+title: Project Planning
+tagline: Planning and Metrics Worksheet
+categories: 
+created: 2013-09-20
+changed: 2014-03-04
+post_author: oti
+abstract: 
+lang: en
+---
+
 ## DEVELOPING PROJECT METRICS
 
 The purpose of this worksheet is to draw out the best method(s) to measure the progress of your project. There are three sections to this worksheet:
