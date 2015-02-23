@@ -21,7 +21,7 @@ The purpose of this worksheet is to draw out the best method(s) to measure the p
 ### Understanding the purpose of your project.
 Answer the questions below to flesh out the purpose and trajectory of your project.
 
-<div class="insert" style="width:80%;background-color:#f8f8f8;padding:20px;">
+<div class="insert" style="width:80%;background-color:white;padding:20px;border:thin dotted black;">
 
 <h4>Why are you doing this project? </h4>
 What issues are you trying to resolve and why?
@@ -48,27 +48,27 @@ Goal 2: The Detroit Community Technology Project will hold <span style="color:re
 
 Now define 3 to 5 goals for your project. Use the color coding to identify what is measurable, the time frame, and the specific details of your goal. 
 
-<div class="insert" style="width:80%;background-color:#f8f8f8;padding:20px;">
+<div class="insert" style="width:80%;background-color:white;padding:20px;border:thin dotted black;">
 
-**(name of your project)  will ...**
+<strong>(name of your project)  will ...</strong>
 <br/><br/><br/>
 
  
 
-**(name of your project)  will ...**
+<strong>(name of your project)  will ...</strong>
 <br/><br/><br/>
 
 
-**(name of your project)  will ...**
-<br/><br/><br/>
-
- 
-**(name of your project)  will ...**
+<strong>(name of your project)  will ...</strong>
 <br/><br/><br/>
 
  
+<strong>(name of your project)  will ...</strong>
+<br/><br/><br/>
 
-**(name of your project)  will ...**
+ 
+
+<strong>(name of your project)  will ...</strong>
 <br/><br/><br/>
 
   
@@ -86,7 +86,7 @@ Here are a few examples of measurement tools you may want to try:
 
 The questions below will help you draw out what approach will work best for each goal. 
 
-<div class="insert" style="width:80%;background-color:#f8f8f8;padding:20px;">
+<div class="insert" style="width:80%;background-color:white;padding:20px;border:thin dotted black;">
 
 <h4>Goal:</h4>
 <ol>
@@ -124,7 +124,7 @@ Using the goals you developed for your project, identify milestones or specified
 
 *Note you should have at least 1 milestone per month of your project.
 
-<div class="insert" style="width:80%;background-color:#f8f8f8;padding:20px;">
+<div class="insert" style="width:80%;background-color:white;padding:20px;border:thin dotted black;">
 
 <h4>Milestone:</h4>
 
