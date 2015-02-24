@@ -87,20 +87,20 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 	</tr>
 	<tr>
 		<td>Role of the Pink Nodes:
-		<br /><br /> __________________________________
+		<br /><br /> _______________________________
 		<br /><br />
 		Relationship between nodes:
-		<br /><br /> __________________________________
+		<br /><br /> _______________________________
 		</td>
 		<td>
 		Role of the Yellow nodes:
-		<br /><br /> __________________________________
+		<br /><br /> _______________________________
 		<br /><br /> 
 		Role of the Blue nodes:
-		<br /><br /> __________________________________
+		<br /><br /> _______________________________
 		<br /><br />
 		Relationship between nodes:
-		<br /><br /> __________________________________
+		<br /><br /> _______________________________
 		</td>
 	</tr>
 </table>
