@@ -1,7 +1,7 @@
 ---
 layout: collection
 definition: project-planning
-categories: [docs, project-planning]
+categories: [docs, project-planning, tools]
 title: Tools to help define and plan projects
 post_author: oti
 abstract: 

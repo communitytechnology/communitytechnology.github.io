@@ -33,10 +33,11 @@
 	    {% else %}
 	      <li class="highlight"><a href="{{site.baseurl}}/{{data.baseurl}}/index.html#{{node.id}}">{{node.title}}</a></li>
 	      <ul>
-	      {% for post in site.categories[node.id] %}
+	      {% for post in site.categories[node.id] reversed %}
 	       {% if post.categories contains data.categories[1] %}
+                {% if post.redirect %}{% assign url = post.redirect %} {% else %} {% assign url=post.url %}{% endif %}
 	        {% if post.title == page.title %} {% assign highlight = "highlight" %} {% else %} {% assign highlight = "" %} {% endif %}
-	         <li class="{{highlight}}"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+	         <li class="{{highlight}}"><a href="{{url}}">{{post.title}}</a></li>
 	     {% endif %}
 	    {% endfor %}
 	    </ul>

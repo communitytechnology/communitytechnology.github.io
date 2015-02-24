@@ -1,9 +1,8 @@
 ---
-layout: default
-title: Explore Community Technology
-tagline: Questioning our digital environment
+layout: collection
+title: Questioning our digital environment
 definition: intro-ct
-categories: 
+categories: [docs, intro-ct, activities]
 created: 2013-09-20
 changed: 2014-03-04
 post_author: oti
@@ -11,6 +10,7 @@ abstract:
 lang: en
 ---
 
+<h2>Community Technology</h2>
 <h3>Overview</h3>
 Community technology is a principled approach to technology projects that places value on equity, participation, common ownership and sustainability.  It is an alternative vision of technology in which communities and neighborhoods have direct control over their digital communications, allowing for greater self determination and power over our shared digital voices. 
 
