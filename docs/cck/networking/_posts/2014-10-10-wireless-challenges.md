@@ -2,13 +2,12 @@
 layout: collection
 title: Design Your Network - Wireless Challenges
 site_section: docs
-sub_section: [cck,cck-networking]
+description: An activity to think about wireless issues that come up, to help improve network planning and troubleshooting.
 pdf: cck/networking/CCK-Wireless_Challenges.pdf
-pdf-all: true
-categories: 
+pdf-all: false
 created: 2013-11-04
 changed: 2014-08-04
-post_author: critzo
+post_author: Andy Gunn
 lang: en
 ---
 <p><img src="{{site.baseurl}}/files/styles/large/public/CCK_Wireless_Challenges_intro_graphic.png" /></p>

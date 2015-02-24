@@ -1,9 +1,9 @@
 ---
 layout: collection
 title: Introduction to Mesh
+description: An introduction to mesh and network properties.
 pdf: cck/networking/2-Introduction_to_Mesh.pdf
 pdf-all: true
-categories: 
 created: 2013-11-11
 changed: 2013-12-02
 lang: en

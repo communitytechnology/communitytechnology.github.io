@@ -2,10 +2,9 @@
 layout: collection
 title: Learn Wireless Basics
 site_section: docs
-sub_section: [cck,cck-networking]
+description: An introduction to how wireless technology works.
 pdf: cck/networking/Learn_Wireless_Basics.pdf
 pdf-all: false
-categories: Networking, Wireless, CCK
 created: 2014-06-13
 changed: 2014-06-13
 post_author: Andy Gunn

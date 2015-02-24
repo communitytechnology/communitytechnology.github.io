@@ -2,13 +2,12 @@
 layout: collection
 title: Learn Networking Basics
 site_section: docs
-sub_section: [cck,cck-networking]
+description: An introductory guide to networking.
 pdf: cck/networking/CCK-Learn_Networking_Basics.pdf
 pdf-all: true
-categories: 
 created: 2013-11-07
 changed: 2014-08-22
-post_author: critzo
+post_author: Andy Gunn
 lang: en
 ---
 <section id="introduction">
