@@ -24,6 +24,7 @@ body {
 
 .small-caps {
  font-variant: small-caps;
+ font-weight: bold;
 }
 
 h1,h2,h3,h4 {

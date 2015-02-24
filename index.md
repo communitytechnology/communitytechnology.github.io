@@ -52,7 +52,7 @@ grid-old:
 ---
  
 
-<p class="section" style="font-size:1.2em;">A collective resource for <span class="small-caps">
+<p style="font-size:1.2em;">A collective resource for <span class="small-caps">
 digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community infrastructure</span>. </p>
 <p>These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome contributions. </p>
 
