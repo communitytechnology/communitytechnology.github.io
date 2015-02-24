@@ -30,8 +30,8 @@ grid:
    image: /icons/projectplanning.svg
  - facilitation:
    title: Facilitation Tools
-   text: Tools for facilitating community projects. (coming soon)
-   url:
+   text: Tools for facilitating community projects (draft).
+   url: https://docs.google.com/document/d/1FB31l1vAN8HGEP-j8dLKIs7jbj-P68cum-t3Z8fxy5M/edit?usp=sharing
    image: /icons/facilitation.svg
 grid-old:
  - tips:
