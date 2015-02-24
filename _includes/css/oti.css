@@ -200,6 +200,15 @@ figure {
     background-color: white;
 }
 
+
+.insert {
+ background-color:white;
+ padding:20px;
+ border:thin dotted black;
+ margin: 20px 10px;
+}
+
+
 p.tip {
     border-bottom: 1px dashed #FE739B;
     border-top: 1px dashed #FE739B;

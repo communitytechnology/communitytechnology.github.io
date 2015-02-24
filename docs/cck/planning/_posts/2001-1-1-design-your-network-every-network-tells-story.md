@@ -5,8 +5,8 @@ description: A game that helps communities think through network planning and th
 pdf: cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story.pdf
 pdf-all: true
 files:
-  French: cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story_FR.pdf
-  Game (FR): cck/planning/ENTAS_GAME_FR.pdf
+  French: /files/cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story_FR.pdf
+  Game (FR): /files/cck/planning/ENTAS_GAME_FR.pdf
 created: 2013-09-27
 changed: 2014-03-04
 lang: en

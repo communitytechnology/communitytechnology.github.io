@@ -1,18 +1,18 @@
 ---
-layout: default
-title: Project Planning
-tagline: Planning and Metrics Worksheet
-categories: 
+layout: collection
+definition: project-planning
+title: Planning and Metrics Worksheet
+description: The purpose of this worksheet is to draw out the best method(s) to measure the progress of your project. 
 created: 2013-09-20
 changed: 2014-03-04
-post_author: oti
+post_author: amp
 abstract: 
+files: 
+ gdoc: https://docs.google.com/document/d/1NjJW0hOKY8HQos98jhVWJWULN6s-C5X8ysy31eFSZ0M/edit?usp=sharing
 lang: en
 ---
 
-## DEVELOPING PROJECT METRICS
-
-[ Google Docs Worksheet <a href="https://docs.google.com/document/d/1NjJW0hOKY8HQos98jhVWJWULN6s-C5X8ysy31eFSZ0M/edit?usp=sharing">HERE</a> ]
+<h2>Developing Project Metrics</h2>
 
 The purpose of this worksheet is to draw out the best method(s) to measure the progress of your project. There are three sections to this worksheet:
 
@@ -20,20 +20,20 @@ The purpose of this worksheet is to draw out the best method(s) to measure the p
 2. Identifying your goal measurement methods, and 
 3. Identifying milestones.  
  
-### Understanding the purpose of your project.
+<h3>Understanding the purpose of your project.</h3>
 Answer the questions below to flesh out the purpose and trajectory of your project.
 
-<div class="insert" style="width:80%;background-color:white;padding:20px;border:thin dotted black;">
+<div class="insert">
 
-<h4>Why are you doing this project? </h4>
+<h5>Why are you doing this project? </h5>
 What issues are you trying to resolve and why?
 <br/><br/><br/> 
 
-<h4>What kind of impact do you wish to create throughout your project?</h4>
+<h5>What kind of impact do you wish to create throughout your project?</h5>
 Who will be impacted and why is this important? 
 <br/><br/><br/> 
 
-<h4>What does success look like?</h4>
+<h5>What does success look like?</h5>
 What type of impact would you like to make in your community?
 What does that impact look like?
 <br/><br/><br/>
@@ -41,7 +41,7 @@ What does that impact look like?
 </div>
 
 
-### Setting Project Goals
+<h3>Setting Project Goals</h3>
 Read through your answers above. Look for themes and concrete statements that describe the work you will be doing. Use the template below to develop at least 3 to 5 goals that reflect your answers above. Goals should be <span style="color:red;">measurable</span>, connected to a <span style="color:orange;">time frame</span>, and be <span style="color:green;">specific</span>. Here are a few examples: 
 
 Goal 1: The Detroit Community Technology Project will develop at least <span style="color:red;">15 community technologists</span> through a community training in the <span style="color:orange;">summer of 2015</span> that will go on to build a <span style="color:green;">15 node mesh network in 4 neighborhoods</span>. 
@@ -50,7 +50,7 @@ Goal 2: The Detroit Community Technology Project will hold <span style="color:re
 
 Now define 3 to 5 goals for your project. Use the color coding to identify what is measurable, the time frame, and the specific details of your goal. 
 
-<div class="insert" style="width:80%;background-color:white;padding:20px;border:thin dotted black;">
+<div class="insert">
 
 <strong>(name of your project)  will ...</strong>
 <br/><br/><br/>
@@ -75,9 +75,12 @@ Now define 3 to 5 goals for your project. Use the color coding to identify what 
 
   
 </div>
+
+
   
-### Identifying goal measurement methods
-There are several ways you can measure goals. What you are measuring will determine how to collect the data you need. If you are doing a training and want to measure how well you transferred skills and how many people you trained - in order to better understand your teaching methods, you may want to track attendance and do a pre and post skills assessment. If your goals are less about numbers and more about self transformation or relationship building you may want to collect testimonials by creating surveys that allow people to share their stories rather than circle “yes” or “no”. 
+<h3>Identifying goal measurement methods</h3>
+
+<p>There are several ways you can measure goals. What you are measuring will determine how to collect the data you need. If you are doing a training and want to measure how well you transferred skills and how many people you trained - in order to better understand your teaching methods, you may want to track attendance and do a pre and post skills assessment. If your goals are less about numbers and more about self transformation or relationship building you may want to collect testimonials by creating surveys that allow people to share their stories rather than circle “yes” or “no”. </p>
 
 Here are a few examples of measurement tools you may want to try:
 - Pre- and Post-test 
@@ -88,9 +91,8 @@ Here are a few examples of measurement tools you may want to try:
 
 The questions below will help you draw out what approach will work best for each goal. 
 
-<div class="insert" style="width:80%;background-color:white;padding:20px;border:thin dotted black;">
-
-<h4>Goal:</h4>
+<div class="insert">
+<h5>Goal:___________________</h5>
 <ol>
 <li>What in this goal is measurable? </li>
 <li>Why do you want to measure that?</li>
@@ -99,7 +101,7 @@ The questions below will help you draw out what approach will work best for each
 <li>How will you measure this goal? </li>
 </ol>
 
-<h4>Goal:</h4>
+<h5>Goal:___________________</h5>
 <ol>
 <li>What in this goal is measurable? </li>
 <li>Why do you want to measure that?</li>
@@ -108,7 +110,7 @@ The questions below will help you draw out what approach will work best for each
 <li>How will you measure this goal? </li>
 </ol>
 
-<h4>Goal:</h4>
+<h5>Goal:___________________</h5>
 <ol>
 <li>What in this goal is measurable? </li>
 <li>Why do you want to measure that?</li>
@@ -119,16 +121,18 @@ The questions below will help you draw out what approach will work best for each
 
 </div>
 
-### Identifying milestones
+
+
+<h3>Identifying milestones</h3>
 Milestones can be events, the completion of lesson plans, specific meetings, the completion of a flyer design, the completion of a website, installation of equipment, or a decision that needed to be made that will impact the future of the program - or any other important progress made on the project
 
 Using the goals you developed for your project, identify milestones or specified points in your project that will lead you closer to reaching your goals. 
 
 *Note you should have at least 1 milestone per month of your project.
 
-<div class="insert" style="width:80%;background-color:white;padding:20px;border:thin dotted black;">
+<div class="insert">
 
-<h4>Milestone:</h4>
+<h5>Milestone:_____________________</h5>
 
 Date:<br/>
 
@@ -140,7 +144,7 @@ Point Person:<br>
 NOTES:
 <br/><br/><br/>
 
-<h4>Milestone:</h4>
+<h5>Milestone:_____________________</h5>
 
 Date:<br/>
 
@@ -152,47 +156,46 @@ Point Person:<br/>
 NOTES:
 <br/><br/><br/>
 
+ <h5>Milestone:_____________________</h5>
+
+Date:<br/>
+
+Task(s) needed to reach milestone:
+<br/><br/><br/>
+
+Point Person:<br/>
+
+NOTES:
+<br/><br/><br/>
+
+
+<h5>Milestone:_____________________</h5>
+
+
+Date:<br/>
+
+Task(s) needed to reach milestone:
+<br/><br/><br/>
+
+Point Person:<br/>
+
+NOTES:
+<br/><br/><br/>
+
+
+<h5>Milestone:_____________________</h5>
+
+Date:<br/>
+
+Task(s) needed to reach milestone:
+<br/><br/><br/>
+
+Point Person:<br/>
+
+NOTES:
+<br/><br/><br/>
  
-<h4>Milestone:</h4>
-
-Date:<br/>
-
-Task(s) needed to reach milestone:
-<br/><br/><br/>
-
-Point Person:<br/>
-
-NOTES:
-<br/><br/><br/>
-
-
-
-<h4>Milestone:</h4>
-
-Date:<br/>
-
-Task(s) needed to reach milestone:
-<br/><br/><br/>
-
-Point Person:<br/>
-
-NOTES:
-<br/><br/><br/>
-
-
-<h4>Milestone:</h4>
-
-Date:<br/>
-
-Task(s) needed to reach milestone:
-<br/><br/><br/>
-
-Point Person:<br/>
-
-NOTES:
-<br/><br/><br/>
- 
-<h4>Milestone:</h4>
+<h5>Milestone:_____________________</h5>
 
 
 Date:<br/>
@@ -208,4 +211,4 @@ NOTES:
 </div>
 
 
-[ Google Docs Worksheet <a href="https://docs.google.com/document/d/1NjJW0hOKY8HQos98jhVWJWULN6s-C5X8ysy31eFSZ0M/edit?usp=sharing">HERE</a> ]
+<p>[ Google Docs Worksheet <a href="https://docs.google.com/document/d/1NjJW0hOKY8HQos98jhVWJWULN6s-C5X8ysy31eFSZ0M/edit?usp=sharing">HERE</a> ]</p>

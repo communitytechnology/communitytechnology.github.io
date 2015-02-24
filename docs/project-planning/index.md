@@ -1,23 +1,19 @@
 ---
-layout: default
-title: Project Planning
-tagline: Tools to help define and plan projects
-categories: 
-created: 2013-09-20
-changed: 2014-03-04
+layout: collection
+definition: project-planning
+categories: [docs, project-planning]
+title: Tools to help define and plan projects
 post_author: oti
 abstract: 
 lang: en
 ---
 
-
-<h2>1. <a href="metrics-worksheet.html">Project Metrics and Goals Worksheet</a></h2>
-
-<p>The purpose of this worksheet is to draw out the best method(s) to measure the progress of your project. </p>
-
-
-<p>more coming soon...</p>
+{% include toc.html definition=page.definition %}
 
 <!--
-<h2>Generating Big Questions</h2>
+<ol>
+<li><a href="tools/metrics-worksheet.html">Project Metrics and Goals Worksheet</a>: The purpose of this worksheet is to draw out the best method(s) to measure the progress of your project. </li>
+
+<li><a href="tools/big-questions.html">Creating Big Questions for Investigation</a>: When you want to create a participatory framework for people to work within, generating big questions is a good place to start. Big questions offer a structure for focused investigation and understanding the root of the problem. Here are a few steps to help facilitate a group in generating big questions when starting a new project.</li>
+</ol>
 -->

@@ -57,9 +57,9 @@
       {% if page.files %}
         {% for file in page.files %}
           <div class="cck-download-pdf">
-	    <a href="{{site.baseurl}}/files/{{file[1]}}"><img src="{{site.baseurl}}/files/CCK_file.png" alt="Download File"></a>
+	    <a href="{{file[1]}}"><img src="{{site.baseurl}}/files/CCK_file.png" alt="Download File"></a>
 	  </div>
-	  <span class="cck-download"><a href="{{site.baseurl}}/files/{{file[1]}}">Download {{file[0]}}</a></span>
+	  <span class="cck-download"><a href="{{file[1]}}">Download {{file[0]}}</a></span>
 	{% endfor %}
       {% endif %}
     <!-- END DOWNLOAD -->
