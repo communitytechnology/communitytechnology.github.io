@@ -18,7 +18,7 @@ Once you have a Github account,
 
 <li>make other suggestions here: <a href="https://github.com/communitytechnology/communitytechnology.github.io/issues/new">submit an issue</a></li>
 
-<li>or, edit a page using the edit (pencil) button from within the <a href="https://github.com/communitytechnology/communitytechnology.github.io">repository</a></li>
+<li>or, most of the pages have a button to "Submit a Comment" or "Make a Suggestion"</li>
 </ul>
 
 When you add or edit a page, you will need to click "Submit Pull Request" for your changes/additions to be considered.
