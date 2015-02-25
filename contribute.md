@@ -7,7 +7,9 @@ lang: en
 
 <h2>How to Contribute?</h2>
 
-communitytechnology.github.io is housed in this <a href="https://github.com/communitytechnology/communitytechnology.github.io">GitHub repository</a>. We hope GitHub will be useful for collaboration, but it means that you will need a GitHub account to participate.
+communitytechnology.github.io is housed in this <a href="https://github.com/communitytechnology/communitytechnology.github.io">GitHub repository</a>. 
+
+We hope GitHub will be useful for collaboration, but it means that you will need a GitHub account to participate.
 
 Once you have a Github account,  
 
