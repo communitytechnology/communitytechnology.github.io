@@ -1,15 +1,14 @@
 Community Technology Field Notes
 ===
 
-**Future home of the readme.**
-
-Comments and questions about the content are more than welcome, please submit them using new issues and pull requests.
+Comments and questions about the content are welcome, please submit them using new issues and pull requests.
 
 Please fork this repo. Add and edit content. Send back pull requests.
 
 ##Adding a Module to a Collection
 
 At the top of a module, use the following example:
+```
 ---
 layout: collection
 title: YOUR TITLE
@@ -19,7 +18,7 @@ files:
   Inkscape (sla): /files/cck/intro/intro.sla
 lang: en
 ---
-
+```
 
 ##Adding Content Guides or Collections
 
