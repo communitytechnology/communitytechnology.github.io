@@ -5,17 +5,19 @@ tagline: Collaborate on GitHub
 lang: en
 ---
 
-<h1>How to Contribute?</h1>
+<h2>How to Contribute?</h2>
 
 communitytechnology.github.io is housed in this <a href="https://github.com/communitytechnology/communitytechnology.github.io">GitHub repository</a>. We hope GitHub will be useful for collaboration, but it means that you will need a GitHub account to participate.
 
 Once you have a Github account,  
 
-+ suggest new content here: <a href="https://github.com/communitytechnology/communitytechnology.github.io/new/master">add a page</a>
+<ul>
+<li>suggest new content here: <a href="https://github.com/communitytechnology/communitytechnology.github.io/new/master">add a page</a></li>
 
-+ make other suggestions here: <a href="https://github.com/communitytechnology/communitytechnology.github.io/issues/new">submit an issue</a>
+<li>make other suggestions here: <a href="https://github.com/communitytechnology/communitytechnology.github.io/issues/new">submit an issue</a></li>
 
-+ or, edit a page using the edit (pencil) button from within the <a href="https://github.com/communitytechnology/communitytechnology.github.io">repository</a>
+<li>or, edit a page using the edit (pencil) button from within the <a href="https://github.com/communitytechnology/communitytechnology.github.io">repository</a></li>
+</ul>
 
 When you add or edit a page, you will need to click "Submit Pull Request" for your changes/additions to be considered.
 
