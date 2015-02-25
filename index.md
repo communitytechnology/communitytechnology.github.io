@@ -54,7 +54,7 @@ grid-old:
 
 <p style="font-size:1.2em;">A collective resource for <span class="small-caps">
 digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community infrastructure</span>. </p>
-<p>These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome contributions. </p>
+<p>These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome <a href="contributions.html">contributions</a>.</p>
 
 
 <div class="grid home-width">
@@ -109,7 +109,7 @@ digital stewardship</span>, <span class="small-caps">digital justice</span> and 
 
 <div id="contribute" class="section">
   <h3>Contribute</h3>
-  <p>You can start by submitting content, comments or questions by adding a new issue to the <a href="http://github.com/communitytechnology/communitytechnology.github.io/issues/new">repository</a> (you will need a <a href="https://github.com">GitHub</a> account). </p>
+  <p>You can start by submitting content, comments or questions by adding a new issue to the <a href="http://github.com/communitytechnology/communitytechnology.github.io/issues/new">repository</a> (you will need a <a href="https://github.com">GitHub</a> account). <a href="contributions.html">More on collaborating...</a></p>
 </div>
 
 <div id="other-resources" class="section">
