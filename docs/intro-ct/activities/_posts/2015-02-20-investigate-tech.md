@@ -43,7 +43,7 @@ published: true
 
 <p>Divide into groups of 3-5, and select one of the technologies you have brainstormed. Together, answer the following questions about that technology. One person in the group can write down the answers.</p>
 
-<p><img src="/<a href=">https://drive.google.com/a/opentechinstitute.org/file/d/0BwVu7eNQIHs-OC1CTzNsMDZaZkU/edit?usp=sharing” alt=”Diagram of Questions” title=”” /&gt;</p>
+<p><img src="/<a href="/files/intro-ct/investigate-technology-questions.png” alt=”Diagram of Questions”></p>
 
 <p><strong>Ownership</strong> <br>
 1. Who owns the technology?  <br>
