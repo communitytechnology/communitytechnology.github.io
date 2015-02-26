@@ -43,7 +43,7 @@ published: true
 
 <p>Divide into groups of 3-5, and select one of the technologies you have brainstormed. Together, answer the following questions about that technology. One person in the group can write down the answers.</p>
 
-<p><img src="/files/intro-ct/investigate-technology-questions.png"></p>
+<p><img src="/files/intro-ct/investigate-technology-questions.svg" style="background-color:white;"></p>
 
 <p><strong>Ownership</strong> <br>
 1. Who owns the technology?  <br>
