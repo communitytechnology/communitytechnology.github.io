@@ -29,9 +29,9 @@ Using this collection of activities, participants can start to define community 
 
 <h3>Activities</h3>
 <ul>
-<li><A href="https://docs.google.com/document/d/1FKZWC7IccLOEizhMgIBddajS57oNhnX9CY72NKyr8b8/edit?usp=sharing">Investigate Technology</a>: Investigate the properties of common technologies, understand how these technologies impact the community, and identify community-based alternatives. </li>
+<li><A href="/docs/intro-ct/activities/investigate-tech/">Investigate Technology</a>: Investigate the properties of common technologies, understand how these technologies impact the community, and identify community-based alternatives. </li>
 
-<li><a href="https://docs.google.com/a/opentechinstitute.org/document/d/1xczsTfVE-0x8R_43QY__Sx5poLixYUrUGPdr0EnhduU/edit?usp=sharing">Digital Justice Principles</a>: Define shared principles and identify the existing and needed work to implement these principles.</li>
+<li><a href="/docs/intro-ct/activities/dj-principles/">Digital Justice Principles</a>: Define shared principles and identify the existing and needed work to implement these principles.</li>
 
 <li><a href="https://docs.google.com/document/d/1u_p61Ub2aXmJwbjZ-2f_oKR_57iDtTQaNiTIeziG5V0/edit?usp=sharing">Digital Stewardship</a>: Describe and identify community organizers that work on digital justice issues in the community.</li>
 </ul>
