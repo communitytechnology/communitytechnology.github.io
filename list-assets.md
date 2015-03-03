@@ -7,7 +7,7 @@ post_author: oti
 lang: en
 ---
 
-Mix and match to make flyers, activities or maps. These images were made by <a href="http://www.theworkdept.com/">The Work Department</a> and the <a href="http://opentechinstitute.org">the Open Technology Institute</a>, and are used in the Neighborhood Network Construction Kit. If you use them, please share your work with us.
+Mix and match to make flyers, activities or maps. These images were made by <a href="http://www.theworkdept.com/">The Work Department</a> and the <a href="http://opentechinstitute.org">Open Technology Institute</a>, and are used in the Neighborhood Network Construction Kit. If you use them, please share your work with us.
 
 <div class="grid">
 {% for set in site.data.assets %}
