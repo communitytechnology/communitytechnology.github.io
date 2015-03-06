@@ -1,10 +1,11 @@
 ---
 layout: collection
-definition: intro-ct
+definition: "intro-ct"
 title: Digital Justice Principles
-description: 
+description: null
 post_author: oti
 lang: en
+published: true
 ---
 
 ##Shared Principles
@@ -15,7 +16,7 @@ These activities are designed for groups to critically examine digital justice i
 
 ##Activity 1: Identify Digital Justice Issues
 
-<em>From Virginia Eubanks, <a href="http://digitaldeadend.com/poptech/">Popular Technology Workshops</a> <a href="https://twitter.com/poptechworks">@PopTechWorks</a></em>
+<em>*This activity is from <a href="http://digitaldeadend.com/poptech/">Popular Technology Workshops</a> by Virginia Eubanks (<a href="https://twitter.com/poptechworks">@PopTechWorks</a>). Popular Technology Workshops contains many more activities to support community organizing work around digital justice. </em>
 
 Often the words “problem” and “issue” are used interchangeably or sometimes a problem is mistaken as an issue. More importantly, not all issues offer the opportunity to work towards justice, dignity, equality and self-determination for all people. Choosing a DIGITAL JUSTICE ISSUE to work on early in the process will help your campaign or organization have a clear vision, build coalition with others, and avoid excluding important stakeholders.
  
@@ -31,7 +32,7 @@ Often the words “problem” and “issue” are used interchangeably or someti
 issue below:
  
 <table>
-<tr><td>PROBLEM</td><td>ISSUE</td><td>DIGITAL JUSTICE ISSUE</td></tr>
+<tr><td><strong>PROBLEM</strong></td><td><strong>ISSUE</strong></td><td><strong>DIGITAL JUSTICE ISSUE</strong></td></tr>
 <tr><td style="vertical-align:top;">
 <em>Based on individual/personal issue</em><br/><br/>
 Ex. I might lose my job because my duties can now be done by a machine.<br /><br/>
