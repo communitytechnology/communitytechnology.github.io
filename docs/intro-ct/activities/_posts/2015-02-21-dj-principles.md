@@ -9,13 +9,13 @@ lang: en
 
 ##Shared Principles
 
-Technology has been both a tool for positive social change and a tool for new or increased social conflict. Technology impacts the environment, jobs, government services, discrimination, local media, education systems, etc. In some cases these impacts have been positive, and in some cases these impacts have been negative.
+Technology has been both a tool for positive social change and a tool for new or increased social conflict. Technology mediates many of our interactions with government, media, health, education systems, our jobs, and each other. In some cases these interactions have been positive, and in some cases these interactions have been negative. Who has a voice in how technologies are built and controlled, and who has access to the technology?
 
-These activities are designed for groups to think critically about the relationship between technology and social justice in their communities. There are many ways this topic could be explored, below are sample activities that can be modified depending on the group size, goals and time.
+These activities are designed for groups to critically examine digital justice issues in their communities. There are many ways this topic could be explored, below are sample activities that can be modified depending on the group size, goals and time.
 
 ##Activity 1: Identify Digital Justice Issues
 
-_From Virginia Eubanks, Popular Technology Workshops_
+<em>From Virginia Eubanks, <a href="http://digitaldeadend.com/poptech/">Popular Technology Workshops</a> <a href="https://twitter.com/poptechworks">@PopTechWorks</a></em>
 
 Often the words “problem” and “issue” are used interchangeably or sometimes a problem is mistaken as an issue. More importantly, not all issues offer the opportunity to work towards justice, dignity, equality and self-determination for all people. Choosing a DIGITAL JUSTICE ISSUE to work on early in the process will help your campaign or organization have a clear vision, build coalition with others, and avoid excluding important stakeholders.
  
@@ -27,7 +27,7 @@ Often the words “problem” and “issue” are used interchangeably or someti
  - Markers;  
  - Sticky dots
 
-Read the difference between a problem, issue, and social justice 
+1- Read the difference between a problem, issue, and social justice 
 issue below:
  
 <table>
@@ -49,13 +49,14 @@ Ex. The city government is investing in resources that serve creative profession
 </td></tr>
  </table>
 
-Each person should identify 3 digital justice issues in the community and write them down. Everyone should be able to finish in 5-10 minutes.
+2- Each person should identify 3 digital justice issues in the community and write them down. Everyone should be able to finish in 5-10 minutes.
 
-In the group, everyone should read their issues. Write down the digital justice issues on the wall.
+3- In the group, everyone should read their issues. Write down the digital justice issues on the wall.
  
-Give each person three sticky dots. Using the dots, each person should vote on what three issues they feel most passionate about by putting the dot on that issue. Count up votes and identify top three.
+4- Give each person three sticky dots. Using the dots, each person should vote on what three issues they feel most passionate about by putting the dot on that issue. Count up votes and identify top three.
  
-Collectively, use the checklist below to help determine the strength and viability of each of those three digital justice issues as an opportunity for collective action.  
+5- Collectively, use the checklist below to help determine the strength and viability of each of those three digital justice issues as an opportunity for collective action. Write this chart in a place where everyone in the group can see it.
+
 
 |Issue #1|Issue #2|Issue #3|Will the issue….|
 |yes/no|yes/no|yes/no|Result in a real improvement in people’s lives?|
@@ -67,9 +68,9 @@ Collectively, use the checklist below to help determine the strength and viabili
 ||||Build leadership?|
 ||||Provide community access or training opportunities?|
  
-Put this chart in a place where everyone in the group can see it.
 
-Based on these factors, what issue would you like to work on first? Why?  
+6- Based on these factors, discuss what issue would you like to work on first? Why? Write the issue where everyone in the group can see it.
+
 
 ##Activity 2: Identify Digital Justice Principles
 
