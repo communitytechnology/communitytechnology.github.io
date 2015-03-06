@@ -10,9 +10,9 @@ published: true
 
 ##Shared Principles
 
-Technology has been both a tool for positive social change and a tool for new or increased social conflict. Technology mediates many of our interactions with government, media, health, education systems, our jobs, and each other. In some cases these interactions have been positive, and in some cases these interactions have been negative. Who has a voice in how technologies are built and controlled, and who has access to the technology?
+Technology has been both a tool for positive social change and a tool for new or increased social conflict. Technology mediates many of our interactions with government, media, health, education systems, our jobs, and each other. As the role of technology has increased or changed, how are people in our communities impacted? Who is positively impacted and who is negatively impacted? Who has a voice in how the technology is built and controlled?
 
-These activities are designed for groups to critically examine digital justice issues in their communities. There are many ways this topic could be explored, below are sample activities that can be modified depending on the group size, goals and time.
+These activities are designed for to critically examine digital justice issues in our communities. There are many ways this topic could be explored, below are sample activities that can be modified depending on the group size, goals and time.
 
 ##Activity 1: Identify Digital Justice Issues
 
@@ -27,6 +27,8 @@ Often the words “problem” and “issue” are used interchangeably or someti
  - A place to take notes;  
  - Markers;  
  - Sticky dots
+
+**Activity:**
 
 1- Read the difference between a problem, issue, and social justice 
 issue below:
