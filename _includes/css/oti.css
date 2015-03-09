@@ -130,6 +130,8 @@ figure {
 .collection-content {
     background-color: #eae8e8;
     padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: thin solid darkgray;
 }
 
 .collection-content img {
