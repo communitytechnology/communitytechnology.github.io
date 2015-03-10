@@ -25,7 +25,9 @@
 	<div id="sidemenu">
 	  <ul>
 	    <li style="background-color:{{site.data.colors.lightblack}};padding:10px 10px;font-weight:600;color:{{site.data.colors.white}}">Content</li>
-	    {% assign thissection = page.categories[2] %} 
+
+	    <!-- thisection is defined as the final category of the page -->
+	    {% assign thissection = page.categories | last %} 
 
 	    {% for node in data.sections %}
 	    {% if node.id != thissection %}
