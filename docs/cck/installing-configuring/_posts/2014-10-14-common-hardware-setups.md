@@ -19,7 +19,10 @@ lang: en
 
 <p>When planning and building a network, you will need to install the wireless node or nodes that make the most sense for each site. In most cases, a single wireless node on a rooftop or in a window will connect to nearby neighbors and form a mesh. In some cases, this wireless node may be connected by Ethernet cable to a gateway connection to the Internet, sharing it with those neighbors. In other cases, the node will be connected by Ethernet cable to one or more computers inside the building, some of which may be sharing local applications. In almost all cases, rooftop or window wireless nodes will have Access Points enabled to allow people to connect to the network wirelessly.</p>
 
-<p>The instructions below are designed to show you how to configure and install the hardware in these different ways. Each configuration listed below describes the settings you should change to make the network work according to your plans. These are the three most common configurations of Commotion nodes - if you have more complex needs or want to install multiple nodes at a single site, please consult the <a href="{{site.baseurl}}/docs/cck/installing-configuring/advanced-hardware-setups/">Advanced Hardware Setups</a> guide.</p>
+<p>The instructions below are designed to show you how to configure and install the hardware in these different ways. Each configuration listed below describes the settings you should change to make the network work according to your plans. These are the three most common configurations of mesh routers - if you have more complex needs or want to install multiple nodes at a single site, please consult the <a href="{{site.baseurl}}/docs/cck/installing-configuring/advanced-hardware-setups/">Advanced Hardware Setups</a> guide.</p>
+
+<p><strong>Note:</strong> These instructions are for routers running <a href="https://www.commotionwireless.net">Commotion</a>, you will need to adapt the intructions if you are using another firmware.</p>
+
 </section>
 
 <section id="materials-and-supplies-needed">

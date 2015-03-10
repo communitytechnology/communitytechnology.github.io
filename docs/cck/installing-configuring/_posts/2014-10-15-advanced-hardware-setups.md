@@ -17,10 +17,16 @@ lang: en
 <section id="introduction">
 <h2>Introduction</h2>
 
-<p>For most community wireless networks, installing a few rooftop and window nodes will fit the needs of the neighborhood or town. For others, more complex installations and configurations will be required. This guide follows and is an advanced companion to <a href="{{site.baseurl}}/docs/cck/installing-configuring/common-hardware-setups/">Common Hardware Setups</a>, which covers the most common and basic Commotion configurations.</p>
+<p>For most community wireless networks, installing a few rooftop and window nodes will fit the needs of the neighborhood or town. For others, more complex installations and configurations will be required. This guide follows and is an advanced companion to <a href="{{site.baseurl}}/docs/cck/installing-configuring/common-hardware-setups/">Common Hardware Setups</a>, which covers the most common and basic wireless router configurations.</p>
 
 <p>Sometimes you will need to connect multiple nodes together at a single site, and this guide will help you do that. Some of the instructions below require some familiarity with networking concepts, so we recommend reading through <a href="{{site.baseurl}}/docs/cck/networking/learn-networking-basics/">Learn Networking Basics</a> first.</p>
+
+
+<p><strong>Note:</strong> These instructions are for routers running <a href="https://www.commotionwireless.net">Commotion</a>, you will need to adapt the intructions if you are using another firmware.</p>
+
+
 <p><img src="{{site.baseurl}}/files/CCK_CommonConfigs_buildings.png" style="max-width:590px;" /></p>
+
 </section>
 
 
