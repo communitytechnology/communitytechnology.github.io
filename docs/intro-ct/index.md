@@ -2,7 +2,7 @@
 layout: collection
 title: Questioning our Digital Environment
 definition: intro-ct
-categories: [docs, intro-ct, activities]
+categories: [docs, intro-ct]
 files:
  "digital justice principles (fr/en)": /files/DigitalJusticePrinciples.pdf
 created: 2013-09-20
@@ -29,9 +29,11 @@ Using this collection of activities, participants can start to define community 
 
 <h3>Activities</h3>
 <ul>
-<li><A href="/docs/intro-ct/activities/investigate-tech/">Investigate Technology</a>: Investigate the properties of common technologies, understand how these technologies impact the community, and identify community-based alternatives. </li>
+<li><A href="/docs/intro-ct/investigate-tech/">Investigate Technology</a>: Investigate the properties of common technologies, understand how these technologies impact the community, and identify community-based alternatives. </li>
 
-<li><a href="/docs/intro-ct/activities/dj-principles/">Digital Justice Principles</a>: Define shared principles and identify the existing and needed work to implement these principles.</li>
+<li><a href="/docs/intro-ct/dj-principles/">Digital Justice Principles</a>: Discuss and define shared social justice principals that can ground our collective work.</li>
+
+<li><a href="/docs/intro-ct/dj-principles/">Identify Digital Justice Issues</a>: Identify digital justice issues in your community, and examine the difference between problems, issues and DIGITAL JUSTICE ISSUES.</li>
 
 <li><a href="https://docs.google.com/document/d/1u_p61Ub2aXmJwbjZ-2f_oKR_57iDtTQaNiTIeziG5V0/edit?usp=sharing">Digital Stewardship</a>: Describe and identify community organizers that work on digital justice issues in the community.</li>
 </ul>
