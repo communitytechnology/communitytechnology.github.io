@@ -9,6 +9,11 @@
 
 {% assign data = site.data[definition] %}
 
+{% if data == null %}
+   {% assign data = site.data[default_collection] %}
+{% endif %}
+
+
 {% include header.html width="guide-width" title = data.title subtitle = page.title %}
 
 <section id="main_content" class="inner guide-width">
@@ -30,21 +35,21 @@
 	    {% assign thissection = page.categories | last %} 
 
 	    {% for node in data.sections %}
-	    {% if node.id != thissection %}
-	      <li class=""><a href="{{site.baseurl}}/{{data.baseurl}}/index.html#{{node.id}}">{{node.title}}</a></li>
-	    {% else %}
+	    {% if node.id == thissection or node.id == null %}
 	      <li class="highlight"><a href="{{site.baseurl}}/{{data.baseurl}}/index.html#{{node.id}}">{{node.title}}</a></li>
 	      <ul>
-	      {% for post in site.categories[node.id] reversed %}
-	       {% if post.categories contains data.categories[1] %}
+	      {% for post in site.categories[thissection] reversed %}
+ 	      {% if post.categories contains page.categories[1] %}
                 {% if post.redirect %}{% assign url = post.redirect %} {% else %} {% assign url=post.url %}{% endif %}
 	        {% if post.title == page.title %} {% assign highlight = "highlight" %} {% else %} {% assign highlight = "" %} {% endif %}
 	         <li class="{{highlight}}"><a href="{{url}}">{{post.title}}</a></li>
 	     {% endif %}
 	    {% endfor %}
 	    </ul>
-	    {% endif %}
-	    {% endfor %}
+	   {% else %}
+	      <li class=""><a href="{{site.baseurl}}/{{data.baseurl}}/index.html#{{node.id}}">{{node.title}}</a></li>
+	   {% endif %}
+	   {% endfor %}
 	  </ul>
 	</div>
       </div>

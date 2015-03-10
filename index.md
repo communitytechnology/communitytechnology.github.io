@@ -31,24 +31,8 @@ grid:
  - facilitation:
    title: Facilitation Tools
    text: Tools for facilitating community projects (draft).
-   url: https://docs.google.com/document/d/1FB31l1vAN8HGEP-j8dLKIs7jbj-P68cum-t3Z8fxy5M/edit?usp=sharing
+   url: /docs/facilitation/
    image: /icons/facilitation.svg
-grid-old:
- - tips:
-   title: Tips + Tricks
-   url: /docs/tips/index.html
-   image: /icons/idea.png
-   text: Collection of ideas
- - examples:
-   title: Projects
-   url: case_studies.html
-   image: /icons/map.svg
-   text: Partner projects we work with and learn from
- - blog:
-   title: Blog
-   url: /docs/blog/index.html
-   image: /icons/blog.png 
-   text: Updates from projects
 ---
  
 
