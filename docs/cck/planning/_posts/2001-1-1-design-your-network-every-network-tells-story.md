@@ -38,6 +38,8 @@ lang: en
 
 <p>Glue sticks</p>
 
+<p>Copies of the <a href="/files/cck/planning/ENTAS_GAME_EN.pdf">Game</a> or copies of this activity</p>
+
 <p>Router graphics from this packet</p>
 
 <p>Access to a copier (optional)</p>
@@ -45,7 +47,24 @@ lang: en
 <p>A printed copy of the "Design your Network: Construction Elements" module (optional)</p>
 </section>
 
+<section>
+<h3>Activity</h3>
+
+<ol>
+<li>Start out by going around the room and asking why people believe building a network in their community is important.</li>
+<li>Divide into groups of 5-6 people. </li>
+<li>Each group should have a large piece of paper to draw a map and a printout of the activity. Each group will also need 10-20 of each type of router (or they can draw the routers).</li>
+<li>Using the information below, the groups should read about the routers (taking turns) and the wireless rules. No expert needed!</li>
+<li>Next, each group can begin by drawing their community</li>
+<li>The groups should each discuss and map the places they could connect with the routers (hint: you might start with local organizations or public places).</li>
+<li>After the groups have finished, each group should present their map to everyone else.</li>
+</ol>
+
+
+</section>
+
 <section id="every-network-tells-a-story">
+
 <h2>Every Network Tells a Story Game Pieces</h2>
 
 <p>Wireless networks are built with wireless routers. Routers can speak, listen or repeat.</p>
