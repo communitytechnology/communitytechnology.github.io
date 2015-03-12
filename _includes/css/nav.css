@@ -16,12 +16,11 @@ nav {
 
 nav .nav-title {
   float: left;
-  margin-left: 20px;
+  margin-left: 0px;
   text-align:left;
   vertical-align: middle;
-  padding: 10px 15px;
+  padding: 10px 0px;
 }
-
 
 nav ul {
   list-style:none;

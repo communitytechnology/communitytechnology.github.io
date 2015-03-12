@@ -21,13 +21,33 @@
 	<div class="color3">&nbsp;</div>
 	<div class="color4">&nbsp;</div>
       </div>
+
+<!-- Drop down bars: menu-dropdown.css -->
+      <div id="primary_nav_wrap">
+	<ul>
+	  <li><i class="fa fa-bars"></i>
+	    <ul>
+	      <li><a href="/">Home</a></li>
+	      <li><a href="/docs/cck/">Do-it-ourselves Guide to Community Wireless</a></li>
+	      <li><a href="/docs/intro-ct/">Community Technology</a></li>
+	      <li><a href="/docs/project-planning/">Project Planning</a></li>
+	      <li><a href="/docs/facilitation/">Facilitation</a></li>
+	      <li><a href="/docs/blog/">Blog</a></li>
+	      <li><a href="/contribute.html">Contribute</a></li>
+	    </ul>
+	  </li>
+	</ul>
+      </div>
+<!-- END Drop down bars -->
+
       <div class="nav-title"><a href="{{site.baseurl}}/">{{site.title}}</a></div>
       <ul>
 	{% for node in site.data.menu %}
 	<li class=""><a href="{{site.baseurl}}/{{node.url}}">{{node.title}}</a></li>
 	{% endfor %}
       </ul>
-      <!--    <div id="homebutton">
+<!--
+	    <div id="homebutton">
 	      <div  class="faicon">
 		<span class="fa-stack">
 		  <a href="{{site.baseurl}}/index.html" id="homelink">
@@ -36,7 +56,8 @@
 		  </a>
 		</span>
 	      </div>
-	      -->
+	    </div>
+-->
     </nav>
     
     <div id="header_wrap" class="outer">
