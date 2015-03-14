@@ -1,5 +1,4 @@
 nav {
-  font-size:15px;
   width:100%;
   /* position:fixed;*/
   z-index: 101;
@@ -7,19 +6,10 @@ nav {
   left:0;
   background: #2e2e2e url({{site.baseurl}}/icons/pattern.png) repeat;
   line-height: 20px;
-  letter-spacing: 1px;
   text-transform: uppercase;
   vertical-align: middle;
   color: white;
   font-weight: normal;
-}
-
-nav .nav-title {
-  float: left;
-  margin-left: 0px;
-  text-align:left;
-  vertical-align: middle;
-  padding: 10px 0px;
 }
 
 nav ul {
@@ -33,7 +23,7 @@ nav ul li {
   display:inline-block;
   padding: 10px 15px; 
   *display:inline;
-  zoom:1;
+  /* zoom:1; */
   min-width:80px;
   max-width:150px;
   margin:0;
@@ -50,8 +40,6 @@ nav a, nav a:link, nav a:visited {
 nav a:hover {
   opacity:1
 }
-
-
 
 /* COLOR BAR */
 .color-bar {

@@ -1,19 +1,27 @@
-@media screen and (max-width: 620px) and (max-width: 480px) {
- .left-side { width: 100%; margin; 0; }
+/*******************************************************************************
+Small Device Styles
+*******************************************************************************/
+
+@media screen and (max-width: 620px) {
+ .left-side { width: 100%; min-width: 100%; max-width: 100%; margin; 0;}
  .right-side { width: 100%; margin: 0;}
  #sidemenu { margin: 0; }
- .grid {     border-spacing: 0; }
+ .grid { border-spacing: 0; }
  .grid-row {  display: block; }
  .grid-cell, .grid-gallery { width: 100%; float: left;}
+ #maintitle { font-size: 18px; }
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
- .left-side { width: 100%; margin; 0; }
+ .left-side { width: 100%; min-width: 100%; max-width: 100%; margin; 0;}
  .right-side { width: 100%; margin: 0;}
- #sidemenu { margin: 0; }
+  #sidemenu { margin: 0; font-size: 14px;}
  .grid {     border-spacing: 0; }
  .grid-row {  display: block; }
- .grid-cell, .grid-gallery { width: 100%; float: left;}
+ .grid-cell, .grid-gallery { width: 100%; float: left; }
+ #maintitle { font-size: 18px; }
 }
+
+
 
 

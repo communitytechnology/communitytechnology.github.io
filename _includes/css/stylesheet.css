@@ -47,11 +47,19 @@ table {
 Theme Styles
 *******************************************************************************/
 
+@font-face {
+  font-family: AsapRegular;
+  src: url("{{site.baseurl}}/fonts/Asap-Regular-webfont.ttf") format('truetype');
+}
+
 body {
+  line-height: 1.42857;
+  font-size: .9em;
   margin: 0px;
   box-sizing: border-box;
-  color:#373737;
   background: #212121;
+  color: #333;
+  font-family: "AsapRegular",Fallback,sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -96,8 +104,8 @@ footer p {
 }
 
 a {
-  text-decoration: none;
-  color: #007edf;
+  text-decoration: none; 
+  color: #007edf; 
 }
 
 a:hover, a:focus {text-decoration: underline;}
@@ -279,7 +287,6 @@ Full-Width Styles
     margin: 0 auto;
 }
 
-
 #project_title {
   margin: 0;
   color: #fff;
@@ -299,6 +306,14 @@ Full-Width Styles
   letter-spacing: 2px;
 }
 
+#maintitle {
+  float: left;
+  margin-left: 0px;
+  text-align:left;
+  vertical-align: middle;
+  padding: 10px 0px;
+}
+
 #main_content_wrap {
   background: #f2f2f2;
 }
@@ -316,23 +331,22 @@ Small Device Styles
   body {
     font-size:14px;
   }
-
   #downloads {
     display: none;
   }
-
   .inner {
     min-width: 320px;
     max-width: 480px;
   }
-
   #project_title {
-  font-size: 20px;
+     font-size: 20px;
   }
   #project_tagline {
-  font-size: 14px;
+     font-size: 14px;
   }
-
+  #maintitle {
+     font-size: 14px;
+  } 
   h1 {
     font-size: 28px;
   }
@@ -362,5 +376,4 @@ Small Device Styles
     max-width: 480px;
     font-size: 11px;
   }
-
 }

@@ -4,31 +4,14 @@
     box-sizing: border-box;
 }
 
-
 /* used to define the width of the header and body */
 .default-width { max-width: 640px; }
 .home-width { max-width: 840px; }
 .guide-width { max-width: 869px; } /* (540+250)(1 + 10% margin) */
 
-@font-face {
-  font-family: AsapRegular;
-  src: url("{{site.baseurl}}/fonts/Asap-Regular-webfont.ttf") format('truetype');
-}
-
-body {
-    line-height: 1.42857;
-    font-size: .9em;
-    color: #333;
-    font-family: "AsapRegular",Fallback,sans-serif;
-}
-
 .small-caps {
  font-variant: small-caps;
  font-weight: bold;
-}
-
-h1,h2,h3,h4 {
-	    
 }
 
 .section {
@@ -164,7 +147,7 @@ figure {
     padding:0.5em;
     background-color:#333;
     color:#fff;
-    font-size:30px;
+    font-size:1.8em;
     font-weight:500;
     line-height:33px;
     margin: 0em 0 .3em 0;
@@ -320,7 +303,6 @@ a img, a:link img {
 #sidemenu {
     margin:20px 0px;
     padding:0px 0px;
-    font-size:14px;
     width:100%;
 }
 
