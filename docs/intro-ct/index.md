@@ -33,7 +33,7 @@ Using this collection of activities, participants can start to define community 
 
 <li><a href="/docs/intro-ct/dj-principles/">Digital Justice Principles</a>: Discuss and define shared social justice principals that can ground our collective work.</li>
 
-<li><a href="/docs/intro-ct/dj-principles/">Identify Digital Justice Issues</a>: Identify digital justice issues in your community, and examine the difference between problems, issues and DIGITAL JUSTICE ISSUES.</li>
+<li><a href="/docs/intro-ct/dj-issues/">Identify Digital Justice Issues</a>: Identify digital justice issues in your community, and examine the difference between problems, issues and DIGITAL JUSTICE ISSUES.</li>
 
 <li><a href="https://docs.google.com/document/d/1u_p61Ub2aXmJwbjZ-2f_oKR_57iDtTQaNiTIeziG5V0/edit?usp=sharing">Digital Stewardship</a>: Describe and identify community organizers that work on digital justice issues in the community.</li>
 </ul>
