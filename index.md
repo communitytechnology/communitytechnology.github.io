@@ -33,6 +33,11 @@ grid:
    text: Tools for facilitating community projects (draft).
    url: /docs/facilitation/
    image: /icons/facilitation.svg
+ - workshop-ideas:
+   title: Workshop Ideas
+   text: Workshop agendas for a half-day or four-days
+   url: /docs/workshops
+   image: /icons/facilitation.svg
 ---
  
 

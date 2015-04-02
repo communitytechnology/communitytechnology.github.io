@@ -27,6 +27,11 @@
     padding: 0 1em;
 }
 
+.collection-content hr {
+ color: white;
+ background-color: white;
+}
+
 .cck-download-pdf a:link img {
     margin-top: 1em;
     margin-bottom: 0px;
