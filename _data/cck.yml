@@ -10,7 +10,7 @@ sections:
    id: building-mounting
  - title: Installing + Configuring
    id: installing-configuring
- - title: Networking
+ - title: Wireless + Networking
    id: networking
  - title: Local Applications
    id: local-applications
