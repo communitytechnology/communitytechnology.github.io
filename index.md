@@ -11,7 +11,7 @@ grid:
  - cck:
    title: Neighborhood Network Construction Kit
    url: /docs/cck/index.html
-   image: /icons/book.svg
+   image: /icons/cck.svg
    text: A do-it-ourselves guide to community wireless networks
  - ct-intro:
    title: Community Technology
