@@ -37,7 +37,7 @@ grid:
    title: Workshop Ideas
    text: Workshop agendas for a half-day or four-days
    url: /docs/workshops
-   image: /icons/facilitation.svg
+   image: /icons/workshop-agenda.png
 ---
  
 
@@ -52,8 +52,8 @@ digital stewardship</span>, <span class="small-caps">digital justice</span> and 
     {% for cell in page.grid %}
     <div class="grid-cell">
       <a href="{{site.baseurl}}{{cell.url}}" class="simple"><img src="{{site.baseurl}}{{cell.image}}" class="grid-icon"></a>
-      <div class="title"><a href="{{site.baseurl}}{{cell.url}}" class="simple">{{cell.title}}</a></div>
-      <div class="subtitle">{{cell.text}}</div>
+      <h4><a href="{{site.baseurl}}{{cell.url}}" class="simple">{{cell.title}}</a></h4>
+      <h5>{{cell.text}}</h5>
     </div>
     {% if forloop.last == false %}
     {% cycle 'row-grid': nil, nil, '</div><div class="grid-row">' %} 

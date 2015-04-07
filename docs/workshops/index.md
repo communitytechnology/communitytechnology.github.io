@@ -9,6 +9,6 @@ image:
 lang: en
 ---
 
-<p><img src="{{site.baseurl}}/{{site.imageurl}}/CCK_general_intro.png"></p>
+<p><img src="{{site.baseurl}}/{{site.imageurl}}/workshop-ideas/workshop-ideas.svg"></p>
 
 {% include toc.html definition=page.definition %}
