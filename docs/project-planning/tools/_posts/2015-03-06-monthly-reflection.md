@@ -8,6 +8,8 @@ changed: 2014-03-04
 post_author: amp
 abstract: 
 lang: en
+files: 
+  "Monthly Report (RTF)": /files/project-planning/monthy_reflection.rtf
 ---
 
 ##Reflecting on Our Work
