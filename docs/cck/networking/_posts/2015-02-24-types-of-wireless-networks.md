@@ -3,8 +3,11 @@ layout: collection
 title: Types of Wireless Networks
 description: A hands on activity to explain the types of wireless networks, and how you can use them to build a community network.
 site_section: docs
-pdf: cck/networking/NCK-Types_of_Wireless_Networks.pdf
-pdf-all: false
+pdf: cck/networking/Types_of_Wireless_Networks.pdf
+files:
+ "Worksheets": /files/cck/networking/Types_of_Wireless_Networks-Worksheets.pdf
+ "Worksheet Solutions": /files/cck/networking/Types_of_Wireless_Networks-Worksheet-Solutions.pdf
+ "Production files": /files/cck/networking/Types-of-Wireless-Networks-production-files.zip
 created: 2015-02-24
 changed: 2015-02-24
 post_author: Andy Gunn
@@ -140,8 +143,8 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 <ul>
     <li><strong>1</strong> represents the connection to the Internet (Optional - networks can function without the Internet).</li>
     <li><strong>2</strong> represents the router that assigns IP addresses and provides a firewall between your network and the Internet.</li>
-    <li><strong>A</strong> represents the Access Point, providing a wireless bridge between the router and the users’ devices.</li>
-    <li><strong>C</strong> represent user devices, such as laptops, tablets, and smartphones.</li>
+    <li><strong>3</strong> represents the Access Point, providing a wireless bridge between the router and the users’ devices.</li>
+    <li><strong>4</strong> represent user devices, such as laptops, tablets, and smartphones.</li>
 </ul>
 
 <p>In many home networks, or small office networks, the router and AP may be combined into a single device. This is usually just called a wireless router. It may also have a DSL, Cable, 3G, or 4G port to provide the connection to the Internet. In large office scenarios, there may be several AP devices spread throughout the building to provide more even wireless coverage, connected back to the router through long Ethernet cables.</p>
@@ -155,9 +158,9 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 <p><img src="/files/CCK_TypesofNetworks_PtP_example1.png" alt="Short distance point-to-point network" /></p>
 
 <ul>
-    <li><strong>A</strong> represents the wireless device setup as an Access Point.</li>
-    <li><strong>C</strong> represents the wireless device setup as a Client, connected to the Access Point.</li>
     <li><strong>1</strong> represents computers connected with Ethernet cables to the wireless devices. These computers are connected to each other over the Point-to-Point link.</li>
+    <li><strong>2</strong> represents the wireless device setup as an Access Point.</li>
+    <li><strong>3</strong> represents the wireless device setup as a Client, connected to the Access Point.</li>
 </ul>
 
 <p>This could look like the building-to-building connection, as shown below:</p>
@@ -172,10 +175,10 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 
 <p>In the diagram above:</p>
 <ul>
-    <li><strong>A</strong> represents the wireless device setup as an Access Point.</li>
-    <li><strong>C</strong> represents the wireless device setup as a Client, connected to the Access Point.</li>
-    <li><strong>1</strong> represents dish antennas that focus the wireless signal, allowing connections over long distances.</li>
-    <li><strong>2</strong> represents computers connected with Ethernet cables to the wireless devices. These computers are connected to each other over the Point-to-Point link.</li>
+    <li><strong>1</strong> represents computers connected with Ethernet cables to the wireless devices. These computers are connected to each other over the Point-to-Point link.</li>
+    <li><strong>2</strong> represents the wireless device setup as an Access Point.</li>
+    <li><strong>3</strong> represents dish antennas that focus the wireless signal, allowing connections over long distances.</li>
+    <li><strong>4</strong> represents the wireless device setup as a Client, connected to the Access Point.</li>
 </ul>
 
 <p>This could look like the network below, where an AP mounted on a tower is able to connect with a Client device in a home very far away, since the dishes are facing one another.</p>
@@ -201,10 +204,10 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 
 <ul>
     <li><strong>1</strong> represents the connection to the Internet.</li>
-    <li><strong>A</strong> represents an Access Point providing the signal for Client devices to connect to.</li>
-    <li><strong>2</strong> represents a powerful omnidirectional (all directions) antenna, sending the wireless signal to a large area around the building.</li>
-    <li><strong>C</strong> represent Client wireless devices on the roof of other buildings, linking to the powerful Access Point, and able to connect to the Internet through that AP.</li>
-    <li><strong>3</strong> represents small Access Points distributing wireless service inside the building.</li>
+    <li><strong>2</strong> represents an Access Point providing the signal for Client devices to connect to.</li>
+    <li><strong>3</strong> represents a powerful omnidirectional (all directions) antenna, sending the wireless signal to a large area around the building.</li>
+    <li><strong>4</strong> represent Client wireless devices on the roof of other buildings, linking to the powerful Access Point, and able to connect to the Internet through that AP.</li>
+    <li><strong>5</strong> represents small Access Points distributing wireless service inside the building.</li>
 </ul>
 
 <p>&nbsp;</p>
@@ -220,10 +223,10 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 <p>In the diagram above:</p>
 
 <ul>
-    <li><strong>A</strong> represents the connection to the Internet.</li>
-    <li><strong>B</strong> represents a Mesh Node with a connection to the Internet, with an omnidirectional (all directions) antenna.</li>
-    <li><strong>C</strong> represents Mesh Nodes with omnidirectional (all directions) antennas. These nodes are receiving Internet access from Mesh Node <strong>B</strong>. They may be connected to different devices inside the building.</li>
-    <li><strong>D</strong> represents small Access Points distributing wireless service inside the building.</li>
+    <li><strong>1</strong> represents the connection to the Internet.</li>
+    <li><strong>2</strong> represents a Mesh Node with a connection to the Internet, with an omnidirectional (all directions) antenna.</li>
+    <li><strong>3</strong> represents Mesh Nodes with omnidirectional (all directions) antennas. These nodes are receiving Internet access from Mesh Node <strong>2</strong>. They may be connected to different devices inside the building.</li>
+    <li><strong>4</strong> represents small Access Points distributing wireless service inside the building.</li>
 </ul>
 
 <p>&nbsp;</p>
@@ -245,10 +248,10 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 <p>In the diagram:</p>
 
 <ul>
-    <li><strong>A</strong> represents the rooftop wireless device. It could be a Mesh Node, or Client router.</li>
-    <li><strong>B</strong> represents the Ethernet cable running out to the rooftop from the Power over Ethernet adapter.</li>
-    <li><strong>C</strong> represents a Power over Ethernet (PoE) adapter - a common way to power outdoor wireless devices.</li>
-    <li><strong>D</strong> represents an Access Point, connected to the neighborhood or community network through the rooftop router.</li>
+    <li><strong>1</strong> represents the rooftop wireless device. It could be a Mesh Node, or Client router.</li>
+    <li><strong>2</strong> represents the Ethernet cable running out to the rooftop from the Power over Ethernet adapter.</li>
+    <li><strong>3</strong> represents a Power over Ethernet (PoE) adapter - a common way to power outdoor wireless devices.</li>
+    <li><strong>4</strong> represents an Access Point, connected to the neighborhood or community network through the rooftop router.</li>
 </ul>
 
 </section>
@@ -256,7 +259,7 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 <section id="group-activity">
 <h2>Group Activity</h2>
 
-<p>Since there are so many ways to build wireless networks to cover your town or community, we recommend working through these pen-and-paper activities. Download the <a href="/files/cck/networking/NCK-Types_of_Wireless_Networks-Worksheets.pdf">network worksheets</a> and <a href="/files/cck/networking/NCK-Types_of_Wireless_Networks-Worksheet-Solutions.pdf">example solutions</a> and try your hand at designing wireless networks.</p>
+<p>Since there are so many ways to build wireless networks to cover your town or community, we recommend working through these pen-and-paper activities. Download the <a href="/files/cck/networking/Types_of_Wireless_Networks-Worksheets.pdf">network worksheets</a> and <a href="/files/cck/networking/Types_of_Wireless_Networks-Worksheet-Solutions.pdf">example solutions</a> and try your hand at designing wireless networks.</p>
 
 <p><img src="/files/CCK_TypesofNetworks_Worksheet_pages.png" alt="Worksheet downloads icon" /></p>
 
@@ -304,7 +307,7 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 <p><img src="/files/CCK_TypesofNetworks_Activity_Ethernet.png" alt="Activity rule - using Ethernet" style="max-width: 420px; display: block; margin-left: auto; margin-right: auto;" /></p>
 <p>&nbsp;</p>
 
-<p>Now download and print out the <a href="/files/cck/networking/NCK-Types_of_Wireless_Networks-Worksheets.pdf"> worksheets</a> and <a href="/files/cck/networking/NCK-Types_of_Wireless_Networks-Worksheet-Solutions.pdf">example solutions</a>, and try out some designs!</p>
+<p>Now download and print out the <a href="/files/cck/networking/Types_of_Wireless_Networks-Worksheets.pdf"> worksheets</a> and <a href="/files/cck/networking/Types_of_Wireless_Networks-Worksheet-Solutions.pdf">example solutions</a>, and try out some designs!</p>
 
 </section>
 
