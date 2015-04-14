@@ -1,6 +1,7 @@
 ---
 layout: collection
 definition: workshops
+title:  Collaborative Network Design (2 hrs)
 description: Two hour workshop for around 20 people to collectively design a community network and neighborhood assessment. 
 post_author: amp
 lang: en
@@ -22,12 +23,14 @@ Below is a two hour workshop outline adapted from the Digital Stewards Curriculu
 
 **Skills you can learn together:** Various practices in community organizing may come out as participants share ideas of how to get more people involved. Critical thinking happens throughout this meeting as people think through network design and function. Basic network engineering naturally occurs when people start thinking about where to place routers and what the most effective design is for efficient data flow. 
 
-**Materials needed:**    
+**Materials needed:**     
+
 + Large sheets of blank paper
 + Markers
 + Scissors. 
 
-**Big Questions to think through: **    
+**Big Questions to think through:**    
+
 + What will the networks main function be?
 + What is the potential impact of the community network in that area? 
 
