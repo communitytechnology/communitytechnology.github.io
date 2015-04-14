@@ -28,6 +28,7 @@ Below is a two hour workshop outline adapted from the Digital Stewards Curriculu
 + Large sheets of blank paper
 + Markers
 + Scissors. 
++ 4 (or more) copies of [Every Network Tells a Story](/docs/cck/planning/design-your-network-every-network-tells-story/)
 
 **Big Questions to think through:**    
 
@@ -46,7 +47,7 @@ Below is a two hour workshop outline adapted from the Digital Stewards Curriculu
 
 ###Step 2: Identifying the skills and relationships people hold in each group using “Every Network Tells a Story” (30mins)
 
-+ Using the activity Every Network Tells a Story (ETNAS), have participants take 5 minutes to read through the worksheet together. It is a good idea to have participants read the section about router functions out loud together. Reading out loud is one way you can set the stage for collaborative learning. Getting participants in the groove of learning together will allow for deeper conversations when the participants are problem solving network design issues later on. <em>Note: Before moving on, make sure everyone understands each router’s function and ability. </em>
++ Using the activity [Every Network Tells a Story](docs/cck/planning/design-your-network-every-network-tells-story/) (ETNAS), have participants take 5 minutes to read through the worksheet together. It is a good idea to have participants read the section about router functions out loud together. Reading out loud is one way you can set the stage for collaborative learning. Getting participants in the groove of learning together will allow for deeper conversations when the participants are problem solving network design issues later on. <em>Note: Before moving on, make sure everyone understands each router’s function and ability. </em>
 + After reading through the worksheet take 5 mins to  divide the following tasks amongst the group. One person can cut out the router parts while another is drawing a map of the neighborhood. 
 + Take 10 minutes to have each group think through which routers should go where. At each site make sure you place access points for people to connect to. Also indicate if the site will have a local server or provide Internet access.
 + Once all the routers are placed give each group take 10 mins to further discuss the map. Have participants identify who they have relationships with and identify where relationships need to be built. 
