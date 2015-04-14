@@ -27,7 +27,7 @@ Below is a two hour workshop outline adapted from the Digital Stewards Curriculu
 
 + Large sheets of blank paper
 + Markers
-+ Scissors. 
++ Scissors
 + 4 (or more) copies of [Every Network Tells a Story](/docs/cck/planning/design-your-network-every-network-tells-story/)
 
 **Big Questions to think through:**    
