@@ -1,8 +1,8 @@
 ---
 layout: collection
 definition: intro-ct
-title: Investigate Technology
-description: "Investigate the properties of common technologies, understand how these technologies impact the community, and identify community-based alternatives. "
+title: Who Owns Our Technology?
+description: "Who controls and profits from our technologies? Investigate how technology impacts our communities, and identify community-based alternatives. "
 post_author: oti
 lang: en
 published: true
@@ -14,7 +14,7 @@ published: true
 
 <h3 id="introduction">Introduction</h3>
 
-<p>Communities have defined community technology in many different ways and with many different projects. We define it in the following way: community technology is a principled approach to technology that is grounded in the struggle for a more just digital ecosystem, placing value on equity, participation, common ownership and sustainability. In this module participants will use social analysis to understand technologies they use.</p>
+<p>Community technology is a principled approach to technology that is grounded in the struggle for a more just digital ecosystem, placing value on equity, participation, common ownership and sustainability. In this module participants will use social analysis to understand technologies they use.</p>
 
 <p>Goal: Investigate the properties of common technologies, understand how these technologies impact the community, and identify community-based alternatives.  </p>
 
