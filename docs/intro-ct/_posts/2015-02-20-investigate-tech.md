@@ -14,7 +14,7 @@ published: true
 
 <h3 id="introduction">Introduction</h3>
 
-<p>Community technology is a principled approach to technology that is grounded in the struggle for a more just digital ecosystem, placing value on equity, participation, common ownership and sustainability. In this module participants will use social analysis to understand technologies they use.</p>
+<p>Community technology is a principled approach to technology that is grounded in the struggle for a more just digital ecosystem, placing value on equity, participation, common ownership and sustainability. In these activities, participants will use social analysis to understand technologies we use.</p>
 
 <p>Goal: Investigate the properties of common technologies, understand how these technologies impact the community, and identify community-based alternatives.  </p>
 
