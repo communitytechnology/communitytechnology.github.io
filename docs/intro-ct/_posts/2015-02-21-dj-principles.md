@@ -1,7 +1,7 @@
 ---
 layout: collection
 definition: "intro-ct"
-title: Digital Justice Principles
+title: Develop Digital Justice Principles
 description: "How do we define digital justice in our communities?"
 post_author: oti
 lang: en
