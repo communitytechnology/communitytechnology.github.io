@@ -17,6 +17,7 @@ Many communities already have people who work toward improving the local digital
 **Time Required: 1 hours / 60 minutes.**
 
 **Materials:**
+
 + Sheets of paper for everyone
 + Pens for everyone
 + White board or pads of paper
@@ -32,6 +33,7 @@ In this activity, participants will learn about two different examples of digita
 Pass out copies of the [article](http://www.modeldmedia.com/features/16yrsofAMP061714.aspx) about Detroit Digital Stewards. Make sure everyone has a pen and paper.
 
 As you read, write answers to the following questions: 
+
 + what digital justice issue are the organizers trying to solve?
 + how is the community addressing the issue?
 
@@ -44,6 +46,7 @@ As a group, each person can read the issue and 1-2 goals they wrote down. A note
 As a group watch the VozMob [video](https://www.youtube.com/watch?v=vL5utjMK8Us).
 
 As you read, write answers to the following questions:
+
 + what digital justice issue are the organizers trying to solve?
 + how is the community addressing the issue?
 
@@ -55,6 +58,7 @@ As a group, each person can read the issue and 1-2 goals they wrote down. A note
 Reflecting on these examples, discuss the questions below.\* The facilitator can read a question, while the notetaker writes the responses of participants. 
 
 How do each of these projects... 
+
 + Result in a real improvement in people’s lives?
 + Give people a sense of their own power?
 + Alter the relations of power?
