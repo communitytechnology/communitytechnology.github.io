@@ -2,8 +2,7 @@
 layout: collection
 definition: intro-ct
 title: Digital Stewardship
-definition: "Describe and identify community organizers that work on digital justice issues in the community."
-description: 
+description: "Describe and identify community organizers that work on digital justice issues in the community."
 post_author: oti
 lang: en
 ---
