@@ -1,8 +1,8 @@
 ---
 layout: collection
 definition: facilitation
-title: Creating an Agenda
-description: Agendas are important documents that inform people on why they are gathering and what they will do when they gather.
+title: Discussion Formats
+description: Good facilitation is often reflected in crowd participation. 
 post_author: dctp
 lang: en
 published: true
@@ -30,7 +30,7 @@ Good facilitation is often reflected in crowd participation. In many cases the o
 
 **This format is great way to get people who are unfamiliar with each other to work together. This also ensures that each member of the meeting is thinking and participating because everyone is asked to share their ideas with someone else in the group.* 
 
-##Silent Consultation
+###Silent Consultation
 
 **Step 1:** Identify major questions that need to be discussed or explored.     
 **Step 2:** Create four questions that encompass the main ideas that need to be discussed.     
