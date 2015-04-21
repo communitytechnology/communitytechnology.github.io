@@ -9,8 +9,15 @@
 
 {% assign data = site.data[include.definition] %}
 
+{% assign num =  data.sections | size %}
+
 {% for section in data.sections %}
+{% if num == 1 %}
+<h3>{{section.title}}</h3>
+{% else %}
 <h2 id="{{section.id}}">{{section.title}}</h2>
+{% endif %}
+
 <ul>
 {% for post in site.categories[section.id] reversed %}
    {% if post.categories contains page.categories[1] %}
