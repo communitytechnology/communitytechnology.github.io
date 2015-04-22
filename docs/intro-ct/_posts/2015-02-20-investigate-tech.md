@@ -104,7 +104,7 @@ published: true
 
 
 
-<h3 id="activity-4-synthesize-ideas-about-community-technology">Activity 4: Synthesize Ideas About Community Technology</h3>
+<h3 id="activity-4-synthesize-ideas-about-community-technology">Activity 3: Synthesize Ideas About Community Technology</h3>
 
 <p>Estimated Time: 40 minutes.</p>
 
