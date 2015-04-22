@@ -19,5 +19,5 @@ Community input and buy-in is one of the most important elements in community or
 
 Facilitation is the art of creating a space where people can make connections and build powerful ideas. There are several participatory processes you can use to make collective decisions, design projects, and/or tap into the wealth of knowledge and experience that is present in the room.
 
+{% include toc.html definition=page.definition %}
 
-<a href="https://docs.google.com/document/d/1FB31l1vAN8HGEP-j8dLKIs7jbj-P68cum-t3Z8fxy5M/edit?usp=sharing">Faciltation Guide (drafting)</a>
