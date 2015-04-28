@@ -7,11 +7,13 @@ post_author: dctp
 lang: en
 published: true
 ---
-#**Collaborative Visioning Processes** 
+
+##Collaborative Visioning Processes
 
 When working on community technology projects it is important that those impacted most by your project are involved in the visioning and shaping of your project. This can be done in several ways from collecting surveys to creating collective design processes. Below are a few visioning activities that help generate shared principles and visions for community work. 
 
-###**Working from the Future**
+###Working from the Future 
+
 **Step 1:** Create a prompt about the future for participants to write about. *Example: It is the year 2040 and you are sitting at a park in your neighborhood. How do you see (X) having an impact on the environment)?*
 
 **Step 2:** Give participants five mins to free write what they see.
@@ -27,7 +29,8 @@ When working on community technology projects it is important that those impacte
 *This is a great first activity with a group that is just starting to work together.*
 
 
-###**Creating A Shared Mission Statement** 
+###Creating A Shared Mission Statement
+
 **Step 1:** Have each participant write responses to the following prompts as an individual free write, giving each prompt 3 minutes - 5 minutes.
 
 *WE ARE:*    
@@ -46,10 +49,12 @@ When working on community technology projects it is important that those impacte
 **Step 6:** Together, begin to craft sentences as a group that include the theme and reach address the prompts  these themes and the . Each sentence should be representative of the skills and desired outcomes of the group. 
 
 
-###**Media Based Orgaizing**
+###Media Based Orgaizing
+
 Media-based organizing is a process of speaking and listening, as a community, in order to investigate the problems that shape our realities, imagine other realities and then work together to make them real.  When we use media in this way, we build new kinds of relationships internally, interpersonally and within our communities. We transform ourselves from consumers of information to producers, from objects within narratives of exploitation and violence to authors of the transformation of our worlds. *-- Allied Media Projects theory of change*
 
 ###The Detroit Summer 12 Steps to Media Based Organizing
+
 **1. Identify your issue**    
 What is the issue you're focusing on? What is the background/context of that issue? Who currently frames the narrative of this issue? Whose voices are missing/silenced around this issue? 
 
