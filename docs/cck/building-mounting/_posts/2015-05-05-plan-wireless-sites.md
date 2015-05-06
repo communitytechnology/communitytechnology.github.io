@@ -7,6 +7,7 @@ pdf: cck/building-mounting/Plan-Wireless-Sites.pdf
 files:
  "Network Site Worksheet": /files/cck/building-mounting/Network-site-worksheet.pdf
  "Site Worksheet Examples": /files/cck/building-mounting/Site-worksheet-examples.pdf
+ "Production files": /files/cck/building-mounting/Plan-wireless-sites-production-files.zip
 created: 2015-05-05
 changed: 2015-05-05
 post_author: Andy Gunn
