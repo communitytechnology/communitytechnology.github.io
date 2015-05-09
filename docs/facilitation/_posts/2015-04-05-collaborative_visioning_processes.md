@@ -51,7 +51,7 @@ When working on community technology projects it is important that those impacte
 
 ###Media Based Orgaizing
 
-Media-based organizing is a process of speaking and listening, as a community, in order to investigate the problems that shape our realities, imagine other realities and then work together to make them real.  When we use media in this way, we build new kinds of relationships internally, interpersonally and within our communities. We transform ourselves from consumers of information to producers, from objects within narratives of exploitation and violence to authors of the transformation of our worlds. *-- Allied Media Projects theory of change*
+Media-based organizing is a process of speaking and listening, as a community, in order to investigate the problems that shape our realities, imagine other realities and then work together to make them real.  When we use media in this way, we build new kinds of relationships internally, interpersonally and within our communities. We transform ourselves from consumers of information to producers, from objects within narratives of exploitation and violence to authors of the transformation of our worlds. *-- [Allied Media Projects' theory of change](https://www.alliedmedia.org/)*
 
 ###The Detroit Summer 12 Steps to Media Based Organizing
 
