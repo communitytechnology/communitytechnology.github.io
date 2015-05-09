@@ -1,7 +1,7 @@
 ---
 layout: collection
-definition: facilitation
-title: Collaborative Visioning Processes
+definition: intro-ct
+title: Detroit Digital Justice Principles
 description: 
 post_author: dctp
 lang: en
