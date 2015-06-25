@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Re(Building) Technology
+title: (Re)Building Technology
 tagline: Build-it-ourselves Community Networks
 categories: 
 created: 2013-09-20
@@ -12,12 +12,12 @@ grid:
    title: Neighborhood Network Construction Kit
    url: /docs/cck/index.html
    image: /icons/cck.svg
-   text: A do-it-ourselves guide to community wireless networks
+   text: A build-it-ourselves guide to community wireless networks
  - ct-intro:
    title: Community Technology
    url: /docs/intro-ct/index.html
    image: /icons/stewards.svg
-   text: Activities for discussing digital justice and digital stewardship
+   text: Activities for discussing digital justice and digital stewardship.
  - skillshares:
    title: Skillshares
    url:
