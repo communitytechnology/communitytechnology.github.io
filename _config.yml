@@ -1,9 +1,9 @@
 baseurl: ""    #"/ct-platform" 
 name: ""
 description: ""
-title: Community Technology Fieldbook 
+title: Community Technology Field Guide
 
-title0: Re(Building) Technology
+title0: (Re)Building Technology
 
 exclude: [CNAME, README.md, .gitignore, list_assests.pl]
 permalink: /:categories/:title/ 
