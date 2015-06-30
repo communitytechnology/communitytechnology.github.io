@@ -27,6 +27,8 @@ To achieve that end, community technology projects use practices of
 
 Using this collection of activities, participants can start to define community technology in their context and investigate how the local digital ecosystem can be remade more healthy and just. The modules were informed and inspired by the Detroit Digital Stewards project. The activities are introductory and meant to initiate conversations and exploration.
 
+{% include toc.html definition=page.definition %}
+<!--
 <h3>Activities</h3>
 <ul>
 <li><A href="/docs/intro-ct/investigate-tech/">Investigate Technology</a>: Investigate the properties of common technologies, understand how these technologies impact the community, and identify community-based alternatives. </li>
@@ -37,6 +39,7 @@ Using this collection of activities, participants can start to define community 
 
 <li><a href="https://docs.google.com/document/d/1u_p61Ub2aXmJwbjZ-2f_oKR_57iDtTQaNiTIeziG5V0/edit?usp=sharing">Digital Stewardship</a>: Describe and identify community organizers that work on digital justice issues in the community.</li>
 </ul>
+-->
 
 <h3>Underlying Concepts and Understandings</h3>
 <ul>
