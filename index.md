@@ -19,10 +19,10 @@ grid:
    image: /icons/stewards.svg
    text: Activities for discussing digital justice and digital stewardship.
  - skillshares:
-   title: Skillshares
-   url:
+   title: Network Hacks
+   url: /docs/hacks/index.html
    image: /icons/skillshare.png
-   text: (coming soon)
+   text: Knowledge Shares from Projects
  - project-planning:
    title: Project Planning Tools
    text: Tools to help define and plan projects.
@@ -33,10 +33,10 @@ grid:
    text: Tools for facilitating community projects (draft).
    url: /docs/facilitation/
    image: /icons/facilitation.svg
- - workshop-ideas:
-   title: Workshop Ideas
-   text: Workshop agendas for a half-day or four-days
-   url: /docs/workshops
+ - organizing-models:
+   title: Organizing Models
+   text: Stories from Partner Networks
+   url: /docs/organizing-models
    image: /icons/workshop-agenda.png
 ---
  
@@ -45,6 +45,7 @@ grid:
 digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community infrastructure</span>. </p>
 <p>These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome <a href="contribute.html">contributions</a>.</p>
 
+<div class="grid-cell"><a href="/docs/seed-grants/">2015 Community Technology Partnership SEED grants</a></div>
 
 <div class="grid home-width">
   <div class="grid-row">
