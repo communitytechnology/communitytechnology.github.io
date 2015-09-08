@@ -45,8 +45,6 @@ grid:
 digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community infrastructure</span>. </p>
 <p>These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome <a href="contribute.html">contributions</a>.</p>
 
-<div class="grid-cell"><a href="/docs/seed-grants/">2015 Community Technology Partnership SEED grants</a></div>
-
 <div class="grid home-width">
   <div class="grid-row">
     
@@ -64,6 +62,10 @@ digital stewardship</span>, <span class="small-caps">digital justice</span> and 
   </div>
 </div>
 
+<h3>Grants</h3>
+<p>Through the Community Technology Partnership, the Open Technology Institute and the Detroit Community Technology Project have provided SEED grants to 11 community-controlled infrastructure projects this year.</p>
+
+<p><a href="/docs/seed-grants/">2015 Community Technology Partnership SEED Grants</a></p>
 
 <h3>Blog Posts + Reports</h3>
 <div class="grid home-width">
