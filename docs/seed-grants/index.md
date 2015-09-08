@@ -11,7 +11,7 @@ Digital communication and technology has been an important tool for enhanced loc
 
 To resist these systems, people continue to build community-based technology projects and demonstrate an alternative vision. We find these small acts of resistance to digital control in neighborhoods, small towns, and rural areas around the world inspiring and rich with lessons in what the role of technology can be to restore neighborhoods, build new relationships, and develop new systems that encourage collaboration and creativity.
 
-We focused on projects using a community organizing process to plan, build and govern a shared communications infrastructure. Each of the projects has a shared vision of community technology and digital justice (link to DDJC) that includes:
+We focused on projects using a community organizing process to plan, build and govern shared communications infrastructure. Each of the projects has a common vision of community technology and digital justice that includes:
 
 - Mutual learning that encourages practice and action, investigation and listening
 - Participatory planning and collaborative design
