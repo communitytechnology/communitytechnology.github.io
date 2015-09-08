@@ -63,9 +63,11 @@ digital stewardship</span>, <span class="small-caps">digital justice</span> and 
 </div>
 
 <h3>Grants</h3>
-<p>Through the Community Technology Partnership, the Open Technology Institute and the Detroit Community Technology Project have provided SEED grants to 11 community-controlled infrastructure projects this year.</p>
+<p>Through the Community Technology Partnership, the Open Technology Institute and the Detroit Community Technology Project provided SEED grants to 11 community-controlled infrastructure projects this year:</p>
 
 <p><a href="/docs/seed-grants/">2015 Community Technology Partnership SEED Grants</a></p>
+
+<p>&nbsp;</p>
 
 <h3>Blog Posts + Reports</h3>
 <div class="grid home-width">
