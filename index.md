@@ -45,7 +45,7 @@ grid:
 digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community infrastructure</span>. </p>
 <p>These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome <a href="contribute.html">contributions</a>.</p>
 
-<div class="grid-cell"><a href="/docs/seed-grants/">2015 Community Technology Partnership SEED grants</a></div>
+<div class="grid-cell"><a href="seed-grants-2015.html">2015 Community Technology Partnership SEED grants</a></div>
 
 <div class="grid home-width">
   <div class="grid-row">
