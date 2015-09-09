@@ -1,13 +1,13 @@
 ---
 layout: collection
-definition: intro to ct
-title: Getting to know the Detroit Digital Justice Principles Workshop
+definition: intro-ct
+title: Getting to know the Detroit Digital Justice Principles
 description: This is an activity designed to foster discussion of the DDJC principles.
 post_author: dctp
 lang: en
 published: true
 ---
-##Getting to know the Detroit Digital Justice (DDJC) Principles Workshop
+##Getting to know the Detroit Digital Justice (DDJC) Principles 
 This is an activity designed to foster discussion of the DDJC principles.
 
 **Number Participants at a Time**
