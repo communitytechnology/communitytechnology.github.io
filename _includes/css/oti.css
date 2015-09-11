@@ -253,11 +253,12 @@ a img, a:link img {
 /* HEADER */
 
 #header_wrap {
-    background-image: url({{site.baseurl}}/files/website/background.png);
-    background-color: black;
-    background-size: auto 100%;
-    background-repeat: repeat-x;
-    background-position: 0% 100%;
+/*    background-image: url({{site.baseurl}}/files/website/background.png);*/
+/*    background-repeat: repeat-x;*/
+/*    background-size: auto 100%;*/
+/*    background-position: 0% 100%;*/
+/*    background-color: black;*/
+/*    background-repeat: no-repeat; */
 }
 
 #project_tagline {
