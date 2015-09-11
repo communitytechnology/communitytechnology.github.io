@@ -255,12 +255,12 @@ Full-Width Styles
 }
 
 #header {
- background-color: #333;
- border-bottom: 10px solid #333;
+ background-color: #c1c1c1;
+ border-bottom: 10px solid #c1c1c1;
 }
 
 #header_wrap .inner, #header_wrap .inner-guide {
-  padding: 40px 10px 40px 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 #header_wrap #header-text {
@@ -274,7 +274,7 @@ Full-Width Styles
     height: 0; 
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;	    
-    border-top: 40px solid #333;
+    border-top: 40px solid #c1c1c1;
     margin: 0 auto;
 }
 
@@ -289,19 +289,19 @@ Full-Width Styles
 
 #project_title {
   margin: 0;
-  color: #fff;
+  color: #212121;
   font-size: 28px;
   letter-spacing: 2px;
   font-weight: 400;
-  text-shadow: 2px 2px 2px #000;
+/*  text-shadow: 2px 2px 2px #000;*/
   text-align: left;
 }
 
 #project_tagline {
-  color: #fff;
+  color: #212121;
   font-size: 18px;
   font-weight: 400;
-  text-shadow: 2px 2px 2px #000;
+/*  text-shadow: 2px 2px 2px #000;*/
   text-align: left;
   letter-spacing: 2px;
 }
