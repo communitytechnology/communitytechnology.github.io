@@ -14,7 +14,7 @@ A small collection of practices from community technology projects around the wo
 
 <tr>
 <td></td>
-<td align="right"><a href="https://github.com/communitytechnology/communitytechnology.github.io/new/master/docs/hacks/_posts/"><p style="font-size:38px;">+</p></a></td>
+<td align="right"><a href="https://github.com/communitytechnology/communitytechnology.github.io/new/master/docs/hacks/_posts/new/?filename=yyyy-mm-dd-filename.md&value=---%0Dthumb:[src]%0D---"><p style="font-size:38px;">+</p></a></td>
 </tr>
 </table>
 
