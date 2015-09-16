@@ -14,11 +14,13 @@ lang: en
 
 <p><img src="{{site.baseurl}}/{{site.imageurl}}/CCK_general_intro.png"></p>
 
-<p>The Neighborhood Network Construction Kit is a set of documentation tools that the Open Technology Institute has used in workshops around the world and at home. It is a “do it ourselves” guide to building community wireless networks.</p> Many of these activities were first released as part of the <a href="https://www.commotionwireless.net">Commotion</a> project.
+The Neighborhood Network Construction Kit is a set of documentation tools that the Open Technology Institute has used in workshops around the world and at home. It is a “do it ourselves” guide to building community wireless networks. Many of these activities were first released as part of the <a href="https://www.commotionwireless.net">Commotion</a> project.
 
-<p>These activities are meant to explored in groups. There is no one right way to move through the activities. You will find tools to help you learn the software and build and mount the hardware, as well as tools to help you organize with others in your neighborhood to plan, build, and promote a network. The modules are designed to be used by individuals or groups for self-guided learning or to teach workshops or trainings. Start to explore anywhere and let us know how it goes for you.</p>
+These activities are meant to explored in groups. There is no one right way to move through the activities. You will find tools to help you learn the software and build and mount the hardware, as well as tools to help you organize with others in your neighborhood to plan, build, and promote a network. The modules are designed to be used by individuals or groups for self-guided learning or to teach workshops or trainings. Start to explore anywhere and let us know how it goes for you.
 
-<p>These materials are open source, which means development on them continues and community involvement is critical. This first wave of modules represents a work in progress. The current set of modules are briefly described below.</p>
+Here are a few agendas from previous workshops: [Workshop Ideas](/docs/workshops/).
+
+These materials are open source, which means development on them continues and community involvement is critical. This first wave of modules represents a work in progress. The current set of modules are briefly described below.
 
 <!-- <p>You can also download a <a href="http://files.opentechinstitute.org/~commotion/CCK-All PDFs-12-17-2013.zip">.zip archive file</a> of containing PDF versions of all current Commotion Construction Kit modules and supporting activities.</p> -->
 
