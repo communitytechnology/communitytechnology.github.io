@@ -39,11 +39,10 @@ grid:
    url: /docs/organizing-models
    image: /icons/workshop-agenda.png
 ---
- 
 
-<p style="font-size:1.2em;">A collective resource for <span class="small-caps">
-digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community infrastructure</span>. </p>
-<p>These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome <a href="contribute.html">contributions</a>.</p>
+#####A collective resource for <span class="small-caps"> digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community infrastructure</span>.
+
+These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome [contributions](contribute.html). 
 
 <div class="grid home-width">
   <div class="grid-row">
@@ -62,14 +61,15 @@ digital stewardship</span>, <span class="small-caps">digital justice</span> and 
   </div>
 </div>
 
-<h3>Grants</h3>
-<p>Through the Community Technology Partnership, the Open Technology Institute and the Detroit Community Technology Project provided SEED grants to 11 community-controlled infrastructure projects this year:</p>
+###Grants
 
-<p><a href="/docs/seed-grants/">2015 Community Technology Partnership SEED Grants</a></p>
+Through the Community Technology Partnership, the Open Technology Institute and the Detroit Community Technology Project provided SEED grants to 11 community-controlled infrastructure projects this year:
 
-<p>&nbsp;</p>
+[2015 Community Technology Partnership SEED Grants](/docs/seed-grants/)
 
-<h3>Blog Posts + Reports</h3>
+
+###Blog Posts + Reports
+
 <div class="grid home-width">
   <div class="grid-row">
     {% for cell in site.categories.blog limit:6 %}
@@ -94,20 +94,23 @@ digital stewardship</span>, <span class="small-caps">digital justice</span> and 
   </div>
 </div>
 
-  <h3>Planning to Host a Workshop?</h3>
-  
-These might be useful: <a href="list-assets.html">Shared Graphics</a>, <a href="https://docs.google.com/document/d/1iReF0YMmCvOLxC3OrnRtQqtZ8_BMF2oUnGG86lTXHgE/edit?usp=sharing">Curriculum Templates</a>, [Example Workshops](/docs/workshops/), [Facilitator Tips](/docs/facilitation).
+### Planning to Host a Workshop?
+ 
+These might be useful: [Shared Graphics](list-assets.html), [Curriculum Templates](https://docs.google.com/document/d/1iReF0YMmCvOLxC3OrnRtQqtZ8_BMF2oUnGG86lTXHgE/edit?usp=sharing), [Example Workshops](/docs/workshops/), [Facilitator Tips](/docs/facilitation).
 
-  <h3>Contribute</h3>
-  You can start by submitting content, comments or questions by adding a new issue to the <a href="http://github.com/communitytechnology/communitytechnology.github.io/issues/new">repository</a> (you will need a <a href="https://github.com">GitHub</a> account). <a href="contribute.html">More on collaborating...</a>
+### Contribute
+
+You can start by submitting content, comments or questions by adding a new issue to the [repository](http://github.com/communitytechnology/communitytechnology.github.io/issues/new) (you will need a [GitHub](https://github.com) account). [More on collaborating...](contribute.html)
+
+### Other Resources
+
+* [Commotion Wireless](https://commotionwireless.net/)
+* [Altermundi Network Documentation](http://docs.altermundi.net/)(spanish)
+* [Wireless Networking in the Developing World](ttp://wndw.net)
+* [Village Telco](http://villagetelco.)
+* [Open Wireless Movement EFF](https://openwireless.org/)
 
 
-  <h3>Other Resources</h3>
-  <a href="https://commotionwireless.net/">Commotion Wireless</a></li>
-    <li><a href="http://docs.altermundi.net/">Altermundi Network Documentation</a> (spanish)</li>
-    <li><a href="http://wndw.net">Wireless Networking in the Developing World</a></li>
-    <li><a href="http://villagetelco.org/">Village Telco</a></li>
-  </ul>
 
 
    
