@@ -94,27 +94,20 @@ digital stewardship</span>, <span class="small-caps">digital justice</span> and 
   </div>
 </div>
 
-
-<div id="planning" class="section">
   <h3>Planning to Host a Workshop?</h3>
   
-  <p>These might be useful: <a href="list-assets.html">shared graphics</a>, <a href="https://docs.google.com/document/d/1iReF0YMmCvOLxC3OrnRtQqtZ8_BMF2oUnGG86lTXHgE/edit?usp=sharing">curriculum templates</a>, agenda tips, using popular education, facilitator tips.</p>
-</div>
+These might be useful: <a href="list-assets.html">Shared Graphics</a>, <a href="https://docs.google.com/document/d/1iReF0YMmCvOLxC3OrnRtQqtZ8_BMF2oUnGG86lTXHgE/edit?usp=sharing">Curriculum Templates</a>, [Example Workshops](/docs/workshops/), [Facilitator Tips](/docs/facilitation).
 
-<div id="contribute" class="section">
   <h3>Contribute</h3>
-  <p>You can start by submitting content, comments or questions by adding a new issue to the <a href="http://github.com/communitytechnology/communitytechnology.github.io/issues/new">repository</a> (you will need a <a href="https://github.com">GitHub</a> account). <a href="contribute.html">More on collaborating...</a></p>
-</div>
+  You can start by submitting content, comments or questions by adding a new issue to the <a href="http://github.com/communitytechnology/communitytechnology.github.io/issues/new">repository</a> (you will need a <a href="https://github.com">GitHub</a> account). <a href="contribute.html">More on collaborating...</a>
 
-<div id="other-resources" class="section">
+
   <h3>Other Resources</h3>
-  
-  <ul>
-    <li><a href="https://commotionwireless.net/">Commotion Wireless</a></li>
+  <a href="https://commotionwireless.net/">Commotion Wireless</a></li>
     <li><a href="http://docs.altermundi.net/">Altermundi Network Documentation</a> (spanish)</li>
     <li><a href="http://wndw.net">Wireless Networking in the Developing World</a></li>
     <li><a href="http://villagetelco.org/">Village Telco</a></li>
   </ul>
-</div>
+
 
    
