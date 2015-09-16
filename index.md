@@ -104,11 +104,11 @@ You can start by submitting content, comments or questions by adding a new issue
 
 ### Other Resources
 
-* [Commotion Wireless](https://commotionwireless.net/)
-* [Altermundi Network Documentation](http://docs.altermundi.net/)(spanish)
-* [Wireless Networking in the Developing World](ttp://wndw.net)
-* [Village Telco](http://villagetelco.)
-* [Open Wireless Movement EFF](https://openwireless.org/)
++ [Commotion Wireless](https://commotionwireless.net/)
++ [Altermundi Network Documentation](http://docs.altermundi.net/) (spanish)
++ [Wireless Networking in the Developing World](http://wndw.net)
++ [Village Telco](http://villagetelco.org)
++ [Open Wireless Movement EFF](https://openwireless.org/)
 
 
 
