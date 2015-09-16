@@ -9,11 +9,6 @@
     border-spacing: 1.5em;
 }
 
-.grid:after {
-    content: "";
-    clear: both;
-}
-
 .grid-row {
     display: table-row;
 }
