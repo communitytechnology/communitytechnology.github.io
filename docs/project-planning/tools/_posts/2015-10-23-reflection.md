@@ -26,4 +26,4 @@ How will you cover or share future costs? Who will be maintaining the network?
 
 ###Technology
 What is the equipment and software of your network?
-(please include a map that illustrates your network)
+(use maps and diagrams to illustrate the technical parts of the project)
