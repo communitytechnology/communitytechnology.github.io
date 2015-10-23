@@ -1,7 +1,7 @@
---
+---
 layout: collection
 definition: project-planning
-title: Closing Reflection
+title: Final Reflection
 description: Questions that capture reflections on community technology projects. 
 post_author: amp
 abstract: 
