@@ -1,7 +1,6 @@
 ---
 layout: default
-title: (Re)Building Technology
-tagline: Build-it-ourselves Community Networks
+title: Build-it-ourselves Community Networks
 categories: 
 created: 2013-09-20
 changed: 2014-03-04
@@ -43,6 +42,7 @@ grid:
 #####A collective resource for <span class="small-caps"> digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community infrastructure</span>.
 
 These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome [contributions](contribute.html). 
+
 
 <div class="grid home-width">
   <div class="grid-row">
@@ -109,8 +109,3 @@ You can start by submitting content, comments or questions by adding a new issue
 + [Wireless Networking in the Developing World](http://wndw.net)
 + [Village Telco](http://villagetelco.org)
 + [Open Wireless Movement EFF](https://openwireless.org/)
-
-
-
-
-   

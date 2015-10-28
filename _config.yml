@@ -3,7 +3,7 @@ name: ""
 description: ""
 title: Community Technology Field Guide
 
-title0: (Re)Building Technology
+header: (Re)Building Technology
 
 exclude: [CNAME, README.md, .gitignore, list_assests.pl]
 permalink: /:categories/:title/ 
