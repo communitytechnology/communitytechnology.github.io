@@ -7,7 +7,7 @@ lang: en
 
 Through the Community Technology Partnership, the Open Technology Institute and the Detroit Community Technology Project have provided seed grants to 11 community-controlled infrastructure projects this year.
 
-Digital communication and technology has been an important tool for enhanced local community media, improved transparency, and organizing on social justice issues. However, technology has also been used within systems of control to enhance surveillance, decrease personal privacy, aggregate the control and creation of information, and exacerbate disparities between groups that have the resources to benefit from a new technology-based economy and those that do not.
+Digital communication and technology has been an important tool for enhanced local community media, improved transparency, and organizing on social justice issues. However, technology has also been used within systems of control to monopolize the creation and distribution of information, channel communication through large private companies, enhance surveillance, and exacerbate disparities between groups that have the resources to benefit from a new technology-based economy and those that do not.
 
 To resist these systems, people continue to build community-based technology projects and demonstrate an alternative vision. We find these small acts of resistance to digital control in neighborhoods, small towns, and rural areas around the world inspiring and rich with lessons in what the role of technology can be to restore neighborhoods, build new relationships, and develop new systems that encourage collaboration and creativity.
 
@@ -20,7 +20,7 @@ We focused on projects using a community organizing process to plan, build and g
 Each of the partners received $10,000 in support of their projects. The 2015 Community Technology Partners are:
 
 **AlterMundi, Argentina**    
-[AlterMundi](http://www.altermundi.net) is an organization that researches, experiments and disseminates technologies and practices that facilitate the development of a sustainable society, tending to the common good and in harmony with the environment. They will document the technical and social aspects of their successful network so others may replicate their model, and will add support for local applications to LibreMesh, an open source mesh firmware. 
+[AlterMundi](http://www.altermundi.net) is an organization that researches, experiments and disseminates technologies and practices that facilitate the development of a sustainable society, tending to the common good and in harmony with the environment. They will document the technical and social aspects of their successful network so others may replicate their model, and will add support for local applications support to their networks. 
 
 **Alternative Solutions For Rural Communities, Chin State, Myanmar**    
 This project will build the capacity and stability of an existing community network established by the organization, and allow them to add local server content and increase digital literacy training. 
@@ -32,7 +32,7 @@ Building on their network of community media partners, CORACON will facilitate t
 [Falanster](http://falanster.by) was founded to create the foundation and conditions for sustainable development of civil and cultural side of our society through use of digital technologies. Falanster is establishing a Mesh Club to share information and practice about wifi and mesh networks in our society. 
 
 **Fantsuam Foundation, Kafanchan, Nigeria**   
- [Fantsuam Foundation](http://www.fantsuam.net/) will link six rural communities together and will provide services including: telephony, local government budgeting and education. The project will also rebuild the Fantsuam solar system. To maintain the network, Fantsuam will train a new generation of wireless and solar technicians. 
+ [Fantsuam Foundation](http://www.fantsuam.net/) will link six rural communities together and will provide services, including: telephony, local government budgeting and education. The project will also rebuild the Fantsuam solar system. To maintain the network, Fantsuam will train a new generation of wireless and solar technicians. 
 
 
 **School of Computing University of Namibia (UNAM) and Glowdom Educational Foundation (GEF), Connecting Eenhana, Namibia**    
