@@ -32,7 +32,7 @@ Building on their network of community media partners, CORACON will facilitate t
 [Falanster](http://falanster.by) was founded to create the foundation and conditions for sustainable development of civil and cultural side of our society through use of digital technologies. Falanster is establishing a Mesh Club to share information and practice about wifi and mesh networks in our society. 
 
 **Fantsuam Foundation, Kafanchan, Nigeria**   
- [Fantsuam Foundation](http://www.fantsuam.net/) will link six rural communities together and will provide services, including: telephony, local government budgeting and education. The project will also rebuild the Fantsuam solar system. To maintain the network, Fantsuam will train a new generation of wireless and solar technicians. 
+ [Fantsuam Foundation](http://www.fantsuam.net/) will link five rural communities together and will provide services, including: telephony, local government budgeting and education. The project will also rebuild the Fantsuam solar system. To maintain the network, Fantsuam will train a new generation of wireless and solar technicians. [See more...](http://dadamac.org/blog/2015-10/fantsuam-wireless-network-mesh)
 
 
 **School of Computing University of Namibia (UNAM) and Glowdom Educational Foundation (GEF), Connecting Eenhana, Namibia**    
@@ -52,6 +52,6 @@ CMLO will establish a community network to enhance its capacity to function as a
 Established in 1993, Radio Maendeleo is a critical provider of news and cultural content in North and South Kivu. The project will help create digital infrastructure in Bukavu to enhance the community media ecosystem, provide a platform for sharing knowledge, and support their digital engagement activities. In partnership with Free Press Unlimited. [See more...](https://www.freepressunlimited.org/en/news/people-of-dr-congo-will-communicate-using-their-own-mesh-network)
 
 **Santa Unipessoal, Maubisse, Timor-Leste**     
-Santa Unipessoal’s Youth Media Mesh project will conduct media-making workshops, create content on the local network for cultural preservation and historical documentation projects, and build a community wireless network linking various sites in Maubisse. The project will be will be led and maintained by Leublora Green School, the first informal educational institution in the country to teach Timorese youths about sustainable use of natural environment and resources, its impact on their lives, and the importance of sustainable development.
+Santa Unipessoal’s [Youth Media Mesh](http://www.santanatimorleste.com/#!green-intranet/copl) project will conduct media-making workshops, create content on the local network for cultural preservation and historical documentation projects, and build a community wireless network linking various sites in Maubisse. The project will be will be led and maintained by Leublora Green School, the first informal educational institution in the country to teach Timorese youths about sustainable use of natural environment and resources, its impact on their lives, and the importance of sustainable development. 
 
 
