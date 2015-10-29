@@ -257,6 +257,7 @@ Full-Width Styles
 
 #header {
  background-color: #c1c1c1;
+ background: url("/files/website/swirl_pattern.png") repeat;
  border-bottom: 10px solid #c1c1c1;
 }
 

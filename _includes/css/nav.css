@@ -54,21 +54,45 @@ nav a:hover {
 
 .color0 {
     background-color: {{site.data.colors.pink}};
+background:
+radial-gradient(circle at 0% 50%, rgba(0, 0, 0, 0) 9px, black 10px, rgba(96, 96, 96, 0) 11px) 0px 10px,
+radial-gradient(at 100% 100%, rgba(0, 0, 0, 0) 9px, black 10px, rgba(96, 96, 96, 0) 11px), white;
+background-size: 20px 20px;
+
     float: left;
     width: 5%;
 }
 .color1 {
-    background-color: {{site.data.colors.teal}};
+background-color:black;
+background-image: 
+radial-gradient(circle at 100% 150%, black 24%, {{site.data.colors.gold}} 25%, {{site.data.colors.gold}} 28%, black 29%, black 36%, {{site.data.colors.gold}} 36%, {{site.data.colors.gold}} 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, black 24%, {{site.data.colors.gold}} 25%, {{site.data.colors.gold}} 28%, black 29%, black 36%, {{site.data.colors.gold}} 36%, {{site.data.colors.gold}} 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, {{site.data.colors.gold}} 10%, black 11%, black 23%, {{site.data.colors.gold}} 24%, {{site.data.colors.gold}} 30%, black 31%, black 43%, {{site.data.colors.gold}} 44%, {{site.data.colors.gold}} 50%, black 51%, black 63%, {{site.data.colors.gold}} 64%, {{site.data.colors.gold}} 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, {{site.data.colors.gold}} 5%, black 6%, black 15%, {{site.data.colors.gold}} 16%, {{site.data.colors.gold}} 20%, black 21%, black 30%, {{site.data.colors.gold}} 31%, {{site.data.colors.gold}} 35%, black 36%, black 45%, {{site.data.colors.gold}} 46%, {{site.data.colors.gold}} 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, {{site.data.colors.gold}} 5%, black 6%, black 15%, {{site.data.colors.gold}} 16%, {{site.data.colors.gold}} 20%, black 21%, black 30%, {{site.data.colors.gold}} 31%, {{site.data.colors.gold}} 35%, black 36%, black 45%, {{site.data.colors.gold}} 46%, {{site.data.colors.gold}} 49%, transparent 50%, transparent);
+background-size:40px 25px;
     float: left;
     width: 43.5%;
 }
 .color2 {
     background-color: {{site.data.colors.gold}};
+background-color:#001;
+background-image: radial-gradient({{site.data.colors.teal}} 15%, transparent 16%),
+radial-gradient({{site.data.colors.teal}} 15%, transparent 16%);
+background-size:10px 10px;
+background-position: 0 0, 30px 30px;
     float: left;
     width: 3%;
 }
 .color3 {
     background-color: {{site.data.colors.yellow}};
+background: 
+linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+linear-gradient(45deg, #ECEDDC 25%, transparent 25%);	
+background-size: 20px 20px;
+background-color: {{site.data.colors.pink}};
     float: left;
     width: 43.5%;
 }
