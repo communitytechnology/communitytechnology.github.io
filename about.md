@@ -5,7 +5,7 @@ tagline: About
 lang: en
 ---
 
-In 2012, the Allied Media Projects and the Open Technology Institute launched the first Digital Stewards Program, as part of the Detroit Future media training. The goal of the project was to support community organizers to design and build communications infrastructure that could be planned and governed by the community itself, and based on principals of community self-reliance and digital justice.
+In 2012, the Allied Media Projects and the Open Technology Institute launched the first Digital Stewards Program, as part of the Detroit Future media training. The goal of the project was to support community organizers to design and build communications infrastructure that could be planned and governed by the community itself, and based on principles of community self-reliance and digital justice.
 
 Digital Stewards learned to install and manage community wireless (mesh) networks in their own neighborhoods. The trainings gave rise to series of participatory education activities created with the help of the Detroit-based Work Department. The Red Hook Iniative partnered with the Open Technology Institute to train Digital Stewards in Red Hook, Brooklyn to grow and maintain the community wireless network in their neigborhood.
 
