@@ -58,14 +58,15 @@ nav a:hover {
     float: left;
     width: 5%;
 }
-.color3 {
-  background: {{site.data.colors.purple}} url("/files/website/blockprint.svg") repeat;
+.color2 {
+/*  background: {{site.data.colors.purple}} url("/files/website/blockprint.svg") repeat;*/
+  background-color: {{site.data.colors.purple}};
   background-size: 20px 20px;
   float: left;
   width: 33.5%;
 }
 
-.color2 {
+.color3 {
     background-color:#001;
     background-image: radial-gradient(lightgrey 15%, transparent 16%),
     radial-gradient(lightgrey 15%, transparent 16%);
