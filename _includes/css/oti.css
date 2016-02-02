@@ -274,6 +274,7 @@ a img, a:link img {
   background-color: #333;
   background-image: none;
   color: white;
+  background: #333 url("/files/website/blockprint2_dk.png") repeat;
 }
 
 
