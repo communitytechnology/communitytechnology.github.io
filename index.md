@@ -34,8 +34,7 @@ grid:
    image: /icons/facilitation.svg
  - organizing-models:
    title: Organizing Models
-   text: Stories from Partner Networks
-   url: /docs/organizing-models
+   text: Stories from Partner Networks (coming soon).
    image: /icons/workshop-agenda.png
 ---
 
