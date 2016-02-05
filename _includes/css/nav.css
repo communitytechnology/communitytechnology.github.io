@@ -53,35 +53,37 @@ nav a:hover {
 }
 
 .color0 {
-    background-color: {{site.data.colors.pink}};
+    background-color: {{site.data.colors.green}};
     float: left;
     width: 5%;
 }
+
 .color1 {
-    background-color: {{site.data.colors.teal}};
-    float: left;
-    width: 43.5%;
+  background-color: {{site.data.colors.purple}};
+  float: left;
+  width: 33.5%;
 }
+
 .color2 {
-    background-color: {{site.data.colors.gold}};
-    float: left;
-    width: 3%;
+  background-color: darkgrey;
+  float: left;
+  width: 13%;
 }
+
 .color3 {
-    background-color: {{site.data.colors.yellow}};
-    float: left;
-    width: 43.5%;
+    background-color: lightgrey;
+  float: left;
+  width: 43.5%;
 }
-.color4 {
-    width: 5%;
-    float: left;
-    background-color: {{site.data.colors.purple}};
+
+.color4{
+    background-color: lightgrey;
+  float: left;
+  width: 5%;
 }
+
+
 /* END COLOR BAR */
-
-
-
-
 
 
 #homebutton img {
