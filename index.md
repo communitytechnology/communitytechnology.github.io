@@ -38,7 +38,7 @@ grid:
    image: /icons/workshop-agenda.png
 ---
 
-#####A collective resource for <span class="small-caps"> digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community infrastructure</span>.
+##### A collective resource for <span class="small-caps"> digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community infrastructure</span>.
 
 These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome [contributions](contribute.html). 
 
@@ -60,14 +60,14 @@ These resources emphasize self-governance, participatory learning, collaborative
   </div>
 </div>
 
-###Grants
+### Grants
 
 Through the Community Technology Partnership, the Open Technology Institute and the Detroit Community Technology Project provided SEED grants to 11 community-controlled infrastructure projects this year:
 
 [2015 Community Technology Partnership SEED Grants](/docs/seed-grants/)
 
 
-###Blog Posts + Reports
+### Blog Posts + Reports
 
 <div class="grid home-width">
   <div class="grid-row">
