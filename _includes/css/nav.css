@@ -54,37 +54,35 @@ nav a:hover {
 }
 
 .color0 {
-    background: white url("/files/website/background-dashes.png") repeat;
+    background-color: {{site.data.colors.green}};
     float: left;
     width: 5%;
 }
-.color2 {
-/*  background: {{site.data.colors.purple}} url("/files/website/blockprint.svg") repeat;*/
+
+.color1 {
   background-color: {{site.data.colors.purple}};
-  background-size: 20px 20px;
   float: left;
   width: 33.5%;
 }
 
-.color3 {
-    background-color:#001;
-    background-image: radial-gradient(lightgrey 15%, transparent 16%),
-    radial-gradient(lightgrey 15%, transparent 16%);
-    background-size:10px 10px;
-    background-position: 0 0, 30px 30px;
+.color2 {
+  background-color: darkgrey;
   float: left;
   width: 13%;
 }
-.color1 {
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAKklEQVQYlWNgQAP/imf/RxfDADBFeBWjS2JVjMsEFHFCbiLKzWQpJhoAAF/vHm+22Tu8AAAAAElFTkSuQmCC) repeat;
+
+.color3 {
+    background-color: lightgrey;
   float: left;
-  width: 43.5%;
+  width: 48.5%;
 }
-.color4 {
-  width: 5%;
+
+.color4{
+    background-color: lightgrey;
   float: left;
-    background-color: {{site.data.colors.green}};
+  width: 0%;
 }
+
 /* END COLOR BAR */
 
 #homebutton img {
