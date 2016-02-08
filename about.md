@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Re(Building) Technology
-tagline: About
+title: About
 lang: en
 permalink: /about.html
 ---
