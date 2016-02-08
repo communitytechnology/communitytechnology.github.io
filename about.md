@@ -3,6 +3,7 @@ layout: default
 title: Re(Building) Technology
 tagline: About
 lang: en
+permalink: /about.html
 ---
 
 In 2012, the Allied Media Projects and the Open Technology Institute launched the first Digital Stewards Program, as part of the Detroit Future media training. The goal of the project was to support community organizers to design and build communications infrastructure that could be planned and governed by the community itself, and based on principles of community self-reliance and digital justice.
