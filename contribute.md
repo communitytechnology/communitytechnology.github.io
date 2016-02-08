@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Re(Building) Technology
-tagline: Collaborate on GitHub
+title: How to Contribute
 lang: en
 permalink: /contribute.html
 ---
