@@ -3,6 +3,7 @@ layout: default
 title: Re(Building) Technology
 tagline: Collaborate on GitHub
 lang: en
+permalink: /contribute.html
 ---
 
 <h2>How to Contribute?</h2>

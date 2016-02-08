@@ -5,6 +5,7 @@ created: 2013-09-20
 changed: 2014-03-04
 post_author: oti
 lang: en
+permalink: /list-assets.html
 ---
 
 Mix and match to make flyers, activities or maps. These images were made by <a href="http://www.theworkdept.com/">The Work Department</a> and the <a href="http://opentechinstitute.org">Open Technology Institute</a>, and are used in the Neighborhood Network Construction Kit. If you use them, please share your work with us. Other icons on this website are from the <a href="http://thenounproject.com/">Noun Project</a>.
