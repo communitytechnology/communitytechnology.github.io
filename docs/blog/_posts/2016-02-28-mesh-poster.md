@@ -126,3 +126,5 @@ The Falanster, geek organization from Belarus, has prepared posters in both png 
 Here is all resources <a href="https://github.com/communitytechnology/communitytechnology.github.io/tree/master/files/blog/posters">on github</a> 
 
 </div>
+
+</div>
