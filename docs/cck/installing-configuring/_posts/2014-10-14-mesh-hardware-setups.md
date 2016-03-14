@@ -15,12 +15,15 @@ lang: en
 
 ## Introduction
 
-When planning and building a network, you will need to install the wireless node or nodes that make the most sense for each site. In most cases, a single wireless node on a rooftop or in a window will connect to nearby neighbors and form a mesh. In some cases, this wireless node may be connected by Ethernet cable to a gateway connection to the Internet, sharing it with those neighbors. In other cases, the node will be connected by Ethernet cable to one or more computers inside the building, some of which may be sharing local applications.
+When planning and building a network, you will need to install the wireless routers (or nodes) that make the most sense for each site. In most cases, a single wireless router on a rooftop or in a window will connect to nearby neighbors and form a mesh. In some cases, this wireless node may be connected by Ethernet cable to a gateway connection to the Internet, sharing it with those neighbors. In other cases, the node will be connected by Ethernet cable to one or more computers inside the building, some of which may be sharing local applications.
 
 The instructions below are designed to show you examples of how to set up the hardware in different ways. Each configuration listed below describes the settings you should change to make the network work according to your plans. These setup examples are based on the recommendations in [Guidelines for Mesh Networks](/docs/cck/networking/guidelines-for-mesh/).
 
 
-## Two or more nodes meshing wirelessly
+## Basic Setups
+
+
+### Two or more nodes meshing wirelessly
 
 The most common configuration of wireless nodes is made up of the nodes themselves, the mesh links between nodes, and any users connected to the network. It involves two or more wireless nodes, installed with the Commotion software. The nodes in the example below are an assortment of omnidirectional nodes, but the specific type doesn’t matter as long as they are within wireless range of each other.
 
@@ -30,160 +33,102 @@ In the diagram above:
 
 * **(A)** Represents wireless nodes running a mesh firmware.
 * **(B)** Represents the wireless mesh links between the nodes.
+
+The configuration of each type of mesh firmware will be different, but this setup should work with all versions. As long as there are not obstructions between the wireless devices, and the devices are within range, they should connect and form a single network.
+
+
+### One or more nodes connected to a gateway
+
+Most networks are designed to provide services, with a connection to the global Internet being the most popular! Most mesh firmware is designed to share services across the entire mesh network by default, and will attempt to detect a gateway connection to the Internet when the routers boot up. If the wireless router receives an IP address via DHCP on the wired Ethernet port, it will set itself up as a gateway.
+
+![Nodes connected to a gateway to the Internet](/files/Hardware_Setups-Nodes_with_gateway.png)
+
+In the diagram above:
+
+* **(A)** Represents the nodes running the mesh firmware.
+* **(B)** Represents the wireless mesh links between the nodes.
+* **(C)** Represents the connection to the Internet.
+* **(D)** Represents the modem or router from the Internet Service Provider (ISP), connected to the Internet. It provides IP addresses on the local port with DHCP.
+
+
+The type of modem will vary depending on the Internet Service provider, but it should have at least two ports:
+![Gateway modem](/files/Hardware_Setups-Gateway_modem.png)
+
+* **(E)** Shows the modem LAN port, which is connected to the router's WAN port. There may be multiple LAN ports on the gateway modem, any should work fine.
+* **(F)** Shows the modem connection to the Internet - via DSL, cable, 3G USB adapter, or other type.
+
+The cable from the modem LAN port should run to the WAN port on the Commotion node. On most outdoor routers, there will be a single port on the unit’s PoE power supply. On routers with multiple ports, the WAN port will typically be labeled, and is often a different color - usually blue. These examples are shown below:
+![Gateway ports](/files/Hardware_Setups-Gateway_ports.png)
+
+The mesh router node connected to the modem should receive an IP address and configure itself as a gateway. It will advertise this on the network by default. At this point, the user connecting to the mesh node should be able to access the Internet.
+
+
+### Node connected to a local application server
+
+You have a web server hosting a community blog on your computer, and you want to share it with the neighborhood network. Connect the computer to the mesh node using the wired Ethernet port. The laptop will receive an IP address on the mesh, and you can use Commotion’s application portal to add an entry for the blog, which will be advertised to the users on the mesh via the splash page on all the nodes.
+![Node with a server](/files/Hardware_Setups-Nodes_with_server.png)
+
+In the diagram above:
+
+* **(A)** Represents a node running the mesh firmware.
+* **(B)** Represents the wireless mesh links between the nodes.
+* **(C)** Represents a laptop set up as a server, connected to a node’s wired Ethernet port. In this case, one of the LAN ports.
+
+The cable will run from the mesh router's LAN port. On most outdoor routers, there will be a single port on the unit’s PoE power supply. On routers with multiple ports, the LAN ports will typically be labeled, and are often a different color - usually yellow. These examples are shown below:
+![Node with server ports](/files/Hardware_Setups-Nodes_with_server_ports.png)
+
+
+### Node connected to an external AP or router
+
+If there is no Internet connection inside a building, but it is available elsewhere in the mesh, you can connect to the rooftop mesh network to provide access. Connect an indoor Access Point or router with a wireless AP to the wired Ethernet port of the mesh node on the roof. The node will provide any users connecting to the AP with wireless devices such as smartphones and laptops with IP addresses on the mesh. These non-mesh routers and Access Points can add wireless coverage to areas not covered by the outdoor mesh nodes. By connecting to these indoor APs, users can access the services and gateways that are on the mesh. Since mesh firmware isn't compatible with every router, this method allows you to use routers and Access Points you might already have.
+![Nodes with an external AP](/files/Hardware_Setups-Nodes_with_AP.png)
+
+In the diagram above:
+
+(A) Represents the nodes running the mesh firmware.
+(B) Represents the wireless mesh links between the nodes.
+(C) Represents an external Access Point or router, not running mesh firmware. This is connected to the second node’s wired Ethernet LAN port.
+
+The diagram below demonstrates what this would look like with equipment installed on a building:
+![Mesh nodes and APs on a building](/files/Hardware_Setups-Nodes_with_AP_building.png)
+
+Most mesh firmware should support this option. If there are LAN ports on the device, or they can be configured to hand out IP addresses with DHCP, an Access Point will "pass through" requests from wireless devices to the mesh router. This way you can extend the capacity of the mesh router to areas of a building, and not use wireless bandwidth or cause interference.
+
+
+## Advanced Setups
+For most community wireless networks, the simple setups above will fit the needs of the neighborhood or town. For others, more complex installations and configurations will be required. The hardware setups below involve more complicated arrangements of routers, when there is a need to connect multiple nodes together at a single site. Some of the instructions below require some familiarity with networking concepts, so we recommend reading through [Learn Networking Basics](/docs/cck/networking/learn-networking-basics/) first.
+
+### Mesh with Ethernet with DHCP
+***Using a gateway to the Internet with DHCP for automatic assignment of IP addresses***
+
+If you want to provide a gateway connection to the Internet on your mesh network, it helps to use several nodes at the location hosting that connection. This should reduce bottlenecks that would occur if there were only one node connected to that gateway.
+
+![Meshing over Ethernet with Gateway](/files/Hardware_Setups-Nodes_via_Ethernet_with_gateway.png)
+
+In the diagram above:
+
+* **(A)** Represents a node running the Commotion software.
+* **(B)** Represents the wireless mesh links between the nodes.
 * **(C)** Represents the Access Point generated by the Commotion node for users to connect to.
-* **(D)** Represents a person using a laptop, connected to a rooftop node’s Access Point.
-
-<p><strong>Steps to Configure:</strong></p>
-<p>The Commotion nodes should mesh wirelessly after running the Setup Wizard on the first boot, as long as the nodes were configured with the same:</p>
-<ul class="rteindent1">
-    <li><strong>Mesh network name.</strong> By default, this is set to commotionwireless.net.</li>
-    <li><strong>Wireless channel.</strong> By default, this is 11 for 2.4GHz wireless devices.</li>
-    <li><strong>Mesh encryption password.</strong> The passwords must match across the network. You can also disable encryption across the network.</li>
-</ul>
-
-<p>After the initial configuration with the Setup Wizard, these settings are all visible and editable in the <strong>Basic Configuration -> Network Settings -> Mesh Network</strong> menu in the Administration panel of your wireless node. If any nodes are not meshing, check that the mesh settings are identical across all the nodes, and the nodes are in wireless range of each other.
+* **(D)** Represents an Ethernet switch, which transfers data between all connected devices.
+* **(E)** Represents Ethernet cabling connecting the modem and nodes to the Ethernet switch.
+* **(F)** Represents the modem or router from the Internet Service Provider (ISP), connected to the Internet. It provides IP addresses on the local port with DHCP.
+* **(G)** Represents the Internet.
 
 
-## One or more nodes connected to a gateway
+The diagram below demonstrates what this would look like with equipment installed on a building:
+![Mesh over Ethernet on a building](/files/Hardware_Setups-Nodes_via_Ethernet_with_gateway_building.png)
 
-Most networks are designed to provide services, with a connection to the global Internet being the most popular! Commotion is designed to share services across the entire mesh network by default, and will attempt to detect a gateway connection to the Internet when a node boots up. If the wireless node receives an IP address via DHCP on the wired Ethernet port, it will set itself up as a gateway.
 
-![Nodes connected to a gateway to the Internet](/files/CCK_CommonConfigs_02_Nodes_with_gateway_building.png)
+## Conclusion
 
-<p>In the diagram above:</p>
-<ul class="rteindent1">
-    <li><strong>(A)</strong> Represents the nodes running the Commotion software.</li>
-    <li><strong>(B)</strong> Represents the wireless mesh links between the nodes.</li>
-    <li><strong>(C)</strong> Represents the Access Point generated by the Commotion node for users to connect to.</li>
-    <li><strong>(D)</strong> Represents a user’s laptop, connected to the second node’s access point.</li>
-    <li><strong>(E)</strong> Represents the modem or router from the Internet Service Provider (ISP), connected to the Internet. It provides IP addresses on the local port with DHCP.</li>
-    <li><strong>(F)</strong> Represents the connection to the Internet.</li>
-</ul>
 
-<p>The type of modem will vary depending on the Internet Service provider, but it should have at least two ports:</p>
-<p><img src="{{site.baseurl}}/files/CCK_CommonConfigs_02_Nodes_with_gateway_modem.png" style="max-width:400px;" /></p>
 
-<ul class="rteindent1">
-    <li><strong>(G)</strong> Shows the modem LAN port, which is connected to the Commotion WAN port. There may be multiple LAN ports on the modem or router, any should work fine.</li>
-    <li><strong>(H)</strong> Shows the modem connection to the Internet - via DSL, cable, 3G USB adapter, or other type.</li>
-</ul>
+## Definitions
 
-<p>The cable from the modem LAN port should run to the WAN port on the Commotion node. On most outdoor routers, there will be a single port on the unit’s PoE power supply. On routers with multiple ports, the WAN port will typically be labeled, and is often a different color - usually blue. These examples are shown below:</p>
-<p><img src="{{site.baseurl}}/files/CCK_CommonConfigs_02_Nodes_with_gateway_ports.png" style="max-width:600px;" /></p>
-
-<p><strong>Steps to Configure:</strong></p>
-<p>The Commotion nodes should mesh wirelessly after running the Setup Wizard on the first boot, as long as the nodes were configured with the same:</p>
-<ul class="rteindent1">
-    <li><strong>Mesh network name.</strong> By default, this is set to <em>commotionwireless.net</em>.</li>
-    <li><strong>Wireless channel.</strong> By default, this is 11 for 2.4GHz wireless devices.</li>
-    <li><strong>Mesh encryption password.</strong> The passwords must match across the network. You can also disable encryption across the network.</li>
-</ul>
-
-<p>The first Commotion node connected to the modem should receive an IP address and configure itself as a gateway. It will advertise this on the network by default, as long as the “Advertise your gateway to the mesh” is checked in the <strong>Additional Network Interfaces</strong> menu. At this point, the user connecting with the laptop on a mesh node can access the Internet.</p>
-
-<p>After running the Setup Wizard, you can set the node to “gateway only” mode:</p>
-<p><img src="{{site.baseurl}}/files/CCK_CommonConfigs_02_Nodes_with_gateway_screenshot.png" style="max-width:600px;" /></p>
-
-<ol class="rteindent1">
-    <li>In the Administration panel, browse to the <strong>Basic Configuration -> Network Settings -> Additional Network Interfaces</strong> menu.</li>
-    <li>In the “Gateway Configuration” pull-down menu, select “This device should ALWAYS try to acquire a DHCP lease”.</li>
-    <li>Make sure “Advertise your gateway to the mesh” is checked.</li>
-    <li>Save and apply these settings.</li>
-</ol>
-</section>
-
-<section id="node-connected-to-server">
-<h2>Node connected to a local application server</h2>
-
-<p>You have a web server hosting a community blog on your computer, and you want to share it with the neighborhood network. Connect the computer to the mesh node using the wired Ethernet port. The laptop will receive an IP address on the mesh, and you can use Commotion’s application portal to add an entry for the blog, which will be advertised to the users on the mesh via the splash page on all the nodes.</p>
-<p><img src="{{site.baseurl}}/files/CCK_CommonConfigs_03_Nodes_with_server.png" style="max-width:600px;" /></p>
-
-<p>In the diagram above:</p>
-<ul>
-    <li><strong>(A)</strong> Represents a node running the Commotion software.</li>
-    <li><strong>(B)</strong> Represents the wireless mesh links between the nodes.</li>
-    <li><strong>(C)</strong> Represents the Access Point generated by the Commotion node for users to connect to.</li>
-    <li><strong>(D)</strong> Represents a laptop set up as a server, connected to a node’s wired Ethernet port. In this case, one of the LAN ports.</li>
-</ul>
-
-<p>The cable will run from the Commotion nodes’ LAN port. On most outdoor routers, there will be a single port on the unit’s PoE power supply. On routers with multiple ports, the LAN ports will typically be labeled, and are often a different color - usually yellow. These examples are shown below:</p>
-<p><img src="{{site.baseurl}}/files/CCK_CommonConfigs_03_Nodes_with_server_ports.png" style="max-width:600px;" /></p>
-
-<p><strong>Steps to Configure:</strong></p>
-<p>The Commotion nodes should mesh wirelessly after running the Setup Wizard on the first boot, as long as the nodes were configured with the same:</p>
-<ul class="rteindent1">
-    <li><strong>Mesh network name.</strong> By default, this is set to commotionwireless.net.</li>
-    <li><strong>Wireless channel.</strong> By default, this is 11 for 2.4GHz wireless devices.</li>
-    <li><strong>Mesh encryption password.</strong> The passwords must match across the network. You can also disable encryption across the network.</li>
-</ul>
-
-<p>The Commotion node should provide an IP address to the connected computer. To make sure this is always the case, you can set the node to “DHCP server only” mode:</p>
-<p><img src="{{site.baseurl}}/files/CCK_CommonConfigs_03_Nodes_with_server_screenshot.png" style="max-width:600px;" /></p>
-
-<ol class="rteindent1">
-    <li>In the Administration panel, browse to the <strong>Basic Configuration -> Network Settings -> Additional Network Interfaces</strong> menu.</li>
-    <li>In the “Gateway Configuration” pull-down menu, select “This device should ALWAYS provide DHCP leases to clients”.</li>
-    <li>Save and apply these settings.</li>
-</ol>
-</section>
-
-<section id="node-connected-t0-ap">
-<h2>Node connected to an external AP or router</h2>
-
-<p>If there is no Internet connection inside a building, you can connect to the rooftop mesh network to provide access. Connect an indoor Access Point or router with a wireless AP to the wired Ethernet port of the Commotion node on the roof. The node will provide any users connecting to the AP with wireless devices such as smartphones and laptops with IP addresses on the mesh. These non-Commotion routers and Access Points can add wireless coverage to areas not covered by the outdoor mesh nodes. By connecting to these indoor APs, users can access the services and gateways that are on the mesh. Since Commotion isn’t compatible with every router, this method allows you to use routers and Access Points you might already have.</p>
-<p><img src="{{site.baseurl}}/files/CCK_CommonConfigs_04_Nodes_with_AP.png" style="max-width:600px;" /></p>
-
-<p>In the diagram above:</p>
-<ul>
-    <li><strong>(A)</strong> Represents the nodes running the Commotion software.</li>
-    <li><strong>(B)</strong> Represents the wireless mesh links between the nodes.</li>
-    <li><strong>(C)</strong> Represents the Access Point generated by the Commotion node for users to connect to.</li>
-    <li><strong>(D)</strong> Represents an external Access Point or router, not running Commotion. This is connected to the second node’s wired Ethernet LAN port.</li>
-</ul>
-
-<p>The diagram below demonstrates what this would look like with equipment installed on a building:</p>
-<p><img src="{{site.baseurl}}/files/CCK_CommonConfigs_04_Nodes_with_AP_building.png" style="max-width:600px;" /></p>
-
-<p><strong>Steps to Configure:</strong></p>
-<p>The Commotion nodes should mesh wirelessly after running the Setup Wizard on the first boot, as long as the nodes were configured with the same:</p>
-<ul>
-    <li><strong>Mesh network name.</strong> By default, this is set to commotionwireless.net.</li>
-    <li><strong>Wireless channel.</strong> By default, this is 11 for 2.4GHz wireless devices.</li>
-    <li><strong>Mesh encryption password.</strong> If you don’t want to encrypt the mesh network, you can leave this blank to disable it.</li>
-</ul>
-
-<p>Make sure that the Commotion node’s LAN port is plugged into the “WAN” port of the Access Point or router. The WAN port is the “incoming” connection port, where you would plug in a modem for access to the Internet. The Commotion node should provide an IP address to the AP and any users that connect. To make sure this is always the case, after running the Setup Wizard, you can set the node to “DHCP server only” mode:</p>
-<p><img src="{{site.baseurl}}/files/CCK_CommonConfigs_03_Nodes_with_server_screenshot.png" style="max-width:600px;" /></p>
-<ol class="rteindent1">
-    <li>In the Administration panel, browse to the <strong>Basic Configuration -> Network Settings -> Additional Network Interfaces</strong> menu.</li>
-    <li>In the “Gateway Configuration” pull-down menu, select “This device should ALWAYS provide DHCP leases to clients”.</li>
-    <li>Save and apply these settings.</li>
-</ol>
-</section>
-
-<section id="section-conclusion">
-<h2>Conclusion</h2>
-<p>That covers the three most basic setups for installing and configuring Commotion nodes. If you want to see additional configuration examples and the steps to set it up, see the <a href="{{site.baseurl}}/docs/cck/installing-configuring/advanced-hardware-setups/">Advanced Hardware Setups</a> guide.
-</p>
-
-</section>
-
-<section id="section-definitions">
-<h2>Definitions</h2>
-
-<dl>
-	<dt>AP (Access Point)</dt>
-	<dd>A device that allows wireless devices to connect to a wired network using Wi-Fi or related standards</dd>
-	<dt>DHCP: Dynamic Host Configuration Protocol</dt>
-	<dd>It assigns IP addresses to client devices, such as desktop computers, laptops, and phones, when they are plugged into Ethernet or connect to Wireless networks.</dd>
-	<dt>Ethernet</dt>
-	<dd>A type of networking protocol - it defines the types of cables and connections that are used to wire computers, switches, and routers together. Most often Ethernet cabling is Category 5 or 6, made up of twisted pair wiring similar to phone cables.</dd>
-	<dt>Router</dt>
-	<dd>A device that determines how messages move through a computer network.</dd>
-	<dt>Node</dt>
-	<dd>An individual device in a mesh network.</dd>
-	<dt>WAN: Wide Area Network</dt>
-	<dd>Signifies the connection to the global Internet or a different, typically larger, network.</dd>
-</dl>
-
-</section>
+**AP (Access Point)** - A device that allows wireless devices to connect to a wired network using Wi-Fi or related standards.
+**DHCP: Dynamic Host Configuration Protocol** - It assigns IP addresses to client devices, such as desktop computers, laptops, and phones, when they are plugged into Ethernet or connect to Wireless networks.
+**Ethernet** - A type of networking protocol - it defines the types of cables and connections that are used to wire computers, switches, and routers together. Most often Ethernet cabling is Category 5 or 6, made up of twisted pair wiring similar to phone cables.
+**Router** - A device that determines how messages move through a computer network.
+**Node** - An individual device in a mesh network.
+**WAN: Wide Area Network** - Signifies the connection to the global Internet or a different, typically larger, network.
