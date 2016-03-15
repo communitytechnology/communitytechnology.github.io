@@ -2,11 +2,10 @@
 layout: collection
 title: Hardware Setups for Mesh Networks
 description: There are many ways to set up your routers to build community networks. Inside are a few examples.
-pdf: cck/installing-configuring/Hardware_Setups_for_Mesh_Networks.pdf
 files:
   Production files: /files/cck/installing-configuring/Hardware_Setups-production-files.zip
 created: 2013-11-06
-changed: 2016-03-14
+changed: 2016-03-15
 post_author: andygunn
 lang: en
 ---
@@ -25,7 +24,7 @@ The instructions below are designed to show you examples of how to set up the ha
 
 ### Two or more nodes meshing wirelessly
 
-The most common configuration of wireless nodes is made up of the nodes themselves, the mesh links between nodes, and any users connected to the network. It involves two or more wireless nodes, installed with the Commotion software. The nodes in the example below are an assortment of omnidirectional nodes, but the specific type doesn’t matter as long as they are within wireless range of each other.
+The most common configuration of wireless nodes is made up of the nodes themselves, the mesh links between nodes, and any users connected to the network. It involves two or more wireless nodes, installed with a mesh firmware. The nodes in the example below are an assortment of omnidirectional nodes, but the specific type doesn’t matter as long as they are within wireless range of each other.
 
 ![Two nodes meshed wirelessly](/files/Hardware_Setups-Nodes_meshed_wirelessly.png)
 
@@ -57,7 +56,7 @@ The type of modem will vary depending on the Internet Service provider, but it s
 * **(E)** Shows the modem LAN port, which is connected to the router's WAN port. There may be multiple LAN ports on the gateway modem, any should work fine.
 * **(F)** Shows the modem connection to the Internet - via DSL, cable, 3G USB adapter, or other type.
 
-The cable from the modem LAN port should run to the WAN port on the Commotion node. On most outdoor routers, there will be a single port on the unit’s PoE power supply. On routers with multiple ports, the WAN port will typically be labeled, and is often a different color - usually blue. These examples are shown below:
+The cable from the modem LAN port should run to the WAN port on the mesh router. On most outdoor routers, there will be a single port on the unit’s PoE power supply. On routers with multiple ports, the WAN port will typically be labeled, and is often a different color - usually blue. These examples are shown below:
 ![Gateway ports](/files/Hardware_Setups-Gateway_ports.png)
 
 The mesh router node connected to the modem should receive an IP address and configure itself as a gateway. It will advertise this on the network by default. At this point, the user connecting to the mesh node should be able to access the Internet.
@@ -65,7 +64,7 @@ The mesh router node connected to the modem should receive an IP address and con
 
 ### Node connected to a local application server
 
-You have a web server hosting a community blog on your computer, and you want to share it with the neighborhood network. Connect the computer to the mesh node using the wired Ethernet port. The laptop will receive an IP address on the mesh, and you can use Commotion’s application portal to add an entry for the blog, which will be advertised to the users on the mesh via the splash page on all the nodes.
+You have a web server hosting a community blog on your computer, and you want to share it with the neighborhood network. Connect the computer to the mesh node using the wired Ethernet port. The laptop will receive an IP address on the mesh, and you can access the server on the mesh by entering it's IP address or domain name into your web browser's URL bar. On some mesh firmware, such as Commotion - there is an application portal where advertised applications can be found. If you are using Commotion, you can add the server information on the attached node, and that will be advertised to users on the mesh via the splash page on all of the nodes with a good connection.
 ![Node with a server](/files/Hardware_Setups-Nodes_with_server.png)
 
 In the diagram above:
@@ -98,6 +97,8 @@ Most mesh firmware should support this option. If there are LAN ports on the dev
 ## Advanced Setups
 For most community wireless networks, the simple setups above will fit the needs of the neighborhood or town. For others, more complex installations and configurations will be required. The hardware setups below involve more complicated arrangements of routers, when there is a need to connect multiple nodes together at a single site. Some of the instructions below require some familiarity with networking concepts, so we recommend reading through [Learn Networking Basics](/docs/cck/networking/learn-networking-basics/) first.
 
+Each of these setups show the configuration of mesh nodes to connect with Ethernet. Whenever possible, using wired Ethernet connections can greatly speed up your community network. There is much more bandwidth available with wired links, and there will be no interference when using cables. For more information on increasing performance on your community network, see [Guidelines for Mesh Networks](/docs/cck/networking/guidelines-for-mesh/).
+
 
 ### Mesh with Ethernet with DHCP
 ***Using a gateway to the Internet with DHCP for automatic assignment of IP addresses***
@@ -114,7 +115,6 @@ In the diagram above:
 * **(D)** Represents Ethernet cabling connecting the modem and nodes to the Ethernet switch.
 * **(E)** Represents the modem or router from the Internet Service Provider (ISP), connected to the Internet. It provides IP addresses on the local port with DHCP.
 * **(F)** Represents the Internet.
-
 
 The diagram below demonstrates what this would look like with equipment installed on a building:
 ![Mesh over Ethernet on a building](/files/Hardware_Setups-Nodes_via_Ethernet_with_gateway_building.png)
@@ -140,10 +140,36 @@ In the diagram above:
 The diagram below demonstrates what this would look like with equipment installed on a building:
 ![Mesh over Ethernet on building](/files/Hardware_Setups-Nodes_via_Ethernet_no_gateway_building.png)
 
+The steps to configure this functionality will be different for every mesh firmware. For routers running Commotion, see the [Advanced Hardware Setups](https://commotionwireless.net/docs/cck/installing-configuring/advanced-hardware-setups/) guide. For routers running LibreMesh, if all of the routers are connected via the LAN ports, they should mesh automatically over Ethernet and form a mesh. For other firmware, consult the documentation.
+
+*Tip: Mounting wireless routers very close to each other can cause interference. For best performance, we recommend mounting equipment on separate poles, with two or three meters (6 to 10 feet) between them and using metal shields on the back of directional nodes. These reduce the wireless signal radiated from the back of the equipment, reducing the interference. You can [buy these commercially](http://www.rfarmor.com), or [make your own from metal building studs](http://gowasabi.net/content/importance-shielding).*
+
+
+### Mesh with Ethernet with a Static Gateway
+***Using Static IP addressing, with a Gateway to the Internet***
+
+This example is similar to the other example with a gateway above, but the gateway to the Internet does not provide IP addresses automatically using DHCP. You must configure the addresses for your mesh nodes manually. In this example the gateway IP address is 192.168.50.1, but you will need to obtain the proper IP address information from your Internet service provider.
+![Mesh over Ethernet static gateway](/files/Hardware_Setups-Nodes_via_Ethernet_with_gateway_building.png)
+
+In the diagram above:
+
+* **(A)** Represents a node running a mesh firmware.
+* **(B)** Represents the wireless mesh links between the nodes.
+* **(C)** Represents an Ethernet switch, which transfers data between all connected devices.
+* **(D)** Represents Ethernet cabling connecting the modem and nodes to the Ethernet switch.
+* **(E)** Represents the modem or router from the Internet Service Provider (ISP), connected to the Internet. It is configured with a Static IP address, and does not provide IP addresses to clients automatically via DHCP.
+* **(F)** Represents the Internet.
+
+The diagram below demonstrates what this would look like with equipment installed on a building:
+![Mesh over Ethernet static gateway building](/files/Hardware_Setups-Nodes_via_Ethernet_with_gateway_building.png)
+
+The steps to configure this functionality will be different for every mesh firmware. For routers running Commotion, see the [Advanced Hardware Setups](https://commotionwireless.net/docs/cck/installing-configuring/advanced-hardware-setups/) guide. For routers running LibreMesh, if all of the routers are connected via the LAN ports, they should mesh automatically over Ethernet and form a mesh. For other firmware, consult the documentation.
+
+*Tip: Mounting wireless routers very close to each other can cause interference. For best performance, we recommend mounting equipment on separate poles, with two or three meters (6 to 10 feet) between them and using metal shields on the back of directional nodes. These reduce the wireless signal radiated from the back of the equipment, reducing the interference. You can [buy these commercially](http://www.rfarmor.com), or [make your own from metal building studs](http://gowasabi.net/content/importance-shielding).*
 
 
 ## Conclusion
-
+These hardware setup examples should provide you with some ideas on where and how to set up your wireless routers when building your community network. For more information and ideas, please see the rest of the [Neighborhood Network Construction Kit](/docs/cck/index.html).
 
 
 ## Definitions
