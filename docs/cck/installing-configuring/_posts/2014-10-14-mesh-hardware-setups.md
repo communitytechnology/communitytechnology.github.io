@@ -84,9 +84,9 @@ If there is no Internet connection inside a building, but it is available elsewh
 
 In the diagram above:
 
-(A) Represents the nodes running mesh firmware.
-(B) Represents the wireless mesh links between the nodes.
-(C) Represents an external Access Point or router, not running mesh firmware. This is connected to the second node’s wired Ethernet LAN port.
+* **(A)** Represents the nodes running mesh firmware.
+* **(B)** Represents the wireless mesh links between the nodes.
+* **(C)** Represents an external Access Point or router, not running mesh firmware. This is connected to the second node’s wired Ethernet LAN port.
 
 The diagram below demonstrates what this would look like with equipment installed on a building:
 ![Mesh nodes and APs on a building](/files/Hardware_Setups-Nodes_with_AP_building.png)
