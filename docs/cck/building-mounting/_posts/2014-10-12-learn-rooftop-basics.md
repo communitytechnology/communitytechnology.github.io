@@ -1,14 +1,12 @@
 ---
 layout: collection
 title: Learn Rooftop Basics
+description: Some tips and tricks for successful and safe rooftop installations.
 site_section: docs
-sub_section: [cck,cck-building]
 pdf: cck/building-mounting/2-Learn_Rooftop_Basics.pdf
-pdf-all: true
-categories: 
 created: 2013-09-27
 changed: 2013-09-28
-post_author: critzo
+post_author: Andy Gunn
 lang: en
 ---
 <p><img src="{{site.baseurl}}/files/cck/learn_rooftop_basics_support001.png" width="510" /></p>
@@ -114,4 +112,3 @@ lang: en
 
 <p>Make sure to bring any other printouts you might need on the rooftop - such as the <a href="#">Make an Ethernet Cable</a> module (coming soon), the instructions for putting together the rooftop mounts, maps of your neighborhood, or anything else you think is useful!</p>
 </section>
- 

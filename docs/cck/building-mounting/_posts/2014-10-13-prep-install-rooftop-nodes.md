@@ -1,14 +1,12 @@
 ---
 layout: collection
 title: Prep and Install Rooftop Nodes
+description: Steps to work through when installing rooftop wireless equipment.
 site_section: docs
-sub_section: [cck,cck-building]
 pdf: cck/building-mounting/4-Prep_and_Install_Rooftop_Nodes.pdf
-pdf-all: true
-categories: 
 created: 2013-09-27
 changed: 2013-10-01
-post_author: critzo
+post_author: Andy Gunn
 lang: en
 ---
   <p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support001.png" width="510" /></p>
@@ -209,4 +207,3 @@ lang: en
 
 <p>Consult the Commotion Wireless website commotionwireless.net for more information or documentation on installing the software on your devices.</p>
 </section>
- 
