@@ -3,9 +3,11 @@ layout: collection
 title: Prep and Install Rooftop Nodes
 description: Steps to work through when installing rooftop wireless equipment.
 site_section: docs
-pdf: cck/building-mounting/4-Prep_and_Install_Rooftop_Nodes.pdf
+pdf: cck/building-mounting/Prep_and_install_rooftop_nodes.pdf
+files:
+ "Production files": /files/cck/building-mounting/Prep-and-install-production-files.zip
 created: 2013-09-27
-changed: 2013-10-01
+changed: 2016-05-11
 post_author: Andy Gunn
 lang: en
 ---
@@ -40,7 +42,7 @@ Installations normally take between 1 to 5 hours, depending on the complexity.
 
 ## Wireless Router Preparation
 
-![Preparing routers](/files/cck/prep_install_finish_support002_003.png "Support image")
+![Preparing routers](/files/cck/Prep-and-install_router-preparation.png "Preparing routers")
 
 This guide is intended to provide some easy-to-follow steps for your wireless equipment installation. It is especially helpful to keep track of tasks the day you are planning on working, but we recommend you read it over beforehand in order to best prepare.
 
@@ -102,7 +104,7 @@ Check that you have all the necessary hardware for mounting, such as concrete an
 {: .ol start="6"}
 
 
-## Wireless Node Installation
+## Wireless Router Installation
 
 ![Neighborhood team](/files/cck/prep_install_finish_support008.png "Neighborhood team")
 
@@ -144,7 +146,7 @@ Make sure the Ethernet cable is secured in such a way that the cable cannot be s
 
 ## Clean up, Testing and Post-Installation
 
-![Testing the installation](/files/cck/prep_install_finish_support010.png "Testing the installation")
+![Testing the installation](/files/cck/Prep-and-install_testing-the-installation.png "Testing the installation")
 
 No installation is finished unless you leave the site looking better than when you arrived. Never leave a mess! Make sure you have not left any unsealed holes in the building exterior where water may enter.
 
