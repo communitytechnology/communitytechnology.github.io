@@ -9,201 +9,190 @@ changed: 2013-10-01
 post_author: Andy Gunn
 lang: en
 ---
-  <p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support001.png" width="510" /></p>
 
-<section id="introduction">
-<h2>Introduction</h2>
+![Intro image](/files/cck/prep_install_finish_support001.png "Intro image")
 
-<p>This guide is intended to provide some easy to follow steps for your wireless equipment installation. Read it over to prepare, and use it to keep track of tasks on installation day.</p>
 
-<p>Following you will find sections on:</p>
+## Introduction
 
-<p>Wireless node preparation</p>
+This guide is intended to provide some easy to follow steps for your wireless equipment installation. Read it over to prepare, and use it to keep track of tasks on installation day.
 
-<p>Site preparation</p>
+Following you will find sections on:
 
-<p>Wireless node installation</p>
+* Wireless node preparation
+* Site preparation
+* Wireless node installation
+* Clean-up, testing and post-installation tasks
 
-<p>Clean-up, testing and post-installation tasks</p>
+Review of these materials should only take about an hour, though if you are using it in a classroom or instructional setting, it may take longer. Keep in mind this is a broad overview of all the steps required to install rooftop equipment. Each step along the way will take time - in fact, rooftop installations may take anywhere between two and six hours, depending on site conditions and equipment.
 
-<p>Review of these materials should only take about an hour, though if you are using it in a classroom or instructional setting, it may take longer. Keep in mind this is a broad overview of all the steps required to install rooftop equipment. Each step along the way will take time - in fact, rooftop installations may take anywhere between two and six hours, depending on site conditions and equipment.</p>
+Installations normally take between 1 to 5 hours, depending on the complexity.
 
-<p><strong>Time required: 1-6 hours.</strong></p>
+### Materials + Supplies Needed
 
-<h3>MATERIALS + SUPPLIES NEEDED</h3>
+* The router or routers you plan on installing
+* Mounting equipment and hardware
+* The installation site plan
+* Ethernet cables
+* The power supply for your routers, usually a Power over Ethernet adapter.
+* Tools for installation
 
-<p>Router</p>
 
-<p>Mounting equipment &amp; hardware</p>
+## Wireless Router Preparation
 
-<p>Site plan</p>
+![Preparing routers](/files/cck/prep_install_finish_support002_003.png "Support image")
 
-<p>Ethernet cable</p>
+This guide is intended to provide some easy-to-follow steps for your wireless equipment installation. It is especially helpful to keep track of tasks the day you are planning on working, but we recommend you read it over beforehand in order to best prepare.
 
-<p>Power over Ethernet (PoE) adapter</p>
+The first step is to get the wireless equipment and install your custom firmware, if you are planning on using one. For more information on using custom firmware, see the [What in the world is a firmware?](/docs/cck/installing-configuring/what-is-a-firmware/) and [Installing a new firmware](/docs/cck/installing-configuring/installing-a-new-firmware/) documents. You can do this on the day of the install, or in the days leading up to it. If your neighborhood network has particular settings for the network, make sure to get those as well before installing the software.
 
-<p>Tool bag</p>
-</section>
+1. Acquire the routers that are compatible with your custom firmware and appropriate for the location.
+2. Download the custom firmware images you need for your hardware. Again, you can consult [Installing a new firmware](/docs/cck/installing-configuring/installing-a-new-firmware/) for links to alternate firmware images. If you are planning on using the firmware that came with the routers, you can skip this step.
+3. Install and configure the router using the settings appropriate to your network, and for the site.
+4. Keep a record of the router's mesh or network IP address after it is configured. This can help you access and troubleshoot the device after it is connected to the network.
+5. Also record the router's MAC address - this is a unique ID that you can use to keep track of the hardware, in case you need service from the manufacturer.
 
-<section id="wireless-node-preparation">
-<h2>Wireless Node Preparation</h2>
+To find the MAC address for your router, look on the bottom label or inside the bottom cover of the router for a code that looks like "aa:bb:cc:dd:ee:ff". That is the MAC address. It is a unique combination of numbers and letters that identifies the specific device.
 
-<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support002_003.png" width="510" /></p>
+Finding the mesh IP address will be different depending on the custom firmware you are using. Consult the documentation!
 
-<p>This guide is intended to provide some easy-to-follow steps for your wireless equipment installation. It is especially helpful to keep track of tasks the day you are planning on working, but we recommend you read it over beforehand in order to best prepare.</p>
+![Node tag image](/files/cck/prep_install_finish_nodetag.png "Node tag image")
 
-<p>The first step is to get the wireless hardware and install the custom mesh software. You can do this on the day of the install, or in the days leading up to it. If your neighborhood network has particular settings for the network, make sure to get those as well before installing the software.</p>
+You can write the node's name on the case with a permanent marker, or a printed label if you have a label maker.
+{: .tip}
 
-<p>1. Acquire a Commotion Wireless compatible router that is appropriate for the location.</p>
 
-<p>2. Download the appropriate version of software at the Commotion website (commotionwireless.net). You can find instructions in the module <a href="{{site.baseurl}}/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Router.</a></p>
+## Site Preparation
 
-<p>3. Record the wireless node's MAC address - a unique ID that you can use to keep track of the hardware, in case you need service from the manufacturer.</p>
+It is a good idea to visit the site where you plan on installing a new wireless node a few days or a week before the actual installation. This allows more time to prepare and acquire any missing equipment or hardware.
 
-<p>To find the MAC address: look on the bottom label or inside the bottom cover of the router for a code that looks like aa:bb:cc:dd:ee:ff - that is the MAC address of your router. It is a unique combination of numbers and letters that identifies the specific device.</p>
+![Survey the neighborhood](/files/cck/prep_install_finish_support004.png "Survey the neighborhood")
 
-<p>To find the Mesh IP address: in the Commotion administrator interface, navigate to Status&gt;OLSR, then click on "Interfaces" and record the number that starts with 5. It looks like 5.x.y.z, where x, y, and z are numbers.</p>
+1. Do some site assessments. Using the guidelines and examples in [Inventory the Neighborhood](/docs/cck/planning/inventory-the-neighborhood/) to survey buildings and sites for wireless installations. The document includes a set of questions and things to look for, and is a good place to start.
 
-<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_nodetag.png" width="510" /></p>
+![Checking elements at the site](/files/cck/prep_install_finish_support005.png "Checking elements at the site")
 
-<p class="tip">You can write the node's name on the case with a permanent marker, or a printed label if you have a label maker.</p>
-</section>
+2. Pick the best mounting location on the roof based on visibility to other rooftops. Keep in mind wireless signals work best when there is a clear line of sight between the nodes. Also figure out what kind of mount you will use to install. The document [Learn about Rooftop Mounts](/docs/cck/building-mounting/learn-about-rooftop-mounts) can help you decide.
+{: .ol start="2"}
 
-<section id="site-preparation">
-<h2>Site Preparation</h2>
+3. Identify where the Ethernet cable will run along the roof and enter the building.
+{: .ol start="3"}
 
-<p>It is a good idea to visit the site where you plan on installing a new wireless node a few days or a week before the actual installation. This allows more time to prepare and acquire any missing equipment or hardware.</p>
+4. Identify where the Power over Ethernet (PoE) adapter will plug in.
+{: .ol start="4"}
 
-<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support004.png" width="510" /></p>
+![Window mounting options](/files/cck/prep_install_finish_support005_a.png "Window mounting options")
 
-<p>1. Do some site assessments. Using the guidelines and examples in <a href="{{site.baseurl}}/docs/cck/planning/inventory-the-neighborhood/">Inventory the Neighborhood</a> to survey buildings and sites for wireless installations. The document includes a set of questions and things to look for, and is a good place to start.</p>
+(Option A) If the node is mounted in an enclosure or indoors, try to find an accessible location that keeps it out of the way from everyday interaction.
 
-<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support005.png" width="510" /></p>
+(Option B) If the building owner or node host wants to donate bandwidth to make the node an Internet gateway, put the PoE adapter where it can plug into the host's router easily.
 
-<p>2. Pick the best mounting location on the roof based on visibility to other rooftops. Keep in mind wireless signals work best when there is a clear line of sight between the nodes. Also figure out what kind of mount you will use to install. The module <a href="{{site.baseurl}}/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a> can help you decide.</p>
+![Rooftop mounting options](/files/cck/prep_install_finish_support007.png "Rooftop mounting options")
 
-<p>3. Identify where the Ethernet cable will run along the roof and enter the building.</p>
+5. Acquire the proper mounting hardware.
+{: .ol start="5"}
 
-<p>4. Identify where the Power over Ethernet (PoE) adapter will plug in.</p>
+The document [Learn about Rooftop Mounts](/docs/cck/building-mounting/learn-about-rooftop-mounts) can help you identify the right hardware. There are many places to find mounting hardware - your local hardware or electronics store may have some, but there are various vendors online as well.
 
-<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support005_a.png" width="510" /></p>
+Check that you have all the necessary hardware for mounting, such as concrete anchors, bolts, clamps, etc.
 
-<p>4a. If the node is mounted in an enclosure or indoors, try to find an accessible location that keeps it out of the way from everyday interaction.</p>
+![Gather tools](/files/cck/prep_install_finish_support006.png "Gather tools")
 
-<p>4b. If the building owner or node host wants to donate bandwidth to make the node an Internet gateway, put the PoE adapter where it can plug into the host's router easily.</p>
+6. Verify that the tool bag has everything you need for the mounting hardware and installation site.
+{: .ol start="6"}
 
-<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support007.png" width="510" /></p>
 
-<p>5. Acquire the proper mounting hardware.</p>
+## Wireless Node Installation
 
-<p>The module <a href="{{site.baseurl}}/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a> can help you identify the right hardware. There are many places to find mounting hardware - your local hardware or electronics store may have some, but there are various vendors online as well.</p>
+![Neighborhood team](/files/cck/prep_install_finish_support008.png "Neighborhood team")
 
-<p>Check that you have all the necessary hardware for mounting, such as concrete anchors, bolts, clamps, etc.</p>
+Installation day! Now you get to go up on the roof and install new equipment for the community network - but make sure you are working in a safe and responsible way. We recommend going through [Learn Rooftop Basics](/docs/cck/building-mounting/learn-rooftop-basics) document and reviewing some rooftop safety guidelines before you start your installation.
 
-<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support006.png" width="510" /></p>
+You can break the job into three parts: installing the mounting hardware; installing the node and power supply; and running the Ethernet cable between the node and power supply.
 
-<p>6. Verify that the tool bag has everything you need for the mounting hardware and installation site.</p>
-</section>
+1. Install the mounting hardware. This will vary depending on the type of mount you are using. If it came as a kit, read and follow the installation instructions! For more information, refer to the [Learn about Rooftop Mounts](/docs/cck/building-mounting/learn-about-rooftop-mounts) document.
 
-<section id="wireless-node-installation">
-<h2>Wireless Node Installation</h2>
+For an eaves or anchor mount kit, drill the holes necessary for the anchors. Make sure to use outdoor rated anchors (plastic or metal).
 
-<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support008.png" width="510" /></p>
+For a chimney mount kit, make sure the strap is extremely tight!
 
-<p>Installation day! Now you get to go up on the roof and install new equipment for the community network - but make sure you are working in a safe and responsible way. We recommend going through <a href="{{site.baseurl}}/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a> module and reviewing some rooftop safety guidelines before you start your installation.</p>
+For a non-penetrating roof mount, make sure to use at least a few concrete blocks (4" thick blocks are enough - you don't need full 8" thick blocks).
 
-<p>You can break the job into three parts: installing the mounting hardware; installing the node and power supply; and running the Ethernet cable between the node and power supply.</p>
+2. Attach the wireless node to the mounted mast. Use metal hose clamps or heavy-duty outdoor rated plastic zip-ties if possible. This will keep the wireless node from slipping or twisting off the mast.
+{: .ol start="2"}
 
-<p>1. Install the mounting hardware. This will vary depending on the type of mount you are using. If it came as a kit, read and follow the installation instructions! For more information, refer to the <a href="{{site.baseurl}}/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a> module.</p>
+![Router links](/files/cck/prep_install_finish_support009.png "Router links")
 
-<p>For an eaves or anchor mount kit, drill the holes necessary for the anchors. Make sure to use outdoor rated anchors (plastic or metal).</p>
+If possible, face the indicator lights on the node towards the street or ground, so they are visible without climbing onto the roof. This can help with troubleshooting in the future.
 
-<p>For a chimney mount kit, make sure the strap is extremely tight!</p>
+If you are using a directional node, point it directly to where it should link to another node.
 
-<p>For a non-penetrating roof mount, make sure to use at least a few concrete blocks (4" thick blocks are enough - you don't need full 8" thick blocks).</p>
+Plug in the Ethernet connector into the node and close the housing.
 
-<p>2. Attach the wireless node to the mounted mast. Use metal hose clamps or heavy-duty outdoor rated plastic zip-ties if possible. This will keep the wireless node from slipping or twisting off the mast.</p>
+Plug in the Power over Ethernet (PoE) adapter and secure it in some way, so it isn't hanging by the power plug. Zip-ties or a wall-mounted enclosure may help with this.
 
-<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support009.png" width="510" /></p>
+3. Run the Ethernet cable between the wireless node and the Power over Ethernet adapter.
+{: .ol start="3"}
 
-<p>If possible, face the indicator lights on the node towards the street or ground, so they are visible without climbing onto the roof. This can help with troubleshooting in the future.</p>
+Follow the tips in the "Learn Rooftop Basics" module for how to run the Ethernet cable, and how to secure it to the mast, walls and on roof surfaces.
 
-<p>If you are using a directional node, point it directly to where it should link to another node.</p>
+Make sure the Ethernet cable is secured in such a way that the cable cannot be stepped on, and will not whip around in the wind during a storm.
 
-<p>Plug in the Ethernet connector into the node and close the housing.</p>
+4. Install the RJ45 connectors on the Ethernet cable ends. Each end should be wired identically, using the proper color code for the wire order (known as T568B). Then plug the cable into the Node and PoE adapter, and you are finished with the installation steps.
+{: .ol start="4"}
 
-<p>Plug in the Power over Ethernet (PoE) adapter and secure it in some way, so it isn't hanging by the power plug. Zip-ties or a wall-mounted enclosure may help with this.</p>
 
-<p>4. Run the Ethernet cable between the wireless node and the Power over Ethernet adapter.</p>
+## Clean up, Testing and Post-Installation
 
-<p>Follow the tips in the "Learn Rooftop Basics" module for how to run the Ethernet cable, and how to secure it to the mast, walls and on roof surfaces.</p>
+![Testing the installation](/files/cck/prep_install_finish_support010.png "Testing the installation")
 
-<p>Make sure the Ethernet cable is secured in such a way that the cable cannot be stepped on, and will not whip around in the wind during a storm.</p>
+No installation is finished unless you leave the site looking better than when you arrived. Never leave a mess! Make sure you have not left any unsealed holes in the building exterior where water may enter.
 
-<p>5. Install the RJ45 connectors on the Ethernet cable ends. Each end should be wired identically, using the proper color code for the wire order (known as T568B). Then plug the cable into the Node and PoE adapter, and you are finished with the installation steps</p>
-</section>
+### 1. Clean up the rooftop and PoE location.
 
-<section id="clean-up">
-<h2>Clean up, Testing and Post-Installation</h2>
+Cut off any loose or extending ends from zip-ties.
 
-<p><img src="{{site.baseurl}}/files/cck/prep_install_finish_support010.png" width="510" /></p>
+Clean up any wire or cable pieces.
 
-<p>No installation is finished unless you leave the site looking better than when you arrived. Never leave a mess! Make sure you have not left any unsealed holes in the building exterior where water may enter.</p>
+Ensure service loops in the cable are secured in some way.
 
-<h3>1. Clean up the rooftop and PoE location.</h3>
+Sweep away mortar dust / wood dust if you did any drilling.
 
-<p>Cut off any loose or extending ends from zip-ties.</p>
 
-<p>Clean up any wire or cable pieces.</p>
+### 2. Check connectivity to the wireless node.
 
-<p>Ensure service loops in the cable are secured in some way.</p>
+After a couple of minutes, associate with the Access Point (AP) on your phone or a laptop. Confirm that you can connect.
 
-<p>Sweep away mortar dust / wood dust if you did any drilling.</p>
+Bring up the wireless node's Administration page.
 
-<h3>2. Check connectivity to the wireless node.</h3>
+Navigate to the OLSR status page that shows you neighbor nodes on the mesh, if there are any. Confirm that this node is connected to others.
 
-<p>After a couple of minutes, associate with the Access Point (AP) on your phone or a laptop. Confirm that you can connect.</p>
+If there is an Internet Gateway on your network, check that you can get out to the Internet.
 
-<p>Bring up the wireless node's Administration page.</p>
 
-<p>Navigate to the OLSR status page that shows you neighbor nodes on the mesh, if there are any. Confirm that this node is connected to others.</p>
+### 3. Record any necessary information about the installation in your network's documentation.
 
-<p>If there is an Internet Gateway on your network, check that you can get out to the Internet.</p>
+For example, in addition to the node name, MAC address, and IP address, make a note of the location and what worked and did not work, as well as any follow-up or next steps.
 
-<h3>3. Record any necessary information about the installation in your network's documentation.</h3>
 
-<p>For example, in addition to the node name, MAC address, and IP address, make a note of the location and what worked and did not work, as well as any follow-up or next steps.</p>
-</section>
+## Definitions
 
-<section id="definitions">
-<h2>Definitions</h2>
+MAC Address
+: A unique combination of numbers and letters that identifies a specific device.
 
-<dl>
-	<dt>MAC Address</dt>
-	<dd>a unique combination of numbers and letters that identifies a specific device.</dd>
-	<dt>IP Address</dt>
-	<dd>A unique string of numbers separated by periods that identifies each device attached to a network.</dd>
-	<dt>Line of Sight</dt>
-	<dd>An unobstructed path for wireless signals to travel between buildings or devices.</dd>
-</dl>
-</section>
+IP Address
+: A unique string of numbers separated by periods that identifies each device attached to a network.
 
-<section class="related-information" id="related-information">
-<h2>Related Information</h2>
+Line of Sight
+: An unobstructed path for wireless signals to travel between buildings or devices.
 
-<p>Other modules referenced in this one:</p>
 
-<p><a href="{{site.baseurl}}/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Router</a></p>
+## Related Information
 
-<p><a href="{{site.baseurl}}/docs/cck/planning/inventory-the-neighborhood">Inventory the Neighborhood</a></p>
+Other documents referenced in this one:
 
-<p><a href="{{site.baseurl}}/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a></p>
-
-<p><a href="{{site.baseurl}}/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a></p>
-</section>
-
-<section class="external-resources" id="external-resources">
-<h2>External Resources</h2>
-
-<p>Consult the Commotion Wireless website commotionwireless.net for more information or documentation on installing the software on your devices.</p>
-</section>
+* [What in the world is a firmware?](/docs/cck/installing-configuring/what-is-a-firmware/)
+* [Installing a new firmware](/docs/cck/installing-configuring/installing-a-new-firmware/)
+* [Inventory the Neighborhood](/docs/cck/planning/inventory-the-neighborhood/)
+* [Learn Rooftop Basics](/docs/cck/building-mounting/learn-rooftop-basics)
+* [Learn about Rooftop Mounts](/docs/cck/building-mounting/learn-about-rooftop-mounts)
