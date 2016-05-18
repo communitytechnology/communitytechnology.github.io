@@ -34,32 +34,35 @@ The lowest layer provides connections to people using the network. You would con
 ![Access network](/files/Learn_network_layers_access.png "Access network")
 
 
-## Examples in Use
+## Network Layers in Practice
 
-How do we apply these layers in the real world?
+It may be hard to visualize these network layers in use in a community network. Below are three examples of what each layer would look like in a small segment of a neighborhood.
 
 ### Core Connections - Equipment Mounted Higher
 
-![Core network layer](/files/Network_layer_rooftop.png "Equipment mounted on high rooftops")
+![Core network layer](/files/Learn_network_layers_rooftop.png "Equipment mounted on high rooftops")
 
-The wireless signals can go further, thereby covering more area and linking parts of the neighborhood or town together. Directional routers can be used for more direct point-to-point links, adding capacity in sections of the neighborhood or town. Equipment mounted very high up doesn’t provide a good connection for the people on the ground or inside of the buildings.
+In this example, we can see directional wireless routers connecting buildings a short distance away. Such directional routers can often connect neighborhoods or towns that are many miles away from another, creating a backbone between the two sites. These are called point-to-point links, which you can learn more about in [Types of Wireless Networks](/docs/cck/networking/types-of-wireless-networks/).
+
+These types of directional core links do not provide coverage to the buildings or streets below them, due to the wireless signals being focused into narrow beams. This will prevent people below from connecting, and will require the use of other wireless devices to provide access. Connecting distribution or Access Point routers
 
 
 ### Distributing Connections - Equipment in the Middle
 
-![Distribution network layer](/files/Network_layer_middle.png "Equipment connecting the core to the access network")
+![Distribution network layer](/files/Learn_network_layers_mid-layer.png "Equipment connecting the core to the access network")
 
-There are many ways to connect from the top of the network to the bottom. Cables can run from the top layer to Access Points where users connect, or there could be a cluster of mesh nodes wirelessly distributing access to a section of a neighborhood. In other cases, point-to-point or point-to-multipoint (common Wireless Internet Service Provider techniques) can be used to provide connections
-to the Access connections.
+In this example, we can see that another router has been connected to some of the directional backbone devices, and is providing coverage to several other buildings. This is one method of wirelessly distributing connectivity to several buildings, where other routers can receive the connection. Depending on the design, this may not provide good coverage to people on the street, as the distribution router may be too far away, or coverage may be blocked by buildings or trees.
 
 
 ### Access Connections - Equipment Mounted Lower
 
-![Access network layer](/files/Network_layer_street.png "Equipment mounted for user access")
+![Access network layer](/files/Learn_network_layers_street.png "Equipment mounted for user access")
 
-Wireless routers close to the ground provide better coverage so people can connect their phones, tablets or laptops to the network. Often times, these routers can be replaced with simple low-cost Access Point devices, and allow the higher layers to determine how the connect to the rest of the network.
-
-
+Here we can see people are able to connect to the network. This example adds wireless routers as Access Points close to the ground, providing better coverage. Phones, tablets, and laptops don't always have very powerful Wi-Fi, so they usually need to be close to an Access Point to work well. These Access Points translate the connection between people's wireless devices and the rest of the network, allowing access to local resources and the Internet.
 
 
-For more details and activities on these types of connections, review [Types of Wireless Networks](/docs/cck/networking/types-of-wireless-networks/). You should also consult the worksheets in [Plan Wireless Sites](/docs/cck/building-mounting/plan-wireless-sites/) for examples of how to put this in to practice.
+## Other Information
+
+For more details and activities about network design, review [Types of Wireless Networks](/docs/cck/networking/types-of-wireless-networks/) and [Design Your Network - Wireless Challenges](/docs/cck/networking/wireless-challenges/). You can also consult the worksheets in [Plan Wireless Sites](/docs/cck/building-mounting/plan-wireless-sites/) for examples of how to put this in to practice.
+
+You can download a printable summary of the three layers in the [Network Layers handout](/files/cck/Learn_Network_Layers_handout.pdf).
