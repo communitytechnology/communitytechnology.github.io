@@ -44,7 +44,7 @@ It may be hard to visualize these network layers in use in a community network. 
 
 In this example, we can see directional wireless routers connecting buildings a short distance away. Such directional routers can often connect neighborhoods or towns that are many miles away from another, creating a backbone between the two sites. These are called point-to-point links, which you can learn more about in [Types of Wireless Networks](/docs/cck/networking/types-of-wireless-networks/).
 
-These types of directional core links do not provide coverage to the buildings or streets below them, due to the wireless signals being focused into narrow beams. This will prevent people below from connecting, and will require the use of other wireless devices to provide access. Connecting distribution or Access Point routers
+These types of directional core links do not provide coverage to the buildings or streets below them, due to the wireless signals being focused into narrow beams. This will prevent people below from connecting, and will require the use of other wireless devices to provide access. The lower layers - distribution routers or Access Points - can be tied in with network cabling to bridge the layers.
 
 
 ### Distributing Connections - Equipment in the Middle
