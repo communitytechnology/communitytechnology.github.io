@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Build-it-ourselves Community Networks
-categories: 
+categories:
 created: 2013-09-20
 changed: 2014-03-04
 post_author: oti
@@ -33,19 +33,20 @@ grid:
    url: /docs/facilitation/
    image: /icons/facilitation.svg
  - organizing-models:
-   title: Organizing Models
-   text: Stories from Partner Networks (coming soon).
+   title: Resilience Planning
+   text: Disaster planning for your community
+   url: /docs/resilience/
    image: /icons/workshop-agenda.png
 ---
 
 ##### A collective resource for <span class="small-caps"> digital stewardship</span>, <span class="small-caps">digital justice</span> and <span class="small-caps">community infrastructure</span>.
 
-These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome [contributions](contribute.html). 
+These resources emphasize self-governance, participatory learning, collaborative design and sustainability. As we learn and new people contribute, these resources will grow and change over time and we welcome [contributions](contribute.html).
 
 
 <div class="grid home-width">
   <div class="grid-row">
-    
+
     {% for cell in page.grid %}
     <div class="grid-cell">
       <a href="{{site.baseurl}}{{cell.url}}" class="simple"><img src="{{site.baseurl}}{{cell.image}}" class="grid-icon"></a>
@@ -53,10 +54,10 @@ These resources emphasize self-governance, participatory learning, collaborative
       <h5>{{cell.text}}</h5>
     </div>
     {% if forloop.last == false %}
-    {% cycle 'row-grid': nil, nil, '</div><div class="grid-row">' %} 
+    {% cycle 'row-grid': nil, nil, '</div><div class="grid-row">' %}
     {% endif %}
     {% endfor %}
-    
+
   </div>
 </div>
 
@@ -84,7 +85,7 @@ Through the Community Technology Partnership, the Open Technology Institute and 
       </div>
     </div>
     {% if forloop.last == false %}
-    {% cycle 'row-blog': nil, nil, '</div><div class="grid-row">' %} 
+    {% cycle 'row-blog': nil, nil, '</div><div class="grid-row">' %}
     {% endif %}
     {% endfor %}
   </div>
@@ -94,7 +95,7 @@ Through the Community Technology Partnership, the Open Technology Institute and 
 </div>
 
 ### Planning to Host a Workshop?
- 
+
 These might be useful: [Shared Graphics](list-assets.html), [Curriculum Templates](https://docs.google.com/document/d/1iReF0YMmCvOLxC3OrnRtQqtZ8_BMF2oUnGG86lTXHgE/edit?usp=sharing), [Example Workshops](/docs/workshops/), [Facilitator Tips](/docs/facilitation).
 
 ### Contribute
