@@ -3,7 +3,6 @@ layout: collection
 title: Don't Panic, Organize!
 description: New America’s Resilient Communities team led a workshop on community-led resilience planning.
 site section: docs
-pdf:
 created: 2016-9-6
 changed: 2016-9-6
 lang: en
