@@ -1,0 +1,6 @@
+title: Community Planning for Reslience
+categories: [docs, resilience]
+baseurl: docs/resilience
+sections:
+ - title: Planning
+   id: planning
