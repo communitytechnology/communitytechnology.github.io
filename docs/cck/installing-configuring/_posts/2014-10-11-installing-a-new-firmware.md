@@ -26,8 +26,11 @@ The [Commotion Wireless](https://commotionwireless.net/) firmware configures eac
 * [Installation documentation](https://commotionwireless.net/docs/cck/installing-configuring/)
 
 
-### Libre-Mesh
-[Libre-Mesh](https://libre-mesh.org/) uses an online tool (Chef) to generate a custom firmware for each network. Once that firmware is generated and installed, only one setting (the router’s name) needs to be customized, then the platform creates a single roaming cloud, which can route between other nearby compatible networks. Currently, the Chef tool and documentation is only in Spanish.
+### LibreMesh
+[LibreMesh](https://libremesh.org/) Is a firmware for geek-free Wireless Community Network building. Is also a framework to build your own community network firmware.
+You can use [LiMe-sdk](https://github.com/libremesh/lime-sdk) to create a customized firmware for your community, or use the one that comes already cooked at [this repository](http://repo.libremesh.org/current/targets/)
+No matter wich OpenWRT/LEDE-compatible device you use, once you flash it with LibreMesh, the device will automatically create a network and mesh with other neighbouring mesh devices.
+Also, you can use an online tool (Chef) to generate a custom firmware for each network. Once that firmware is generated and installed, only one setting (the router’s name) needs to be customized, then the platform creates a single roaming cloud, which can route between other nearby compatible networks. Currently, the Chef tool and documentation is only in Spanish.
 
 * [Firmware creation page](https://chef.altermundi.net/)
 * [Installation documentation](http://docs.altermundi.net/RedComunitaria/LibreMesh/Instalaci%C3%B3n)
