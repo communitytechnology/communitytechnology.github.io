@@ -180,6 +180,6 @@ and write down the IP address it reports: ____________________
 <section class="related-information" id="section-related-information">
 <h2>Related Information</h2>
 
-<p>This module is intended to provide some helpful background on networking. We recommend reading the upcoming (but not finished!) Learn about Wireless after this guide.</p>
+<p>This module is intended to provide some helpful background on networking. We recommend reading the next guide, <a href="{{site.baseurl}}/docs/cck/networking/learn-wireless-basics/">Learn about Wireless</a>, after this one.</p>
 </section>
  
