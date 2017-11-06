@@ -18,7 +18,7 @@ lang: en
 <p>This document covers the basics of how wireless technology works, and how it is used to create networks. Wireless technology is used in many types of communication. We use it for networking because it is cheaper and more flexible than running cables. While wireless networks can be just as fast and powerful as wired networks, they do have some drawbacks.
 </p>
 <p>
-Reading and working through <a href="{{site.baseurl}}/docs/cck/learn-networking-basics/">Learn Networking Basics</a> before this document will help you with some of the concepts used in wireless networks.
+Reading and working through <a href="{{site.baseurl}}/docs/cck/networking/learn-networking-basics/">Learn Networking Basics</a> before this document will help you with some of the concepts used in wireless networks.
 </p>
 
 <p>In addition to some background information, this document covers six basic concepts:</p>
