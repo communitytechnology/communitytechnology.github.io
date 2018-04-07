@@ -12,7 +12,7 @@ lang: en
 
 <img src="{{site.baseurl}}/files/ct-intro-photo.jpg">
 
-##Facilitation for Community Involvment
+## Facilitation for Community Involvment
 
 Community input and buy-in is one of the most important elements in community organizing. Neighborhood meet-ups or community meetings can be tricky to navigate with so many personalities and experiences at the table. Good facilitation is a key component to getting people excite the ball rolling and ensure active participation.
 
